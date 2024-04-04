@@ -1,0 +1,58 @@
+{
+    "number": 5,
+    "continents": [
+        {
+            "id": 1,
+            "name_fr": "Amérique du Nord",
+            "name_en": "North America",
+            "number": 3,
+            "countries": [
+                {
+                    "id": 10,
+                    "name_fr": "Canada",
+                    "name_en": "Canada"
+                },
+                {
+                    "id": 11,
+                    "name_fr": "États-unis d'Amérique",
+                    "name_en": "United States of America"
+                },
+                {
+                    "id": 12,
+                    "name_fr": "Mexique",
+                    "name_en": "Mexico"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name_fr": "Amérique du Sud",
+            "name_en": "South America"
+        },
+        {
+            "id": 3,
+            "name_fr": "Amérique Central",
+            "name_en": "Central America"
+        },
+        {
+            "id": 4,
+            "name_fr": "Europe",
+            "name_en": "Europe"
+        },
+        {
+            "id": 5,
+            "name_fr": "Asie",
+            "name_en": "Asia"
+        },
+        {
+            "id": 6,
+            "name_fr": "Afrique",
+            "name_en": "Africa"
+        },
+        {
+            "id": 7,
+            "name_fr": "Océanie",
+            "name_en": "Oceania "
+        }
+    ]
+}
