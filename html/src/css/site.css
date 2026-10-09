@@ -753,6 +753,7 @@ main {
 /* Selected country information */
 .country-info {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 18px;
   padding: 16px 18px;
@@ -799,6 +800,31 @@ main {
   margin: 8px 0 0;
   color: var(--ink-soft);
   font-size: 13px;
+}
+
+.info-text {
+  min-width: 0;
+  flex: 1 1 0;
+}
+
+.info-capital {
+  flex: 0 1 360px;
+  margin-left: auto;
+  padding-left: 24px;
+  border-left: 1px solid var(--line);
+}
+
+.info-capital .panel-label {
+  margin-bottom: 4px;
+}
+
+.info-capital .info-name {
+  margin: 0;
+}
+
+.info-name.is-empty {
+  color: var(--ink-soft);
+  font-style: italic;
 }
 
 /* Footer: one row, pushed to the bottom of short pages */
@@ -855,6 +881,14 @@ main {
     height: auto;
     grid-template-columns: minmax(0, 1fr);
     grid-template-rows: auto 360px 300px;
+  }
+
+  .info-capital {
+    flex-basis: 100%;
+    margin-left: 0;
+    padding: 12px 0 0;
+    border-top: 1px solid var(--line);
+    border-left: 0;
   }
 
   .explorer.is-fullpage .map-area {
