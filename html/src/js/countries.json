@@ -2,6 +2,7 @@
   {
     "name": "Algeria",
     "m49Code": "012",
+    "isoAlpha2": "DZ",
     "isoAlpha3": "DZA",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -11,6 +12,7 @@
   {
     "name": "Egypt",
     "m49Code": "818",
+    "isoAlpha2": "EG",
     "isoAlpha3": "EGY",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -20,6 +22,7 @@
   {
     "name": "Libya",
     "m49Code": "434",
+    "isoAlpha2": "LY",
     "isoAlpha3": "LBY",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -29,6 +32,7 @@
   {
     "name": "Morocco",
     "m49Code": "504",
+    "isoAlpha2": "MA",
     "isoAlpha3": "MAR",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -38,6 +42,7 @@
   {
     "name": "Sudan",
     "m49Code": "729",
+    "isoAlpha2": "SD",
     "isoAlpha3": "SDN",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -47,6 +52,7 @@
   {
     "name": "Tunisia",
     "m49Code": "788",
+    "isoAlpha2": "TN",
     "isoAlpha3": "TUN",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -56,6 +62,7 @@
   {
     "name": "Western Sahara",
     "m49Code": "732",
+    "isoAlpha2": "EH",
     "isoAlpha3": "ESH",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -65,6 +72,7 @@
   {
     "name": "British Indian Ocean Territory",
     "m49Code": "086",
+    "isoAlpha2": "IO",
     "isoAlpha3": "IOT",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -74,6 +82,7 @@
   {
     "name": "Burundi",
     "m49Code": "108",
+    "isoAlpha2": "BI",
     "isoAlpha3": "BDI",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -83,6 +92,7 @@
   {
     "name": "Comoros",
     "m49Code": "174",
+    "isoAlpha2": "KM",
     "isoAlpha3": "COM",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -92,6 +102,7 @@
   {
     "name": "Djibouti",
     "m49Code": "262",
+    "isoAlpha2": "DJ",
     "isoAlpha3": "DJI",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -101,6 +112,7 @@
   {
     "name": "Eritrea",
     "m49Code": "232",
+    "isoAlpha2": "ER",
     "isoAlpha3": "ERI",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -110,6 +122,7 @@
   {
     "name": "Ethiopia",
     "m49Code": "231",
+    "isoAlpha2": "ET",
     "isoAlpha3": "ETH",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -119,6 +132,7 @@
   {
     "name": "French Southern Territories",
     "m49Code": "260",
+    "isoAlpha2": "TF",
     "isoAlpha3": "ATF",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -128,6 +142,7 @@
   {
     "name": "Kenya",
     "m49Code": "404",
+    "isoAlpha2": "KE",
     "isoAlpha3": "KEN",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -137,6 +152,7 @@
   {
     "name": "Madagascar",
     "m49Code": "450",
+    "isoAlpha2": "MG",
     "isoAlpha3": "MDG",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -146,6 +162,7 @@
   {
     "name": "Malawi",
     "m49Code": "454",
+    "isoAlpha2": "MW",
     "isoAlpha3": "MWI",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -155,6 +172,7 @@
   {
     "name": "Mauritius",
     "m49Code": "480",
+    "isoAlpha2": "MU",
     "isoAlpha3": "MUS",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -164,6 +182,7 @@
   {
     "name": "Mayotte",
     "m49Code": "175",
+    "isoAlpha2": "YT",
     "isoAlpha3": "MYT",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -173,6 +192,7 @@
   {
     "name": "Mozambique",
     "m49Code": "508",
+    "isoAlpha2": "MZ",
     "isoAlpha3": "MOZ",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -182,6 +202,7 @@
   {
     "name": "Réunion",
     "m49Code": "638",
+    "isoAlpha2": "RE",
     "isoAlpha3": "REU",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -191,6 +212,7 @@
   {
     "name": "Rwanda",
     "m49Code": "646",
+    "isoAlpha2": "RW",
     "isoAlpha3": "RWA",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -200,6 +222,7 @@
   {
     "name": "Seychelles",
     "m49Code": "690",
+    "isoAlpha2": "SC",
     "isoAlpha3": "SYC",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -209,6 +232,7 @@
   {
     "name": "Somalia",
     "m49Code": "706",
+    "isoAlpha2": "SO",
     "isoAlpha3": "SOM",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -218,6 +242,7 @@
   {
     "name": "South Sudan",
     "m49Code": "728",
+    "isoAlpha2": "SS",
     "isoAlpha3": "SSD",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -227,6 +252,7 @@
   {
     "name": "Uganda",
     "m49Code": "800",
+    "isoAlpha2": "UG",
     "isoAlpha3": "UGA",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -236,6 +262,7 @@
   {
     "name": "United Republic of Tanzania",
     "m49Code": "834",
+    "isoAlpha2": "TZ",
     "isoAlpha3": "TZA",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -245,6 +272,7 @@
   {
     "name": "Zambia",
     "m49Code": "894",
+    "isoAlpha2": "ZM",
     "isoAlpha3": "ZMB",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -254,6 +282,7 @@
   {
     "name": "Zimbabwe",
     "m49Code": "716",
+    "isoAlpha2": "ZW",
     "isoAlpha3": "ZWE",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -263,6 +292,7 @@
   {
     "name": "Angola",
     "m49Code": "024",
+    "isoAlpha2": "AO",
     "isoAlpha3": "AGO",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -272,6 +302,7 @@
   {
     "name": "Cameroon",
     "m49Code": "120",
+    "isoAlpha2": "CM",
     "isoAlpha3": "CMR",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -281,6 +312,7 @@
   {
     "name": "Central African Republic",
     "m49Code": "140",
+    "isoAlpha2": "CF",
     "isoAlpha3": "CAF",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -290,6 +322,7 @@
   {
     "name": "Chad",
     "m49Code": "148",
+    "isoAlpha2": "TD",
     "isoAlpha3": "TCD",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -299,6 +332,7 @@
   {
     "name": "Congo",
     "m49Code": "178",
+    "isoAlpha2": "CG",
     "isoAlpha3": "COG",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -308,6 +342,7 @@
   {
     "name": "Democratic Republic of the Congo",
     "m49Code": "180",
+    "isoAlpha2": "CD",
     "isoAlpha3": "COD",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -317,6 +352,7 @@
   {
     "name": "Equatorial Guinea",
     "m49Code": "226",
+    "isoAlpha2": "GQ",
     "isoAlpha3": "GNQ",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -326,6 +362,7 @@
   {
     "name": "Gabon",
     "m49Code": "266",
+    "isoAlpha2": "GA",
     "isoAlpha3": "GAB",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -335,6 +372,7 @@
   {
     "name": "Sao Tome and Principe",
     "m49Code": "678",
+    "isoAlpha2": "ST",
     "isoAlpha3": "STP",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -344,6 +382,7 @@
   {
     "name": "Botswana",
     "m49Code": "072",
+    "isoAlpha2": "BW",
     "isoAlpha3": "BWA",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -353,6 +392,7 @@
   {
     "name": "Eswatini",
     "m49Code": "748",
+    "isoAlpha2": "SZ",
     "isoAlpha3": "SWZ",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -362,6 +402,7 @@
   {
     "name": "Lesotho",
     "m49Code": "426",
+    "isoAlpha2": "LS",
     "isoAlpha3": "LSO",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -371,6 +412,7 @@
   {
     "name": "Namibia",
     "m49Code": "516",
+    "isoAlpha2": "NA",
     "isoAlpha3": "NAM",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -380,6 +422,7 @@
   {
     "name": "South Africa",
     "m49Code": "710",
+    "isoAlpha2": "ZA",
     "isoAlpha3": "ZAF",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -389,6 +432,7 @@
   {
     "name": "Benin",
     "m49Code": "204",
+    "isoAlpha2": "BJ",
     "isoAlpha3": "BEN",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -398,6 +442,7 @@
   {
     "name": "Burkina Faso",
     "m49Code": "854",
+    "isoAlpha2": "BF",
     "isoAlpha3": "BFA",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -407,6 +452,7 @@
   {
     "name": "Cabo Verde",
     "m49Code": "132",
+    "isoAlpha2": "CV",
     "isoAlpha3": "CPV",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -416,6 +462,7 @@
   {
     "name": "Côte d’Ivoire",
     "m49Code": "384",
+    "isoAlpha2": "CI",
     "isoAlpha3": "CIV",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -425,6 +472,7 @@
   {
     "name": "Gambia",
     "m49Code": "270",
+    "isoAlpha2": "GM",
     "isoAlpha3": "GMB",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -434,6 +482,7 @@
   {
     "name": "Ghana",
     "m49Code": "288",
+    "isoAlpha2": "GH",
     "isoAlpha3": "GHA",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -443,6 +492,7 @@
   {
     "name": "Guinea",
     "m49Code": "324",
+    "isoAlpha2": "GN",
     "isoAlpha3": "GIN",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -452,6 +502,7 @@
   {
     "name": "Guinea-Bissau",
     "m49Code": "624",
+    "isoAlpha2": "GW",
     "isoAlpha3": "GNB",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -461,6 +512,7 @@
   {
     "name": "Liberia",
     "m49Code": "430",
+    "isoAlpha2": "LR",
     "isoAlpha3": "LBR",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -470,6 +522,7 @@
   {
     "name": "Mali",
     "m49Code": "466",
+    "isoAlpha2": "ML",
     "isoAlpha3": "MLI",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -479,6 +532,7 @@
   {
     "name": "Mauritania",
     "m49Code": "478",
+    "isoAlpha2": "MR",
     "isoAlpha3": "MRT",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -488,6 +542,7 @@
   {
     "name": "Niger",
     "m49Code": "562",
+    "isoAlpha2": "NE",
     "isoAlpha3": "NER",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -497,6 +552,7 @@
   {
     "name": "Nigeria",
     "m49Code": "566",
+    "isoAlpha2": "NG",
     "isoAlpha3": "NGA",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -506,6 +562,7 @@
   {
     "name": "Saint Helena",
     "m49Code": "654",
+    "isoAlpha2": "SH",
     "isoAlpha3": "SHN",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -515,6 +572,7 @@
   {
     "name": "Senegal",
     "m49Code": "686",
+    "isoAlpha2": "SN",
     "isoAlpha3": "SEN",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -524,6 +582,7 @@
   {
     "name": "Sierra Leone",
     "m49Code": "694",
+    "isoAlpha2": "SL",
     "isoAlpha3": "SLE",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -533,6 +592,7 @@
   {
     "name": "Togo",
     "m49Code": "768",
+    "isoAlpha2": "TG",
     "isoAlpha3": "TGO",
     "continent": "Africa",
     "m49Region": "Africa",
@@ -542,6 +602,7 @@
   {
     "name": "Anguilla",
     "m49Code": "660",
+    "isoAlpha2": "AI",
     "isoAlpha3": "AIA",
     "continent": "North America",
     "m49Region": "Americas",
@@ -551,6 +612,7 @@
   {
     "name": "Antigua and Barbuda",
     "m49Code": "028",
+    "isoAlpha2": "AG",
     "isoAlpha3": "ATG",
     "continent": "North America",
     "m49Region": "Americas",
@@ -560,6 +622,7 @@
   {
     "name": "Aruba",
     "m49Code": "533",
+    "isoAlpha2": "AW",
     "isoAlpha3": "ABW",
     "continent": "North America",
     "m49Region": "Americas",
@@ -569,6 +632,7 @@
   {
     "name": "Bahamas",
     "m49Code": "044",
+    "isoAlpha2": "BS",
     "isoAlpha3": "BHS",
     "continent": "North America",
     "m49Region": "Americas",
@@ -578,6 +642,7 @@
   {
     "name": "Barbados",
     "m49Code": "052",
+    "isoAlpha2": "BB",
     "isoAlpha3": "BRB",
     "continent": "North America",
     "m49Region": "Americas",
@@ -587,6 +652,7 @@
   {
     "name": "Bonaire, Sint Eustatius and Saba",
     "m49Code": "535",
+    "isoAlpha2": "BQ",
     "isoAlpha3": "BES",
     "continent": "North America",
     "m49Region": "Americas",
@@ -596,6 +662,7 @@
   {
     "name": "British Virgin Islands",
     "m49Code": "092",
+    "isoAlpha2": "VG",
     "isoAlpha3": "VGB",
     "continent": "North America",
     "m49Region": "Americas",
@@ -605,6 +672,7 @@
   {
     "name": "Cayman Islands",
     "m49Code": "136",
+    "isoAlpha2": "KY",
     "isoAlpha3": "CYM",
     "continent": "North America",
     "m49Region": "Americas",
@@ -614,6 +682,7 @@
   {
     "name": "Cuba",
     "m49Code": "192",
+    "isoAlpha2": "CU",
     "isoAlpha3": "CUB",
     "continent": "North America",
     "m49Region": "Americas",
@@ -623,6 +692,7 @@
   {
     "name": "Curaçao",
     "m49Code": "531",
+    "isoAlpha2": "CW",
     "isoAlpha3": "CUW",
     "continent": "North America",
     "m49Region": "Americas",
@@ -632,6 +702,7 @@
   {
     "name": "Dominica",
     "m49Code": "212",
+    "isoAlpha2": "DM",
     "isoAlpha3": "DMA",
     "continent": "North America",
     "m49Region": "Americas",
@@ -641,6 +712,7 @@
   {
     "name": "Dominican Republic",
     "m49Code": "214",
+    "isoAlpha2": "DO",
     "isoAlpha3": "DOM",
     "continent": "North America",
     "m49Region": "Americas",
@@ -650,6 +722,7 @@
   {
     "name": "Grenada",
     "m49Code": "308",
+    "isoAlpha2": "GD",
     "isoAlpha3": "GRD",
     "continent": "North America",
     "m49Region": "Americas",
@@ -659,6 +732,7 @@
   {
     "name": "Guadeloupe",
     "m49Code": "312",
+    "isoAlpha2": "GP",
     "isoAlpha3": "GLP",
     "continent": "North America",
     "m49Region": "Americas",
@@ -668,6 +742,7 @@
   {
     "name": "Haiti",
     "m49Code": "332",
+    "isoAlpha2": "HT",
     "isoAlpha3": "HTI",
     "continent": "North America",
     "m49Region": "Americas",
@@ -677,6 +752,7 @@
   {
     "name": "Jamaica",
     "m49Code": "388",
+    "isoAlpha2": "JM",
     "isoAlpha3": "JAM",
     "continent": "North America",
     "m49Region": "Americas",
@@ -686,6 +762,7 @@
   {
     "name": "Martinique",
     "m49Code": "474",
+    "isoAlpha2": "MQ",
     "isoAlpha3": "MTQ",
     "continent": "North America",
     "m49Region": "Americas",
@@ -695,6 +772,7 @@
   {
     "name": "Montserrat",
     "m49Code": "500",
+    "isoAlpha2": "MS",
     "isoAlpha3": "MSR",
     "continent": "North America",
     "m49Region": "Americas",
@@ -704,6 +782,7 @@
   {
     "name": "Puerto Rico",
     "m49Code": "630",
+    "isoAlpha2": "PR",
     "isoAlpha3": "PRI",
     "continent": "North America",
     "m49Region": "Americas",
@@ -713,6 +792,7 @@
   {
     "name": "Saint Barthélemy",
     "m49Code": "652",
+    "isoAlpha2": "BL",
     "isoAlpha3": "BLM",
     "continent": "North America",
     "m49Region": "Americas",
@@ -722,6 +802,7 @@
   {
     "name": "Saint Kitts and Nevis",
     "m49Code": "659",
+    "isoAlpha2": "KN",
     "isoAlpha3": "KNA",
     "continent": "North America",
     "m49Region": "Americas",
@@ -731,6 +812,7 @@
   {
     "name": "Saint Lucia",
     "m49Code": "662",
+    "isoAlpha2": "LC",
     "isoAlpha3": "LCA",
     "continent": "North America",
     "m49Region": "Americas",
@@ -740,6 +822,7 @@
   {
     "name": "Saint Martin (French Part)",
     "m49Code": "663",
+    "isoAlpha2": "MF",
     "isoAlpha3": "MAF",
     "continent": "North America",
     "m49Region": "Americas",
@@ -749,6 +832,7 @@
   {
     "name": "Saint Vincent and the Grenadines",
     "m49Code": "670",
+    "isoAlpha2": "VC",
     "isoAlpha3": "VCT",
     "continent": "North America",
     "m49Region": "Americas",
@@ -758,6 +842,7 @@
   {
     "name": "Sint Maarten (Dutch part)",
     "m49Code": "534",
+    "isoAlpha2": "SX",
     "isoAlpha3": "SXM",
     "continent": "North America",
     "m49Region": "Americas",
@@ -767,6 +852,7 @@
   {
     "name": "Trinidad and Tobago",
     "m49Code": "780",
+    "isoAlpha2": "TT",
     "isoAlpha3": "TTO",
     "continent": "North America",
     "m49Region": "Americas",
@@ -776,6 +862,7 @@
   {
     "name": "Turks and Caicos Islands",
     "m49Code": "796",
+    "isoAlpha2": "TC",
     "isoAlpha3": "TCA",
     "continent": "North America",
     "m49Region": "Americas",
@@ -785,6 +872,7 @@
   {
     "name": "United States Virgin Islands",
     "m49Code": "850",
+    "isoAlpha2": "VI",
     "isoAlpha3": "VIR",
     "continent": "North America",
     "m49Region": "Americas",
@@ -794,6 +882,7 @@
   {
     "name": "Belize",
     "m49Code": "084",
+    "isoAlpha2": "BZ",
     "isoAlpha3": "BLZ",
     "continent": "North America",
     "m49Region": "Americas",
@@ -803,6 +892,7 @@
   {
     "name": "Costa Rica",
     "m49Code": "188",
+    "isoAlpha2": "CR",
     "isoAlpha3": "CRI",
     "continent": "North America",
     "m49Region": "Americas",
@@ -812,6 +902,7 @@
   {
     "name": "El Salvador",
     "m49Code": "222",
+    "isoAlpha2": "SV",
     "isoAlpha3": "SLV",
     "continent": "North America",
     "m49Region": "Americas",
@@ -821,6 +912,7 @@
   {
     "name": "Guatemala",
     "m49Code": "320",
+    "isoAlpha2": "GT",
     "isoAlpha3": "GTM",
     "continent": "North America",
     "m49Region": "Americas",
@@ -830,6 +922,7 @@
   {
     "name": "Honduras",
     "m49Code": "340",
+    "isoAlpha2": "HN",
     "isoAlpha3": "HND",
     "continent": "North America",
     "m49Region": "Americas",
@@ -839,6 +932,7 @@
   {
     "name": "Mexico",
     "m49Code": "484",
+    "isoAlpha2": "MX",
     "isoAlpha3": "MEX",
     "continent": "North America",
     "m49Region": "Americas",
@@ -848,6 +942,7 @@
   {
     "name": "Nicaragua",
     "m49Code": "558",
+    "isoAlpha2": "NI",
     "isoAlpha3": "NIC",
     "continent": "North America",
     "m49Region": "Americas",
@@ -857,6 +952,7 @@
   {
     "name": "Panama",
     "m49Code": "591",
+    "isoAlpha2": "PA",
     "isoAlpha3": "PAN",
     "continent": "North America",
     "m49Region": "Americas",
@@ -866,6 +962,7 @@
   {
     "name": "Argentina",
     "m49Code": "032",
+    "isoAlpha2": "AR",
     "isoAlpha3": "ARG",
     "continent": "South America",
     "m49Region": "Americas",
@@ -875,6 +972,7 @@
   {
     "name": "Bolivia (Plurinational State of)",
     "m49Code": "068",
+    "isoAlpha2": "BO",
     "isoAlpha3": "BOL",
     "continent": "South America",
     "m49Region": "Americas",
@@ -884,6 +982,7 @@
   {
     "name": "Bouvet Island",
     "m49Code": "074",
+    "isoAlpha2": "BV",
     "isoAlpha3": "BVT",
     "continent": "South America",
     "m49Region": "Americas",
@@ -893,6 +992,7 @@
   {
     "name": "Brazil",
     "m49Code": "076",
+    "isoAlpha2": "BR",
     "isoAlpha3": "BRA",
     "continent": "South America",
     "m49Region": "Americas",
@@ -902,6 +1002,7 @@
   {
     "name": "Chile",
     "m49Code": "152",
+    "isoAlpha2": "CL",
     "isoAlpha3": "CHL",
     "continent": "South America",
     "m49Region": "Americas",
@@ -911,6 +1012,7 @@
   {
     "name": "Colombia",
     "m49Code": "170",
+    "isoAlpha2": "CO",
     "isoAlpha3": "COL",
     "continent": "South America",
     "m49Region": "Americas",
@@ -920,6 +1022,7 @@
   {
     "name": "Ecuador",
     "m49Code": "218",
+    "isoAlpha2": "EC",
     "isoAlpha3": "ECU",
     "continent": "South America",
     "m49Region": "Americas",
@@ -929,6 +1032,7 @@
   {
     "name": "Falkland Islands (Malvinas)",
     "m49Code": "238",
+    "isoAlpha2": "FK",
     "isoAlpha3": "FLK",
     "continent": "South America",
     "m49Region": "Americas",
@@ -938,6 +1042,7 @@
   {
     "name": "French Guiana",
     "m49Code": "254",
+    "isoAlpha2": "GF",
     "isoAlpha3": "GUF",
     "continent": "South America",
     "m49Region": "Americas",
@@ -947,6 +1052,7 @@
   {
     "name": "Guyana",
     "m49Code": "328",
+    "isoAlpha2": "GY",
     "isoAlpha3": "GUY",
     "continent": "South America",
     "m49Region": "Americas",
@@ -956,6 +1062,7 @@
   {
     "name": "Paraguay",
     "m49Code": "600",
+    "isoAlpha2": "PY",
     "isoAlpha3": "PRY",
     "continent": "South America",
     "m49Region": "Americas",
@@ -965,6 +1072,7 @@
   {
     "name": "Peru",
     "m49Code": "604",
+    "isoAlpha2": "PE",
     "isoAlpha3": "PER",
     "continent": "South America",
     "m49Region": "Americas",
@@ -974,6 +1082,7 @@
   {
     "name": "South Georgia and the South Sandwich Islands",
     "m49Code": "239",
+    "isoAlpha2": "GS",
     "isoAlpha3": "SGS",
     "continent": "South America",
     "m49Region": "Americas",
@@ -983,6 +1092,7 @@
   {
     "name": "Suriname",
     "m49Code": "740",
+    "isoAlpha2": "SR",
     "isoAlpha3": "SUR",
     "continent": "South America",
     "m49Region": "Americas",
@@ -992,6 +1102,7 @@
   {
     "name": "Uruguay",
     "m49Code": "858",
+    "isoAlpha2": "UY",
     "isoAlpha3": "URY",
     "continent": "South America",
     "m49Region": "Americas",
@@ -1001,6 +1112,7 @@
   {
     "name": "Venezuela (Bolivarian Republic of)",
     "m49Code": "862",
+    "isoAlpha2": "VE",
     "isoAlpha3": "VEN",
     "continent": "South America",
     "m49Region": "Americas",
@@ -1010,6 +1122,7 @@
   {
     "name": "Bermuda",
     "m49Code": "060",
+    "isoAlpha2": "BM",
     "isoAlpha3": "BMU",
     "continent": "North America",
     "m49Region": "Americas",
@@ -1019,6 +1132,7 @@
   {
     "name": "Canada",
     "m49Code": "124",
+    "isoAlpha2": "CA",
     "isoAlpha3": "CAN",
     "continent": "North America",
     "m49Region": "Americas",
@@ -1028,6 +1142,7 @@
   {
     "name": "Greenland",
     "m49Code": "304",
+    "isoAlpha2": "GL",
     "isoAlpha3": "GRL",
     "continent": "North America",
     "m49Region": "Americas",
@@ -1037,6 +1152,7 @@
   {
     "name": "Saint Pierre and Miquelon",
     "m49Code": "666",
+    "isoAlpha2": "PM",
     "isoAlpha3": "SPM",
     "continent": "North America",
     "m49Region": "Americas",
@@ -1046,6 +1162,7 @@
   {
     "name": "United States of America",
     "m49Code": "840",
+    "isoAlpha2": "US",
     "isoAlpha3": "USA",
     "continent": "North America",
     "m49Region": "Americas",
@@ -1055,6 +1172,7 @@
   {
     "name": "Antarctica",
     "m49Code": "010",
+    "isoAlpha2": "AQ",
     "isoAlpha3": "ATA",
     "continent": "Antarctica",
     "m49Region": "",
@@ -1064,6 +1182,7 @@
   {
     "name": "Kazakhstan",
     "m49Code": "398",
+    "isoAlpha2": "KZ",
     "isoAlpha3": "KAZ",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1073,6 +1192,7 @@
   {
     "name": "Kyrgyzstan",
     "m49Code": "417",
+    "isoAlpha2": "KG",
     "isoAlpha3": "KGZ",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1082,6 +1202,7 @@
   {
     "name": "Tajikistan",
     "m49Code": "762",
+    "isoAlpha2": "TJ",
     "isoAlpha3": "TJK",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1091,6 +1212,7 @@
   {
     "name": "Turkmenistan",
     "m49Code": "795",
+    "isoAlpha2": "TM",
     "isoAlpha3": "TKM",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1100,6 +1222,7 @@
   {
     "name": "Uzbekistan",
     "m49Code": "860",
+    "isoAlpha2": "UZ",
     "isoAlpha3": "UZB",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1109,6 +1232,7 @@
   {
     "name": "China",
     "m49Code": "156",
+    "isoAlpha2": "CN",
     "isoAlpha3": "CHN",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1118,6 +1242,7 @@
   {
     "name": "China, Hong Kong Special Administrative Region",
     "m49Code": "344",
+    "isoAlpha2": "HK",
     "isoAlpha3": "HKG",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1127,6 +1252,7 @@
   {
     "name": "China, Macao Special Administrative Region",
     "m49Code": "446",
+    "isoAlpha2": "MO",
     "isoAlpha3": "MAC",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1136,6 +1262,7 @@
   {
     "name": "Democratic People's Republic of Korea",
     "m49Code": "408",
+    "isoAlpha2": "KP",
     "isoAlpha3": "PRK",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1145,6 +1272,7 @@
   {
     "name": "Japan",
     "m49Code": "392",
+    "isoAlpha2": "JP",
     "isoAlpha3": "JPN",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1154,6 +1282,7 @@
   {
     "name": "Mongolia",
     "m49Code": "496",
+    "isoAlpha2": "MN",
     "isoAlpha3": "MNG",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1163,6 +1292,7 @@
   {
     "name": "Republic of Korea",
     "m49Code": "410",
+    "isoAlpha2": "KR",
     "isoAlpha3": "KOR",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1172,6 +1302,7 @@
   {
     "name": "Brunei Darussalam",
     "m49Code": "096",
+    "isoAlpha2": "BN",
     "isoAlpha3": "BRN",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1181,6 +1312,7 @@
   {
     "name": "Cambodia",
     "m49Code": "116",
+    "isoAlpha2": "KH",
     "isoAlpha3": "KHM",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1190,6 +1322,7 @@
   {
     "name": "Indonesia",
     "m49Code": "360",
+    "isoAlpha2": "ID",
     "isoAlpha3": "IDN",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1199,6 +1332,7 @@
   {
     "name": "Lao People's Democratic Republic",
     "m49Code": "418",
+    "isoAlpha2": "LA",
     "isoAlpha3": "LAO",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1208,6 +1342,7 @@
   {
     "name": "Malaysia",
     "m49Code": "458",
+    "isoAlpha2": "MY",
     "isoAlpha3": "MYS",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1217,6 +1352,7 @@
   {
     "name": "Myanmar",
     "m49Code": "104",
+    "isoAlpha2": "MM",
     "isoAlpha3": "MMR",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1226,6 +1362,7 @@
   {
     "name": "Philippines",
     "m49Code": "608",
+    "isoAlpha2": "PH",
     "isoAlpha3": "PHL",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1235,6 +1372,7 @@
   {
     "name": "Singapore",
     "m49Code": "702",
+    "isoAlpha2": "SG",
     "isoAlpha3": "SGP",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1244,6 +1382,7 @@
   {
     "name": "Thailand",
     "m49Code": "764",
+    "isoAlpha2": "TH",
     "isoAlpha3": "THA",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1253,6 +1392,7 @@
   {
     "name": "Timor-Leste",
     "m49Code": "626",
+    "isoAlpha2": "TL",
     "isoAlpha3": "TLS",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1262,6 +1402,7 @@
   {
     "name": "Viet Nam",
     "m49Code": "704",
+    "isoAlpha2": "VN",
     "isoAlpha3": "VNM",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1271,6 +1412,7 @@
   {
     "name": "Afghanistan",
     "m49Code": "004",
+    "isoAlpha2": "AF",
     "isoAlpha3": "AFG",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1280,6 +1422,7 @@
   {
     "name": "Bangladesh",
     "m49Code": "050",
+    "isoAlpha2": "BD",
     "isoAlpha3": "BGD",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1289,6 +1432,7 @@
   {
     "name": "Bhutan",
     "m49Code": "064",
+    "isoAlpha2": "BT",
     "isoAlpha3": "BTN",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1298,6 +1442,7 @@
   {
     "name": "India",
     "m49Code": "356",
+    "isoAlpha2": "IN",
     "isoAlpha3": "IND",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1307,6 +1452,7 @@
   {
     "name": "Iran (Islamic Republic of)",
     "m49Code": "364",
+    "isoAlpha2": "IR",
     "isoAlpha3": "IRN",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1316,6 +1462,7 @@
   {
     "name": "Maldives",
     "m49Code": "462",
+    "isoAlpha2": "MV",
     "isoAlpha3": "MDV",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1325,6 +1472,7 @@
   {
     "name": "Nepal",
     "m49Code": "524",
+    "isoAlpha2": "NP",
     "isoAlpha3": "NPL",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1334,6 +1482,7 @@
   {
     "name": "Pakistan",
     "m49Code": "586",
+    "isoAlpha2": "PK",
     "isoAlpha3": "PAK",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1343,6 +1492,7 @@
   {
     "name": "Sri Lanka",
     "m49Code": "144",
+    "isoAlpha2": "LK",
     "isoAlpha3": "LKA",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1352,6 +1502,7 @@
   {
     "name": "Armenia",
     "m49Code": "051",
+    "isoAlpha2": "AM",
     "isoAlpha3": "ARM",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1361,6 +1512,7 @@
   {
     "name": "Azerbaijan",
     "m49Code": "031",
+    "isoAlpha2": "AZ",
     "isoAlpha3": "AZE",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1370,6 +1522,7 @@
   {
     "name": "Bahrain",
     "m49Code": "048",
+    "isoAlpha2": "BH",
     "isoAlpha3": "BHR",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1379,6 +1532,7 @@
   {
     "name": "Cyprus",
     "m49Code": "196",
+    "isoAlpha2": "CY",
     "isoAlpha3": "CYP",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1388,6 +1542,7 @@
   {
     "name": "Georgia",
     "m49Code": "268",
+    "isoAlpha2": "GE",
     "isoAlpha3": "GEO",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1397,6 +1552,7 @@
   {
     "name": "Iraq",
     "m49Code": "368",
+    "isoAlpha2": "IQ",
     "isoAlpha3": "IRQ",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1406,6 +1562,7 @@
   {
     "name": "Israel",
     "m49Code": "376",
+    "isoAlpha2": "IL",
     "isoAlpha3": "ISR",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1415,6 +1572,7 @@
   {
     "name": "Jordan",
     "m49Code": "400",
+    "isoAlpha2": "JO",
     "isoAlpha3": "JOR",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1424,6 +1582,7 @@
   {
     "name": "Kuwait",
     "m49Code": "414",
+    "isoAlpha2": "KW",
     "isoAlpha3": "KWT",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1433,6 +1592,7 @@
   {
     "name": "Lebanon",
     "m49Code": "422",
+    "isoAlpha2": "LB",
     "isoAlpha3": "LBN",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1442,6 +1602,7 @@
   {
     "name": "Oman",
     "m49Code": "512",
+    "isoAlpha2": "OM",
     "isoAlpha3": "OMN",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1451,6 +1612,7 @@
   {
     "name": "Qatar",
     "m49Code": "634",
+    "isoAlpha2": "QA",
     "isoAlpha3": "QAT",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1460,6 +1622,7 @@
   {
     "name": "Saudi Arabia",
     "m49Code": "682",
+    "isoAlpha2": "SA",
     "isoAlpha3": "SAU",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1469,6 +1632,7 @@
   {
     "name": "State of Palestine",
     "m49Code": "275",
+    "isoAlpha2": "PS",
     "isoAlpha3": "PSE",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1478,6 +1642,7 @@
   {
     "name": "Syrian Arab Republic",
     "m49Code": "760",
+    "isoAlpha2": "SY",
     "isoAlpha3": "SYR",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1487,6 +1652,7 @@
   {
     "name": "Türkiye",
     "m49Code": "792",
+    "isoAlpha2": "TR",
     "isoAlpha3": "TUR",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1496,6 +1662,7 @@
   {
     "name": "United Arab Emirates",
     "m49Code": "784",
+    "isoAlpha2": "AE",
     "isoAlpha3": "ARE",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1505,6 +1672,7 @@
   {
     "name": "Yemen",
     "m49Code": "887",
+    "isoAlpha2": "YE",
     "isoAlpha3": "YEM",
     "continent": "Asia",
     "m49Region": "Asia",
@@ -1514,6 +1682,7 @@
   {
     "name": "Belarus",
     "m49Code": "112",
+    "isoAlpha2": "BY",
     "isoAlpha3": "BLR",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1523,6 +1692,7 @@
   {
     "name": "Bulgaria",
     "m49Code": "100",
+    "isoAlpha2": "BG",
     "isoAlpha3": "BGR",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1532,6 +1702,7 @@
   {
     "name": "Czechia",
     "m49Code": "203",
+    "isoAlpha2": "CZ",
     "isoAlpha3": "CZE",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1541,6 +1712,7 @@
   {
     "name": "Hungary",
     "m49Code": "348",
+    "isoAlpha2": "HU",
     "isoAlpha3": "HUN",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1550,6 +1722,7 @@
   {
     "name": "Poland",
     "m49Code": "616",
+    "isoAlpha2": "PL",
     "isoAlpha3": "POL",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1559,6 +1732,7 @@
   {
     "name": "Republic of Moldova",
     "m49Code": "498",
+    "isoAlpha2": "MD",
     "isoAlpha3": "MDA",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1568,6 +1742,7 @@
   {
     "name": "Romania",
     "m49Code": "642",
+    "isoAlpha2": "RO",
     "isoAlpha3": "ROU",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1577,6 +1752,7 @@
   {
     "name": "Russian Federation",
     "m49Code": "643",
+    "isoAlpha2": "RU",
     "isoAlpha3": "RUS",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1586,6 +1762,7 @@
   {
     "name": "Slovakia",
     "m49Code": "703",
+    "isoAlpha2": "SK",
     "isoAlpha3": "SVK",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1595,6 +1772,7 @@
   {
     "name": "Ukraine",
     "m49Code": "804",
+    "isoAlpha2": "UA",
     "isoAlpha3": "UKR",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1604,6 +1782,7 @@
   {
     "name": "Åland Islands",
     "m49Code": "248",
+    "isoAlpha2": "AX",
     "isoAlpha3": "ALA",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1613,6 +1792,7 @@
   {
     "name": "Denmark",
     "m49Code": "208",
+    "isoAlpha2": "DK",
     "isoAlpha3": "DNK",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1622,6 +1802,7 @@
   {
     "name": "Estonia",
     "m49Code": "233",
+    "isoAlpha2": "EE",
     "isoAlpha3": "EST",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1631,6 +1812,7 @@
   {
     "name": "Faroe Islands",
     "m49Code": "234",
+    "isoAlpha2": "FO",
     "isoAlpha3": "FRO",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1640,6 +1822,7 @@
   {
     "name": "Finland",
     "m49Code": "246",
+    "isoAlpha2": "FI",
     "isoAlpha3": "FIN",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1649,6 +1832,7 @@
   {
     "name": "Guernsey",
     "m49Code": "831",
+    "isoAlpha2": "GG",
     "isoAlpha3": "GGY",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1658,6 +1842,7 @@
   {
     "name": "Iceland",
     "m49Code": "352",
+    "isoAlpha2": "IS",
     "isoAlpha3": "ISL",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1667,6 +1852,7 @@
   {
     "name": "Ireland",
     "m49Code": "372",
+    "isoAlpha2": "IE",
     "isoAlpha3": "IRL",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1676,6 +1862,7 @@
   {
     "name": "Isle of Man",
     "m49Code": "833",
+    "isoAlpha2": "IM",
     "isoAlpha3": "IMN",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1685,6 +1872,7 @@
   {
     "name": "Jersey",
     "m49Code": "832",
+    "isoAlpha2": "JE",
     "isoAlpha3": "JEY",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1694,6 +1882,7 @@
   {
     "name": "Latvia",
     "m49Code": "428",
+    "isoAlpha2": "LV",
     "isoAlpha3": "LVA",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1703,6 +1892,7 @@
   {
     "name": "Lithuania",
     "m49Code": "440",
+    "isoAlpha2": "LT",
     "isoAlpha3": "LTU",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1712,6 +1902,7 @@
   {
     "name": "Norway",
     "m49Code": "578",
+    "isoAlpha2": "NO",
     "isoAlpha3": "NOR",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1721,6 +1912,7 @@
   {
     "name": "Svalbard and Jan Mayen Islands",
     "m49Code": "744",
+    "isoAlpha2": "SJ",
     "isoAlpha3": "SJM",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1730,6 +1922,7 @@
   {
     "name": "Sweden",
     "m49Code": "752",
+    "isoAlpha2": "SE",
     "isoAlpha3": "SWE",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1739,6 +1932,7 @@
   {
     "name": "United Kingdom of Great Britain and Northern Ireland",
     "m49Code": "826",
+    "isoAlpha2": "GB",
     "isoAlpha3": "GBR",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1748,6 +1942,7 @@
   {
     "name": "Albania",
     "m49Code": "008",
+    "isoAlpha2": "AL",
     "isoAlpha3": "ALB",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1757,6 +1952,7 @@
   {
     "name": "Andorra",
     "m49Code": "020",
+    "isoAlpha2": "AD",
     "isoAlpha3": "AND",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1766,6 +1962,7 @@
   {
     "name": "Bosnia and Herzegovina",
     "m49Code": "070",
+    "isoAlpha2": "BA",
     "isoAlpha3": "BIH",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1775,6 +1972,7 @@
   {
     "name": "Croatia",
     "m49Code": "191",
+    "isoAlpha2": "HR",
     "isoAlpha3": "HRV",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1784,6 +1982,7 @@
   {
     "name": "Gibraltar",
     "m49Code": "292",
+    "isoAlpha2": "GI",
     "isoAlpha3": "GIB",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1793,6 +1992,7 @@
   {
     "name": "Greece",
     "m49Code": "300",
+    "isoAlpha2": "GR",
     "isoAlpha3": "GRC",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1802,6 +2002,7 @@
   {
     "name": "Holy See",
     "m49Code": "336",
+    "isoAlpha2": "VA",
     "isoAlpha3": "VAT",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1811,6 +2012,7 @@
   {
     "name": "Italy",
     "m49Code": "380",
+    "isoAlpha2": "IT",
     "isoAlpha3": "ITA",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1820,6 +2022,7 @@
   {
     "name": "Malta",
     "m49Code": "470",
+    "isoAlpha2": "MT",
     "isoAlpha3": "MLT",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1829,6 +2032,7 @@
   {
     "name": "Montenegro",
     "m49Code": "499",
+    "isoAlpha2": "ME",
     "isoAlpha3": "MNE",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1838,6 +2042,7 @@
   {
     "name": "North Macedonia",
     "m49Code": "807",
+    "isoAlpha2": "MK",
     "isoAlpha3": "MKD",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1847,6 +2052,7 @@
   {
     "name": "Portugal",
     "m49Code": "620",
+    "isoAlpha2": "PT",
     "isoAlpha3": "PRT",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1856,6 +2062,7 @@
   {
     "name": "San Marino",
     "m49Code": "674",
+    "isoAlpha2": "SM",
     "isoAlpha3": "SMR",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1865,6 +2072,7 @@
   {
     "name": "Serbia",
     "m49Code": "688",
+    "isoAlpha2": "RS",
     "isoAlpha3": "SRB",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1874,6 +2082,7 @@
   {
     "name": "Slovenia",
     "m49Code": "705",
+    "isoAlpha2": "SI",
     "isoAlpha3": "SVN",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1883,6 +2092,7 @@
   {
     "name": "Spain",
     "m49Code": "724",
+    "isoAlpha2": "ES",
     "isoAlpha3": "ESP",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1892,6 +2102,7 @@
   {
     "name": "Austria",
     "m49Code": "040",
+    "isoAlpha2": "AT",
     "isoAlpha3": "AUT",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1901,6 +2112,7 @@
   {
     "name": "Belgium",
     "m49Code": "056",
+    "isoAlpha2": "BE",
     "isoAlpha3": "BEL",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1910,6 +2122,7 @@
   {
     "name": "France",
     "m49Code": "250",
+    "isoAlpha2": "FR",
     "isoAlpha3": "FRA",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1919,6 +2132,7 @@
   {
     "name": "Germany",
     "m49Code": "276",
+    "isoAlpha2": "DE",
     "isoAlpha3": "DEU",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1928,6 +2142,7 @@
   {
     "name": "Liechtenstein",
     "m49Code": "438",
+    "isoAlpha2": "LI",
     "isoAlpha3": "LIE",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1937,6 +2152,7 @@
   {
     "name": "Luxembourg",
     "m49Code": "442",
+    "isoAlpha2": "LU",
     "isoAlpha3": "LUX",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1946,6 +2162,7 @@
   {
     "name": "Monaco",
     "m49Code": "492",
+    "isoAlpha2": "MC",
     "isoAlpha3": "MCO",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1955,6 +2172,7 @@
   {
     "name": "Netherlands (Kingdom of the)",
     "m49Code": "528",
+    "isoAlpha2": "NL",
     "isoAlpha3": "NLD",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1964,6 +2182,7 @@
   {
     "name": "Switzerland",
     "m49Code": "756",
+    "isoAlpha2": "CH",
     "isoAlpha3": "CHE",
     "continent": "Europe",
     "m49Region": "Europe",
@@ -1973,6 +2192,7 @@
   {
     "name": "Australia",
     "m49Code": "036",
+    "isoAlpha2": "AU",
     "isoAlpha3": "AUS",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -1982,6 +2202,7 @@
   {
     "name": "Christmas Island",
     "m49Code": "162",
+    "isoAlpha2": "CX",
     "isoAlpha3": "CXR",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -1991,6 +2212,7 @@
   {
     "name": "Cocos (Keeling) Islands",
     "m49Code": "166",
+    "isoAlpha2": "CC",
     "isoAlpha3": "CCK",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -2000,6 +2222,7 @@
   {
     "name": "Heard Island and McDonald Islands",
     "m49Code": "334",
+    "isoAlpha2": "HM",
     "isoAlpha3": "HMD",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -2009,6 +2232,7 @@
   {
     "name": "New Zealand",
     "m49Code": "554",
+    "isoAlpha2": "NZ",
     "isoAlpha3": "NZL",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -2018,6 +2242,7 @@
   {
     "name": "Norfolk Island",
     "m49Code": "574",
+    "isoAlpha2": "NF",
     "isoAlpha3": "NFK",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -2027,6 +2252,7 @@
   {
     "name": "Fiji",
     "m49Code": "242",
+    "isoAlpha2": "FJ",
     "isoAlpha3": "FJI",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -2036,6 +2262,7 @@
   {
     "name": "New Caledonia",
     "m49Code": "540",
+    "isoAlpha2": "NC",
     "isoAlpha3": "NCL",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -2045,6 +2272,7 @@
   {
     "name": "Papua New Guinea",
     "m49Code": "598",
+    "isoAlpha2": "PG",
     "isoAlpha3": "PNG",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -2054,6 +2282,7 @@
   {
     "name": "Solomon Islands",
     "m49Code": "090",
+    "isoAlpha2": "SB",
     "isoAlpha3": "SLB",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -2063,6 +2292,7 @@
   {
     "name": "Vanuatu",
     "m49Code": "548",
+    "isoAlpha2": "VU",
     "isoAlpha3": "VUT",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -2072,6 +2302,7 @@
   {
     "name": "Guam",
     "m49Code": "316",
+    "isoAlpha2": "GU",
     "isoAlpha3": "GUM",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -2081,6 +2312,7 @@
   {
     "name": "Kiribati",
     "m49Code": "296",
+    "isoAlpha2": "KI",
     "isoAlpha3": "KIR",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -2090,6 +2322,7 @@
   {
     "name": "Marshall Islands",
     "m49Code": "584",
+    "isoAlpha2": "MH",
     "isoAlpha3": "MHL",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -2099,6 +2332,7 @@
   {
     "name": "Micronesia (Federated States of)",
     "m49Code": "583",
+    "isoAlpha2": "FM",
     "isoAlpha3": "FSM",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -2108,6 +2342,7 @@
   {
     "name": "Naoero",
     "m49Code": "520",
+    "isoAlpha2": "NR",
     "isoAlpha3": "NRU",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -2117,6 +2352,7 @@
   {
     "name": "Northern Mariana Islands",
     "m49Code": "580",
+    "isoAlpha2": "MP",
     "isoAlpha3": "MNP",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -2126,6 +2362,7 @@
   {
     "name": "Palau",
     "m49Code": "585",
+    "isoAlpha2": "PW",
     "isoAlpha3": "PLW",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -2135,6 +2372,7 @@
   {
     "name": "United States Minor Outlying Islands",
     "m49Code": "581",
+    "isoAlpha2": "UM",
     "isoAlpha3": "UMI",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -2144,6 +2382,7 @@
   {
     "name": "American Samoa",
     "m49Code": "016",
+    "isoAlpha2": "AS",
     "isoAlpha3": "ASM",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -2153,6 +2392,7 @@
   {
     "name": "Cook Islands",
     "m49Code": "184",
+    "isoAlpha2": "CK",
     "isoAlpha3": "COK",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -2162,6 +2402,7 @@
   {
     "name": "French Polynesia",
     "m49Code": "258",
+    "isoAlpha2": "PF",
     "isoAlpha3": "PYF",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -2171,6 +2412,7 @@
   {
     "name": "Niue",
     "m49Code": "570",
+    "isoAlpha2": "NU",
     "isoAlpha3": "NIU",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -2180,6 +2422,7 @@
   {
     "name": "Pitcairn",
     "m49Code": "612",
+    "isoAlpha2": "PN",
     "isoAlpha3": "PCN",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -2189,6 +2432,7 @@
   {
     "name": "Samoa",
     "m49Code": "882",
+    "isoAlpha2": "WS",
     "isoAlpha3": "WSM",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -2198,6 +2442,7 @@
   {
     "name": "Tokelau",
     "m49Code": "772",
+    "isoAlpha2": "TK",
     "isoAlpha3": "TKL",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -2207,6 +2452,7 @@
   {
     "name": "Tonga",
     "m49Code": "776",
+    "isoAlpha2": "TO",
     "isoAlpha3": "TON",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -2216,6 +2462,7 @@
   {
     "name": "Tuvalu",
     "m49Code": "798",
+    "isoAlpha2": "TV",
     "isoAlpha3": "TUV",
     "continent": "Oceania",
     "m49Region": "Oceania",
@@ -2225,6 +2472,7 @@
   {
     "name": "Wallis and Futuna Islands",
     "m49Code": "876",
+    "isoAlpha2": "WF",
     "isoAlpha3": "WLF",
     "continent": "Oceania",
     "m49Region": "Oceania",
