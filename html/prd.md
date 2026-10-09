@@ -22,11 +22,12 @@ This app will called called ATALS and is a web site designed to help users learn
 17) The user can click on a country in the maps, and the continent and country selected in the left and right lists will automaticallt be adjusted  
 18) Above the Map area display an input box to search for a country. When typing letters automatically show countries that start with search string. Do not update the map area lists until a selection is confirmed.  
 19) Under the map area, I want a section that will display information on the country selected. Show the name, the isoAlpha3 code, and a small flag of the country.
-
-99) USe the footer area at the bottom as described in point #4 and #5
+20) In the section under the map where the flag is displayed, add the name of the capital of the selected country. Place the name on the right of this section.  
+99) Use the footer area at the bottom as described in point #4 and #5
 
 # Features  
-Feature 1 : Main webpage whith an input field in the header will permit the user to enter his/her name and age.  
+Feature 1 : Main webpage with an input field in the header will permit the user to enter his/her name and age.  
 
-Featrue2 : A menu item in the header will open the continents page where a list on the left of the page will displayed all the continents. When the user clicks one of the continents, it will become highlighted and a list of the courntries in that continent will be displayed on the right side of the page.  
+Featrue 2 : A menu item in the header will open the continents page where a list on the left of the page will displayed all the continents. When the user clicks one of the continents, it will become highlighted and a list of the courntries in that continent will be displayed on the right side of the page.  Other menus will be added later  
+
 
