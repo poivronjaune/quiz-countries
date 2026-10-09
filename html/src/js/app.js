@@ -271,6 +271,8 @@ async function setupAtlas() {
     name: explorer.querySelector("[data-info-name]"),
     iso: explorer.querySelector("[data-info-iso]"),
     note: explorer.querySelector("[data-info-note]"),
+    capital: explorer.querySelector("[data-info-capital]"),
+    capitalNote: explorer.querySelector("[data-info-capital-note]"),
   };
   const searchInput = explorer.querySelector("[data-search-input]");
   const suggestionList = explorer.querySelector("[data-suggestions]");
@@ -462,6 +464,10 @@ async function setupAtlas() {
     info.name.textContent = country.name;
     info.iso.textContent = country.isoAlpha3;
     info.note.hidden = map.shapes.has(selectedIso);
+    info.capital.textContent = country.capital ?? "None";
+    info.capital.classList.toggle("is-empty", !country.capital);
+    info.capitalNote.textContent = country.capitalNote ?? "";
+    info.capitalNote.hidden = !country.capitalNote;
   }
 
   function render(animate) {
