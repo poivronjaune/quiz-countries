@@ -30,5 +30,3 @@ Feature 1 : Main webpage whith an input field in the header will permit the user
 
 Featrue2 : A menu item in the header will open the continents page where a list on the left of the page will displayed all the continents. When the user clicks one of the continents, it will become highlighted and a list of the courntries in that continent will be displayed on the right side of the page.  
 
-# Maps  
-The maps must  
