@@ -5,6 +5,7 @@
     "isoAlpha2": "DZ",
     "isoAlpha3": "DZA",
     "continent": "Africa",
+    "capital": "Algiers",
     "m49Region": "Africa",
     "m49Subregion": "Northern Africa",
     "m49IntermediateRegion": ""
@@ -15,6 +16,7 @@
     "isoAlpha2": "EG",
     "isoAlpha3": "EGY",
     "continent": "Africa",
+    "capital": "Cairo",
     "m49Region": "Africa",
     "m49Subregion": "Northern Africa",
     "m49IntermediateRegion": ""
@@ -25,6 +27,7 @@
     "isoAlpha2": "LY",
     "isoAlpha3": "LBY",
     "continent": "Africa",
+    "capital": "Tripoli",
     "m49Region": "Africa",
     "m49Subregion": "Northern Africa",
     "m49IntermediateRegion": ""
@@ -35,6 +38,7 @@
     "isoAlpha2": "MA",
     "isoAlpha3": "MAR",
     "continent": "Africa",
+    "capital": "Rabat",
     "m49Region": "Africa",
     "m49Subregion": "Northern Africa",
     "m49IntermediateRegion": ""
@@ -45,6 +49,7 @@
     "isoAlpha2": "SD",
     "isoAlpha3": "SDN",
     "continent": "Africa",
+    "capital": "Khartoum",
     "m49Region": "Africa",
     "m49Subregion": "Northern Africa",
     "m49IntermediateRegion": ""
@@ -55,6 +60,7 @@
     "isoAlpha2": "TN",
     "isoAlpha3": "TUN",
     "continent": "Africa",
+    "capital": "Tunis",
     "m49Region": "Africa",
     "m49Subregion": "Northern Africa",
     "m49IntermediateRegion": ""
@@ -65,6 +71,7 @@
     "isoAlpha2": "EH",
     "isoAlpha3": "ESH",
     "continent": "Africa",
+    "capital": "Laayoune",
     "m49Region": "Africa",
     "m49Subregion": "Northern Africa",
     "m49IntermediateRegion": ""
@@ -75,6 +82,7 @@
     "isoAlpha2": "IO",
     "isoAlpha3": "IOT",
     "continent": "Africa",
+    "capital": "Diego Garcia",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Eastern Africa"
@@ -85,6 +93,8 @@
     "isoAlpha2": "BI",
     "isoAlpha3": "BDI",
     "continent": "Africa",
+    "capital": "Gitega",
+    "capitalNote": "Political capital since 2019. Bujumbura is the economic capital.",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Eastern Africa"
@@ -95,6 +105,7 @@
     "isoAlpha2": "KM",
     "isoAlpha3": "COM",
     "continent": "Africa",
+    "capital": "Moroni",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Eastern Africa"
@@ -105,6 +116,7 @@
     "isoAlpha2": "DJ",
     "isoAlpha3": "DJI",
     "continent": "Africa",
+    "capital": "Djibouti",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Eastern Africa"
@@ -115,6 +127,7 @@
     "isoAlpha2": "ER",
     "isoAlpha3": "ERI",
     "continent": "Africa",
+    "capital": "Asmara",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Eastern Africa"
@@ -125,6 +138,7 @@
     "isoAlpha2": "ET",
     "isoAlpha3": "ETH",
     "continent": "Africa",
+    "capital": "Addis Ababa",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Eastern Africa"
@@ -135,6 +149,7 @@
     "isoAlpha2": "TF",
     "isoAlpha3": "ATF",
     "continent": "Africa",
+    "capital": "Port-aux-Français",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Eastern Africa"
@@ -145,6 +160,7 @@
     "isoAlpha2": "KE",
     "isoAlpha3": "KEN",
     "continent": "Africa",
+    "capital": "Nairobi",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Eastern Africa"
@@ -155,6 +171,7 @@
     "isoAlpha2": "MG",
     "isoAlpha3": "MDG",
     "continent": "Africa",
+    "capital": "Antananarivo",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Eastern Africa"
@@ -165,6 +182,7 @@
     "isoAlpha2": "MW",
     "isoAlpha3": "MWI",
     "continent": "Africa",
+    "capital": "Lilongwe",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Eastern Africa"
@@ -175,6 +193,7 @@
     "isoAlpha2": "MU",
     "isoAlpha3": "MUS",
     "continent": "Africa",
+    "capital": "Port Louis",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Eastern Africa"
@@ -185,6 +204,7 @@
     "isoAlpha2": "YT",
     "isoAlpha3": "MYT",
     "continent": "Africa",
+    "capital": "Mamoudzou",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Eastern Africa"
@@ -195,6 +215,7 @@
     "isoAlpha2": "MZ",
     "isoAlpha3": "MOZ",
     "continent": "Africa",
+    "capital": "Maputo",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Eastern Africa"
@@ -205,6 +226,7 @@
     "isoAlpha2": "RE",
     "isoAlpha3": "REU",
     "continent": "Africa",
+    "capital": "Saint-Denis",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Eastern Africa"
@@ -215,6 +237,7 @@
     "isoAlpha2": "RW",
     "isoAlpha3": "RWA",
     "continent": "Africa",
+    "capital": "Kigali",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Eastern Africa"
@@ -225,6 +248,7 @@
     "isoAlpha2": "SC",
     "isoAlpha3": "SYC",
     "continent": "Africa",
+    "capital": "Victoria",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Eastern Africa"
@@ -235,6 +259,7 @@
     "isoAlpha2": "SO",
     "isoAlpha3": "SOM",
     "continent": "Africa",
+    "capital": "Mogadishu",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Eastern Africa"
@@ -245,6 +270,7 @@
     "isoAlpha2": "SS",
     "isoAlpha3": "SSD",
     "continent": "Africa",
+    "capital": "Juba",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Eastern Africa"
@@ -255,6 +281,7 @@
     "isoAlpha2": "UG",
     "isoAlpha3": "UGA",
     "continent": "Africa",
+    "capital": "Kampala",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Eastern Africa"
@@ -265,6 +292,7 @@
     "isoAlpha2": "TZ",
     "isoAlpha3": "TZA",
     "continent": "Africa",
+    "capital": "Dodoma",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Eastern Africa"
@@ -275,6 +303,7 @@
     "isoAlpha2": "ZM",
     "isoAlpha3": "ZMB",
     "continent": "Africa",
+    "capital": "Lusaka",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Eastern Africa"
@@ -285,6 +314,7 @@
     "isoAlpha2": "ZW",
     "isoAlpha3": "ZWE",
     "continent": "Africa",
+    "capital": "Harare",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Eastern Africa"
@@ -295,6 +325,7 @@
     "isoAlpha2": "AO",
     "isoAlpha3": "AGO",
     "continent": "Africa",
+    "capital": "Luanda",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Middle Africa"
@@ -305,6 +336,7 @@
     "isoAlpha2": "CM",
     "isoAlpha3": "CMR",
     "continent": "Africa",
+    "capital": "Yaoundé",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Middle Africa"
@@ -315,6 +347,7 @@
     "isoAlpha2": "CF",
     "isoAlpha3": "CAF",
     "continent": "Africa",
+    "capital": "Bangui",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Middle Africa"
@@ -325,6 +358,7 @@
     "isoAlpha2": "TD",
     "isoAlpha3": "TCD",
     "continent": "Africa",
+    "capital": "N'Djamena",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Middle Africa"
@@ -335,6 +369,7 @@
     "isoAlpha2": "CG",
     "isoAlpha3": "COG",
     "continent": "Africa",
+    "capital": "Brazzaville",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Middle Africa"
@@ -345,6 +380,7 @@
     "isoAlpha2": "CD",
     "isoAlpha3": "COD",
     "continent": "Africa",
+    "capital": "Kinshasa",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Middle Africa"
@@ -355,6 +391,8 @@
     "isoAlpha2": "GQ",
     "isoAlpha3": "GNQ",
     "continent": "Africa",
+    "capital": "Ciudad de la Paz",
+    "capitalNote": "Capital since January 2026; the previous capital was Malabo.",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Middle Africa"
@@ -365,6 +403,7 @@
     "isoAlpha2": "GA",
     "isoAlpha3": "GAB",
     "continent": "Africa",
+    "capital": "Libreville",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Middle Africa"
@@ -375,6 +414,7 @@
     "isoAlpha2": "ST",
     "isoAlpha3": "STP",
     "continent": "Africa",
+    "capital": "São Tomé",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Middle Africa"
@@ -385,6 +425,7 @@
     "isoAlpha2": "BW",
     "isoAlpha3": "BWA",
     "continent": "Africa",
+    "capital": "Gaborone",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Southern Africa"
@@ -395,6 +436,8 @@
     "isoAlpha2": "SZ",
     "isoAlpha3": "SWZ",
     "continent": "Africa",
+    "capital": "Mbabane",
+    "capitalNote": "Executive capital. Lobamba is the legislative capital.",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Southern Africa"
@@ -405,6 +448,7 @@
     "isoAlpha2": "LS",
     "isoAlpha3": "LSO",
     "continent": "Africa",
+    "capital": "Maseru",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Southern Africa"
@@ -415,6 +459,7 @@
     "isoAlpha2": "NA",
     "isoAlpha3": "NAM",
     "continent": "Africa",
+    "capital": "Windhoek",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Southern Africa"
@@ -425,6 +470,8 @@
     "isoAlpha2": "ZA",
     "isoAlpha3": "ZAF",
     "continent": "Africa",
+    "capital": "Pretoria",
+    "capitalNote": "Executive capital. Cape Town is the legislative capital and Bloemfontein the judicial capital.",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Southern Africa"
@@ -435,6 +482,8 @@
     "isoAlpha2": "BJ",
     "isoAlpha3": "BEN",
     "continent": "Africa",
+    "capital": "Porto-Novo",
+    "capitalNote": "Official capital. The government sits in Cotonou.",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Western Africa"
@@ -445,6 +494,7 @@
     "isoAlpha2": "BF",
     "isoAlpha3": "BFA",
     "continent": "Africa",
+    "capital": "Ouagadougou",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Western Africa"
@@ -455,6 +505,7 @@
     "isoAlpha2": "CV",
     "isoAlpha3": "CPV",
     "continent": "Africa",
+    "capital": "Praia",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Western Africa"
@@ -465,6 +516,7 @@
     "isoAlpha2": "CI",
     "isoAlpha3": "CIV",
     "continent": "Africa",
+    "capital": "Yamoussoukro",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Western Africa"
@@ -475,6 +527,7 @@
     "isoAlpha2": "GM",
     "isoAlpha3": "GMB",
     "continent": "Africa",
+    "capital": "Banjul",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Western Africa"
@@ -485,6 +538,7 @@
     "isoAlpha2": "GH",
     "isoAlpha3": "GHA",
     "continent": "Africa",
+    "capital": "Accra",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Western Africa"
@@ -495,6 +549,7 @@
     "isoAlpha2": "GN",
     "isoAlpha3": "GIN",
     "continent": "Africa",
+    "capital": "Conakry",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Western Africa"
@@ -505,6 +560,7 @@
     "isoAlpha2": "GW",
     "isoAlpha3": "GNB",
     "continent": "Africa",
+    "capital": "Bissau",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Western Africa"
@@ -515,6 +571,7 @@
     "isoAlpha2": "LR",
     "isoAlpha3": "LBR",
     "continent": "Africa",
+    "capital": "Monrovia",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Western Africa"
@@ -525,6 +582,7 @@
     "isoAlpha2": "ML",
     "isoAlpha3": "MLI",
     "continent": "Africa",
+    "capital": "Bamako",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Western Africa"
@@ -535,6 +593,7 @@
     "isoAlpha2": "MR",
     "isoAlpha3": "MRT",
     "continent": "Africa",
+    "capital": "Nouakchott",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Western Africa"
@@ -545,6 +604,7 @@
     "isoAlpha2": "NE",
     "isoAlpha3": "NER",
     "continent": "Africa",
+    "capital": "Niamey",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Western Africa"
@@ -555,6 +615,7 @@
     "isoAlpha2": "NG",
     "isoAlpha3": "NGA",
     "continent": "Africa",
+    "capital": "Abuja",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Western Africa"
@@ -565,6 +626,7 @@
     "isoAlpha2": "SH",
     "isoAlpha3": "SHN",
     "continent": "Africa",
+    "capital": "Jamestown",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Western Africa"
@@ -575,6 +637,7 @@
     "isoAlpha2": "SN",
     "isoAlpha3": "SEN",
     "continent": "Africa",
+    "capital": "Dakar",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Western Africa"
@@ -585,6 +648,7 @@
     "isoAlpha2": "SL",
     "isoAlpha3": "SLE",
     "continent": "Africa",
+    "capital": "Freetown",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Western Africa"
@@ -595,6 +659,7 @@
     "isoAlpha2": "TG",
     "isoAlpha3": "TGO",
     "continent": "Africa",
+    "capital": "Lomé",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
     "m49IntermediateRegion": "Western Africa"
@@ -605,6 +670,7 @@
     "isoAlpha2": "AI",
     "isoAlpha3": "AIA",
     "continent": "North America",
+    "capital": "The Valley",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -615,6 +681,7 @@
     "isoAlpha2": "AG",
     "isoAlpha3": "ATG",
     "continent": "North America",
+    "capital": "St. John's",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -625,6 +692,7 @@
     "isoAlpha2": "AW",
     "isoAlpha3": "ABW",
     "continent": "North America",
+    "capital": "Oranjestad",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -635,6 +703,7 @@
     "isoAlpha2": "BS",
     "isoAlpha3": "BHS",
     "continent": "North America",
+    "capital": "Nassau",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -645,6 +714,7 @@
     "isoAlpha2": "BB",
     "isoAlpha3": "BRB",
     "continent": "North America",
+    "capital": "Bridgetown",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -655,6 +725,8 @@
     "isoAlpha2": "BQ",
     "isoAlpha3": "BES",
     "continent": "North America",
+    "capital": "Kralendijk",
+    "capitalNote": "Capital of Bonaire. Sint Eustatius has Oranjestad and Saba has The Bottom.",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -665,6 +737,7 @@
     "isoAlpha2": "VG",
     "isoAlpha3": "VGB",
     "continent": "North America",
+    "capital": "Road Town",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -675,6 +748,7 @@
     "isoAlpha2": "KY",
     "isoAlpha3": "CYM",
     "continent": "North America",
+    "capital": "George Town",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -685,6 +759,7 @@
     "isoAlpha2": "CU",
     "isoAlpha3": "CUB",
     "continent": "North America",
+    "capital": "Havana",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -695,6 +770,7 @@
     "isoAlpha2": "CW",
     "isoAlpha3": "CUW",
     "continent": "North America",
+    "capital": "Willemstad",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -705,6 +781,7 @@
     "isoAlpha2": "DM",
     "isoAlpha3": "DMA",
     "continent": "North America",
+    "capital": "Roseau",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -715,6 +792,7 @@
     "isoAlpha2": "DO",
     "isoAlpha3": "DOM",
     "continent": "North America",
+    "capital": "Santo Domingo",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -725,6 +803,7 @@
     "isoAlpha2": "GD",
     "isoAlpha3": "GRD",
     "continent": "North America",
+    "capital": "St. George's",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -735,6 +814,7 @@
     "isoAlpha2": "GP",
     "isoAlpha3": "GLP",
     "continent": "North America",
+    "capital": "Basse-Terre",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -745,6 +825,7 @@
     "isoAlpha2": "HT",
     "isoAlpha3": "HTI",
     "continent": "North America",
+    "capital": "Port-au-Prince",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -755,6 +836,7 @@
     "isoAlpha2": "JM",
     "isoAlpha3": "JAM",
     "continent": "North America",
+    "capital": "Kingston",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -765,6 +847,7 @@
     "isoAlpha2": "MQ",
     "isoAlpha3": "MTQ",
     "continent": "North America",
+    "capital": "Fort-de-France",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -775,6 +858,8 @@
     "isoAlpha2": "MS",
     "isoAlpha3": "MSR",
     "continent": "North America",
+    "capital": "Plymouth",
+    "capitalNote": "De jure capital, abandoned after the 1997 volcanic eruption. The government sits in Brades.",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -785,6 +870,7 @@
     "isoAlpha2": "PR",
     "isoAlpha3": "PRI",
     "continent": "North America",
+    "capital": "San Juan",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -795,6 +881,7 @@
     "isoAlpha2": "BL",
     "isoAlpha3": "BLM",
     "continent": "North America",
+    "capital": "Gustavia",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -805,6 +892,7 @@
     "isoAlpha2": "KN",
     "isoAlpha3": "KNA",
     "continent": "North America",
+    "capital": "Basseterre",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -815,6 +903,7 @@
     "isoAlpha2": "LC",
     "isoAlpha3": "LCA",
     "continent": "North America",
+    "capital": "Castries",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -825,6 +914,7 @@
     "isoAlpha2": "MF",
     "isoAlpha3": "MAF",
     "continent": "North America",
+    "capital": "Marigot",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -835,6 +925,7 @@
     "isoAlpha2": "VC",
     "isoAlpha3": "VCT",
     "continent": "North America",
+    "capital": "Kingstown",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -845,6 +936,7 @@
     "isoAlpha2": "SX",
     "isoAlpha3": "SXM",
     "continent": "North America",
+    "capital": "Philipsburg",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -855,6 +947,7 @@
     "isoAlpha2": "TT",
     "isoAlpha3": "TTO",
     "continent": "North America",
+    "capital": "Port of Spain",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -865,6 +958,7 @@
     "isoAlpha2": "TC",
     "isoAlpha3": "TCA",
     "continent": "North America",
+    "capital": "Cockburn Town",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -875,6 +969,7 @@
     "isoAlpha2": "VI",
     "isoAlpha3": "VIR",
     "continent": "North America",
+    "capital": "Charlotte Amalie",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Caribbean"
@@ -885,6 +980,7 @@
     "isoAlpha2": "BZ",
     "isoAlpha3": "BLZ",
     "continent": "North America",
+    "capital": "Belmopan",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Central America"
@@ -895,6 +991,7 @@
     "isoAlpha2": "CR",
     "isoAlpha3": "CRI",
     "continent": "North America",
+    "capital": "San José",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Central America"
@@ -905,6 +1002,7 @@
     "isoAlpha2": "SV",
     "isoAlpha3": "SLV",
     "continent": "North America",
+    "capital": "San Salvador",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Central America"
@@ -915,6 +1013,7 @@
     "isoAlpha2": "GT",
     "isoAlpha3": "GTM",
     "continent": "North America",
+    "capital": "Guatemala City",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Central America"
@@ -925,6 +1024,7 @@
     "isoAlpha2": "HN",
     "isoAlpha3": "HND",
     "continent": "North America",
+    "capital": "Tegucigalpa",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Central America"
@@ -935,6 +1035,7 @@
     "isoAlpha2": "MX",
     "isoAlpha3": "MEX",
     "continent": "North America",
+    "capital": "Mexico City",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Central America"
@@ -945,6 +1046,7 @@
     "isoAlpha2": "NI",
     "isoAlpha3": "NIC",
     "continent": "North America",
+    "capital": "Managua",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Central America"
@@ -955,6 +1057,7 @@
     "isoAlpha2": "PA",
     "isoAlpha3": "PAN",
     "continent": "North America",
+    "capital": "Panama City",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "Central America"
@@ -965,6 +1068,7 @@
     "isoAlpha2": "AR",
     "isoAlpha3": "ARG",
     "continent": "South America",
+    "capital": "Buenos Aires",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "South America"
@@ -975,6 +1079,8 @@
     "isoAlpha2": "BO",
     "isoAlpha3": "BOL",
     "continent": "South America",
+    "capital": "Sucre",
+    "capitalNote": "Constitutional capital. The government sits in La Paz.",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "South America"
@@ -985,6 +1091,8 @@
     "isoAlpha2": "BV",
     "isoAlpha3": "BVT",
     "continent": "South America",
+    "capital": null,
+    "capitalNote": "Uninhabited.",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "South America"
@@ -995,6 +1103,7 @@
     "isoAlpha2": "BR",
     "isoAlpha3": "BRA",
     "continent": "South America",
+    "capital": "Brasília",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "South America"
@@ -1005,6 +1114,7 @@
     "isoAlpha2": "CL",
     "isoAlpha3": "CHL",
     "continent": "South America",
+    "capital": "Santiago",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "South America"
@@ -1015,6 +1125,7 @@
     "isoAlpha2": "CO",
     "isoAlpha3": "COL",
     "continent": "South America",
+    "capital": "Bogotá",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "South America"
@@ -1025,6 +1136,7 @@
     "isoAlpha2": "EC",
     "isoAlpha3": "ECU",
     "continent": "South America",
+    "capital": "Quito",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "South America"
@@ -1035,6 +1147,7 @@
     "isoAlpha2": "FK",
     "isoAlpha3": "FLK",
     "continent": "South America",
+    "capital": "Stanley",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "South America"
@@ -1045,6 +1158,7 @@
     "isoAlpha2": "GF",
     "isoAlpha3": "GUF",
     "continent": "South America",
+    "capital": "Cayenne",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "South America"
@@ -1055,6 +1169,7 @@
     "isoAlpha2": "GY",
     "isoAlpha3": "GUY",
     "continent": "South America",
+    "capital": "Georgetown",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "South America"
@@ -1065,6 +1180,7 @@
     "isoAlpha2": "PY",
     "isoAlpha3": "PRY",
     "continent": "South America",
+    "capital": "Asunción",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "South America"
@@ -1075,6 +1191,7 @@
     "isoAlpha2": "PE",
     "isoAlpha3": "PER",
     "continent": "South America",
+    "capital": "Lima",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "South America"
@@ -1085,6 +1202,7 @@
     "isoAlpha2": "GS",
     "isoAlpha3": "SGS",
     "continent": "South America",
+    "capital": "King Edward Point",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "South America"
@@ -1095,6 +1213,7 @@
     "isoAlpha2": "SR",
     "isoAlpha3": "SUR",
     "continent": "South America",
+    "capital": "Paramaribo",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "South America"
@@ -1105,6 +1224,7 @@
     "isoAlpha2": "UY",
     "isoAlpha3": "URY",
     "continent": "South America",
+    "capital": "Montevideo",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "South America"
@@ -1115,6 +1235,7 @@
     "isoAlpha2": "VE",
     "isoAlpha3": "VEN",
     "continent": "South America",
+    "capital": "Caracas",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
     "m49IntermediateRegion": "South America"
@@ -1125,6 +1246,7 @@
     "isoAlpha2": "BM",
     "isoAlpha3": "BMU",
     "continent": "North America",
+    "capital": "Hamilton",
     "m49Region": "Americas",
     "m49Subregion": "Northern America",
     "m49IntermediateRegion": ""
@@ -1135,6 +1257,7 @@
     "isoAlpha2": "CA",
     "isoAlpha3": "CAN",
     "continent": "North America",
+    "capital": "Ottawa",
     "m49Region": "Americas",
     "m49Subregion": "Northern America",
     "m49IntermediateRegion": ""
@@ -1145,6 +1268,7 @@
     "isoAlpha2": "GL",
     "isoAlpha3": "GRL",
     "continent": "North America",
+    "capital": "Nuuk",
     "m49Region": "Americas",
     "m49Subregion": "Northern America",
     "m49IntermediateRegion": ""
@@ -1155,6 +1279,7 @@
     "isoAlpha2": "PM",
     "isoAlpha3": "SPM",
     "continent": "North America",
+    "capital": "Saint-Pierre",
     "m49Region": "Americas",
     "m49Subregion": "Northern America",
     "m49IntermediateRegion": ""
@@ -1165,6 +1290,7 @@
     "isoAlpha2": "US",
     "isoAlpha3": "USA",
     "continent": "North America",
+    "capital": "Washington, D.C.",
     "m49Region": "Americas",
     "m49Subregion": "Northern America",
     "m49IntermediateRegion": ""
@@ -1175,6 +1301,8 @@
     "isoAlpha2": "AQ",
     "isoAlpha3": "ATA",
     "continent": "Antarctica",
+    "capital": null,
+    "capitalNote": "Governed under the Antarctic Treaty System.",
     "m49Region": "",
     "m49Subregion": "",
     "m49IntermediateRegion": ""
@@ -1185,6 +1313,7 @@
     "isoAlpha2": "KZ",
     "isoAlpha3": "KAZ",
     "continent": "Asia",
+    "capital": "Astana",
     "m49Region": "Asia",
     "m49Subregion": "Central Asia",
     "m49IntermediateRegion": ""
@@ -1195,6 +1324,7 @@
     "isoAlpha2": "KG",
     "isoAlpha3": "KGZ",
     "continent": "Asia",
+    "capital": "Bishkek",
     "m49Region": "Asia",
     "m49Subregion": "Central Asia",
     "m49IntermediateRegion": ""
@@ -1205,6 +1335,7 @@
     "isoAlpha2": "TJ",
     "isoAlpha3": "TJK",
     "continent": "Asia",
+    "capital": "Dushanbe",
     "m49Region": "Asia",
     "m49Subregion": "Central Asia",
     "m49IntermediateRegion": ""
@@ -1215,6 +1346,7 @@
     "isoAlpha2": "TM",
     "isoAlpha3": "TKM",
     "continent": "Asia",
+    "capital": "Ashgabat",
     "m49Region": "Asia",
     "m49Subregion": "Central Asia",
     "m49IntermediateRegion": ""
@@ -1225,6 +1357,7 @@
     "isoAlpha2": "UZ",
     "isoAlpha3": "UZB",
     "continent": "Asia",
+    "capital": "Tashkent",
     "m49Region": "Asia",
     "m49Subregion": "Central Asia",
     "m49IntermediateRegion": ""
@@ -1235,6 +1368,7 @@
     "isoAlpha2": "CN",
     "isoAlpha3": "CHN",
     "continent": "Asia",
+    "capital": "Beijing",
     "m49Region": "Asia",
     "m49Subregion": "Eastern Asia",
     "m49IntermediateRegion": ""
@@ -1245,6 +1379,8 @@
     "isoAlpha2": "HK",
     "isoAlpha3": "HKG",
     "continent": "Asia",
+    "capital": "Hong Kong",
+    "capitalNote": "Special administrative region of China, with its administrative centre at Tamar.",
     "m49Region": "Asia",
     "m49Subregion": "Eastern Asia",
     "m49IntermediateRegion": ""
@@ -1255,6 +1391,8 @@
     "isoAlpha2": "MO",
     "isoAlpha3": "MAC",
     "continent": "Asia",
+    "capital": "Macao",
+    "capitalNote": "Special administrative region of China.",
     "m49Region": "Asia",
     "m49Subregion": "Eastern Asia",
     "m49IntermediateRegion": ""
@@ -1265,6 +1403,7 @@
     "isoAlpha2": "KP",
     "isoAlpha3": "PRK",
     "continent": "Asia",
+    "capital": "Pyongyang",
     "m49Region": "Asia",
     "m49Subregion": "Eastern Asia",
     "m49IntermediateRegion": ""
@@ -1275,6 +1414,7 @@
     "isoAlpha2": "JP",
     "isoAlpha3": "JPN",
     "continent": "Asia",
+    "capital": "Tokyo",
     "m49Region": "Asia",
     "m49Subregion": "Eastern Asia",
     "m49IntermediateRegion": ""
@@ -1285,6 +1425,7 @@
     "isoAlpha2": "MN",
     "isoAlpha3": "MNG",
     "continent": "Asia",
+    "capital": "Ulaanbaatar",
     "m49Region": "Asia",
     "m49Subregion": "Eastern Asia",
     "m49IntermediateRegion": ""
@@ -1295,6 +1436,7 @@
     "isoAlpha2": "KR",
     "isoAlpha3": "KOR",
     "continent": "Asia",
+    "capital": "Seoul",
     "m49Region": "Asia",
     "m49Subregion": "Eastern Asia",
     "m49IntermediateRegion": ""
@@ -1305,6 +1447,7 @@
     "isoAlpha2": "BN",
     "isoAlpha3": "BRN",
     "continent": "Asia",
+    "capital": "Bandar Seri Begawan",
     "m49Region": "Asia",
     "m49Subregion": "South-eastern Asia",
     "m49IntermediateRegion": ""
@@ -1315,6 +1458,7 @@
     "isoAlpha2": "KH",
     "isoAlpha3": "KHM",
     "continent": "Asia",
+    "capital": "Phnom Penh",
     "m49Region": "Asia",
     "m49Subregion": "South-eastern Asia",
     "m49IntermediateRegion": ""
@@ -1325,6 +1469,7 @@
     "isoAlpha2": "ID",
     "isoAlpha3": "IDN",
     "continent": "Asia",
+    "capital": "Jakarta",
     "m49Region": "Asia",
     "m49Subregion": "South-eastern Asia",
     "m49IntermediateRegion": ""
@@ -1335,6 +1480,7 @@
     "isoAlpha2": "LA",
     "isoAlpha3": "LAO",
     "continent": "Asia",
+    "capital": "Vientiane",
     "m49Region": "Asia",
     "m49Subregion": "South-eastern Asia",
     "m49IntermediateRegion": ""
@@ -1345,6 +1491,8 @@
     "isoAlpha2": "MY",
     "isoAlpha3": "MYS",
     "continent": "Asia",
+    "capital": "Kuala Lumpur",
+    "capitalNote": "National capital. Putrajaya is the administrative centre.",
     "m49Region": "Asia",
     "m49Subregion": "South-eastern Asia",
     "m49IntermediateRegion": ""
@@ -1355,6 +1503,7 @@
     "isoAlpha2": "MM",
     "isoAlpha3": "MMR",
     "continent": "Asia",
+    "capital": "Naypyidaw",
     "m49Region": "Asia",
     "m49Subregion": "South-eastern Asia",
     "m49IntermediateRegion": ""
@@ -1365,6 +1514,7 @@
     "isoAlpha2": "PH",
     "isoAlpha3": "PHL",
     "continent": "Asia",
+    "capital": "Manila",
     "m49Region": "Asia",
     "m49Subregion": "South-eastern Asia",
     "m49IntermediateRegion": ""
@@ -1375,6 +1525,7 @@
     "isoAlpha2": "SG",
     "isoAlpha3": "SGP",
     "continent": "Asia",
+    "capital": "Singapore",
     "m49Region": "Asia",
     "m49Subregion": "South-eastern Asia",
     "m49IntermediateRegion": ""
@@ -1385,6 +1536,7 @@
     "isoAlpha2": "TH",
     "isoAlpha3": "THA",
     "continent": "Asia",
+    "capital": "Bangkok",
     "m49Region": "Asia",
     "m49Subregion": "South-eastern Asia",
     "m49IntermediateRegion": ""
@@ -1395,6 +1547,7 @@
     "isoAlpha2": "TL",
     "isoAlpha3": "TLS",
     "continent": "Asia",
+    "capital": "Dili",
     "m49Region": "Asia",
     "m49Subregion": "South-eastern Asia",
     "m49IntermediateRegion": ""
@@ -1405,6 +1558,7 @@
     "isoAlpha2": "VN",
     "isoAlpha3": "VNM",
     "continent": "Asia",
+    "capital": "Hanoi",
     "m49Region": "Asia",
     "m49Subregion": "South-eastern Asia",
     "m49IntermediateRegion": ""
@@ -1415,6 +1569,7 @@
     "isoAlpha2": "AF",
     "isoAlpha3": "AFG",
     "continent": "Asia",
+    "capital": "Kabul",
     "m49Region": "Asia",
     "m49Subregion": "Southern Asia",
     "m49IntermediateRegion": ""
@@ -1425,6 +1580,7 @@
     "isoAlpha2": "BD",
     "isoAlpha3": "BGD",
     "continent": "Asia",
+    "capital": "Dhaka",
     "m49Region": "Asia",
     "m49Subregion": "Southern Asia",
     "m49IntermediateRegion": ""
@@ -1435,6 +1591,7 @@
     "isoAlpha2": "BT",
     "isoAlpha3": "BTN",
     "continent": "Asia",
+    "capital": "Thimphu",
     "m49Region": "Asia",
     "m49Subregion": "Southern Asia",
     "m49IntermediateRegion": ""
@@ -1445,6 +1602,7 @@
     "isoAlpha2": "IN",
     "isoAlpha3": "IND",
     "continent": "Asia",
+    "capital": "New Delhi",
     "m49Region": "Asia",
     "m49Subregion": "Southern Asia",
     "m49IntermediateRegion": ""
@@ -1455,6 +1613,7 @@
     "isoAlpha2": "IR",
     "isoAlpha3": "IRN",
     "continent": "Asia",
+    "capital": "Tehran",
     "m49Region": "Asia",
     "m49Subregion": "Southern Asia",
     "m49IntermediateRegion": ""
@@ -1465,6 +1624,7 @@
     "isoAlpha2": "MV",
     "isoAlpha3": "MDV",
     "continent": "Asia",
+    "capital": "Malé",
     "m49Region": "Asia",
     "m49Subregion": "Southern Asia",
     "m49IntermediateRegion": ""
@@ -1475,6 +1635,7 @@
     "isoAlpha2": "NP",
     "isoAlpha3": "NPL",
     "continent": "Asia",
+    "capital": "Kathmandu",
     "m49Region": "Asia",
     "m49Subregion": "Southern Asia",
     "m49IntermediateRegion": ""
@@ -1485,6 +1646,7 @@
     "isoAlpha2": "PK",
     "isoAlpha3": "PAK",
     "continent": "Asia",
+    "capital": "Islamabad",
     "m49Region": "Asia",
     "m49Subregion": "Southern Asia",
     "m49IntermediateRegion": ""
@@ -1495,6 +1657,8 @@
     "isoAlpha2": "LK",
     "isoAlpha3": "LKA",
     "continent": "Asia",
+    "capital": "Sri Jayawardenepura Kotte",
+    "capitalNote": "Legislative capital. Colombo is the executive and judicial capital.",
     "m49Region": "Asia",
     "m49Subregion": "Southern Asia",
     "m49IntermediateRegion": ""
@@ -1505,6 +1669,7 @@
     "isoAlpha2": "AM",
     "isoAlpha3": "ARM",
     "continent": "Asia",
+    "capital": "Yerevan",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
     "m49IntermediateRegion": ""
@@ -1515,6 +1680,7 @@
     "isoAlpha2": "AZ",
     "isoAlpha3": "AZE",
     "continent": "Asia",
+    "capital": "Baku",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
     "m49IntermediateRegion": ""
@@ -1525,6 +1691,7 @@
     "isoAlpha2": "BH",
     "isoAlpha3": "BHR",
     "continent": "Asia",
+    "capital": "Manama",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
     "m49IntermediateRegion": ""
@@ -1535,6 +1702,7 @@
     "isoAlpha2": "CY",
     "isoAlpha3": "CYP",
     "continent": "Asia",
+    "capital": "Nicosia",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
     "m49IntermediateRegion": ""
@@ -1545,6 +1713,7 @@
     "isoAlpha2": "GE",
     "isoAlpha3": "GEO",
     "continent": "Asia",
+    "capital": "Tbilisi",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
     "m49IntermediateRegion": ""
@@ -1555,6 +1724,7 @@
     "isoAlpha2": "IQ",
     "isoAlpha3": "IRQ",
     "continent": "Asia",
+    "capital": "Baghdad",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
     "m49IntermediateRegion": ""
@@ -1565,6 +1735,8 @@
     "isoAlpha2": "IL",
     "isoAlpha3": "ISR",
     "continent": "Asia",
+    "capital": "Jerusalem",
+    "capitalNote": "Jerusalem's status is disputed, and most countries keep their embassies in Tel Aviv.",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
     "m49IntermediateRegion": ""
@@ -1575,6 +1747,7 @@
     "isoAlpha2": "JO",
     "isoAlpha3": "JOR",
     "continent": "Asia",
+    "capital": "Amman",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
     "m49IntermediateRegion": ""
@@ -1585,6 +1758,7 @@
     "isoAlpha2": "KW",
     "isoAlpha3": "KWT",
     "continent": "Asia",
+    "capital": "Kuwait City",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
     "m49IntermediateRegion": ""
@@ -1595,6 +1769,7 @@
     "isoAlpha2": "LB",
     "isoAlpha3": "LBN",
     "continent": "Asia",
+    "capital": "Beirut",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
     "m49IntermediateRegion": ""
@@ -1605,6 +1780,7 @@
     "isoAlpha2": "OM",
     "isoAlpha3": "OMN",
     "continent": "Asia",
+    "capital": "Muscat",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
     "m49IntermediateRegion": ""
@@ -1615,6 +1791,7 @@
     "isoAlpha2": "QA",
     "isoAlpha3": "QAT",
     "continent": "Asia",
+    "capital": "Doha",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
     "m49IntermediateRegion": ""
@@ -1625,6 +1802,7 @@
     "isoAlpha2": "SA",
     "isoAlpha3": "SAU",
     "continent": "Asia",
+    "capital": "Riyadh",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
     "m49IntermediateRegion": ""
@@ -1635,6 +1813,8 @@
     "isoAlpha2": "PS",
     "isoAlpha3": "PSE",
     "continent": "Asia",
+    "capital": "East Jerusalem",
+    "capitalNote": "Declared capital. The government is administratively based in Ramallah.",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
     "m49IntermediateRegion": ""
@@ -1645,6 +1825,7 @@
     "isoAlpha2": "SY",
     "isoAlpha3": "SYR",
     "continent": "Asia",
+    "capital": "Damascus",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
     "m49IntermediateRegion": ""
@@ -1655,6 +1836,7 @@
     "isoAlpha2": "TR",
     "isoAlpha3": "TUR",
     "continent": "Asia",
+    "capital": "Ankara",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
     "m49IntermediateRegion": ""
@@ -1665,6 +1847,7 @@
     "isoAlpha2": "AE",
     "isoAlpha3": "ARE",
     "continent": "Asia",
+    "capital": "Abu Dhabi",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
     "m49IntermediateRegion": ""
@@ -1675,6 +1858,8 @@
     "isoAlpha2": "YE",
     "isoAlpha3": "YEM",
     "continent": "Asia",
+    "capital": "Sanaa",
+    "capitalNote": "Constitutional capital. Aden is the provisional capital claimed by the Presidential Leadership Council.",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
     "m49IntermediateRegion": ""
@@ -1685,6 +1870,7 @@
     "isoAlpha2": "BY",
     "isoAlpha3": "BLR",
     "continent": "Europe",
+    "capital": "Minsk",
     "m49Region": "Europe",
     "m49Subregion": "Eastern Europe",
     "m49IntermediateRegion": ""
@@ -1695,6 +1881,7 @@
     "isoAlpha2": "BG",
     "isoAlpha3": "BGR",
     "continent": "Europe",
+    "capital": "Sofia",
     "m49Region": "Europe",
     "m49Subregion": "Eastern Europe",
     "m49IntermediateRegion": ""
@@ -1705,6 +1892,7 @@
     "isoAlpha2": "CZ",
     "isoAlpha3": "CZE",
     "continent": "Europe",
+    "capital": "Prague",
     "m49Region": "Europe",
     "m49Subregion": "Eastern Europe",
     "m49IntermediateRegion": ""
@@ -1715,6 +1903,7 @@
     "isoAlpha2": "HU",
     "isoAlpha3": "HUN",
     "continent": "Europe",
+    "capital": "Budapest",
     "m49Region": "Europe",
     "m49Subregion": "Eastern Europe",
     "m49IntermediateRegion": ""
@@ -1725,6 +1914,7 @@
     "isoAlpha2": "PL",
     "isoAlpha3": "POL",
     "continent": "Europe",
+    "capital": "Warsaw",
     "m49Region": "Europe",
     "m49Subregion": "Eastern Europe",
     "m49IntermediateRegion": ""
@@ -1735,6 +1925,7 @@
     "isoAlpha2": "MD",
     "isoAlpha3": "MDA",
     "continent": "Europe",
+    "capital": "Chișinău",
     "m49Region": "Europe",
     "m49Subregion": "Eastern Europe",
     "m49IntermediateRegion": ""
@@ -1745,6 +1936,7 @@
     "isoAlpha2": "RO",
     "isoAlpha3": "ROU",
     "continent": "Europe",
+    "capital": "Bucharest",
     "m49Region": "Europe",
     "m49Subregion": "Eastern Europe",
     "m49IntermediateRegion": ""
@@ -1755,6 +1947,7 @@
     "isoAlpha2": "RU",
     "isoAlpha3": "RUS",
     "continent": "Europe",
+    "capital": "Moscow",
     "m49Region": "Europe",
     "m49Subregion": "Eastern Europe",
     "m49IntermediateRegion": ""
@@ -1765,6 +1958,7 @@
     "isoAlpha2": "SK",
     "isoAlpha3": "SVK",
     "continent": "Europe",
+    "capital": "Bratislava",
     "m49Region": "Europe",
     "m49Subregion": "Eastern Europe",
     "m49IntermediateRegion": ""
@@ -1775,6 +1969,7 @@
     "isoAlpha2": "UA",
     "isoAlpha3": "UKR",
     "continent": "Europe",
+    "capital": "Kyiv",
     "m49Region": "Europe",
     "m49Subregion": "Eastern Europe",
     "m49IntermediateRegion": ""
@@ -1785,6 +1980,7 @@
     "isoAlpha2": "AX",
     "isoAlpha3": "ALA",
     "continent": "Europe",
+    "capital": "Mariehamn",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
     "m49IntermediateRegion": ""
@@ -1795,6 +1991,7 @@
     "isoAlpha2": "DK",
     "isoAlpha3": "DNK",
     "continent": "Europe",
+    "capital": "Copenhagen",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
     "m49IntermediateRegion": ""
@@ -1805,6 +2002,7 @@
     "isoAlpha2": "EE",
     "isoAlpha3": "EST",
     "continent": "Europe",
+    "capital": "Tallinn",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
     "m49IntermediateRegion": ""
@@ -1815,6 +2013,7 @@
     "isoAlpha2": "FO",
     "isoAlpha3": "FRO",
     "continent": "Europe",
+    "capital": "Tórshavn",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
     "m49IntermediateRegion": ""
@@ -1825,6 +2024,7 @@
     "isoAlpha2": "FI",
     "isoAlpha3": "FIN",
     "continent": "Europe",
+    "capital": "Helsinki",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
     "m49IntermediateRegion": ""
@@ -1835,6 +2035,7 @@
     "isoAlpha2": "GG",
     "isoAlpha3": "GGY",
     "continent": "Europe",
+    "capital": "Saint Peter Port",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
     "m49IntermediateRegion": ""
@@ -1845,6 +2046,7 @@
     "isoAlpha2": "IS",
     "isoAlpha3": "ISL",
     "continent": "Europe",
+    "capital": "Reykjavík",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
     "m49IntermediateRegion": ""
@@ -1855,6 +2057,7 @@
     "isoAlpha2": "IE",
     "isoAlpha3": "IRL",
     "continent": "Europe",
+    "capital": "Dublin",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
     "m49IntermediateRegion": ""
@@ -1865,6 +2068,7 @@
     "isoAlpha2": "IM",
     "isoAlpha3": "IMN",
     "continent": "Europe",
+    "capital": "Douglas",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
     "m49IntermediateRegion": ""
@@ -1875,6 +2079,7 @@
     "isoAlpha2": "JE",
     "isoAlpha3": "JEY",
     "continent": "Europe",
+    "capital": "Saint Helier",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
     "m49IntermediateRegion": ""
@@ -1885,6 +2090,7 @@
     "isoAlpha2": "LV",
     "isoAlpha3": "LVA",
     "continent": "Europe",
+    "capital": "Riga",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
     "m49IntermediateRegion": ""
@@ -1895,6 +2101,7 @@
     "isoAlpha2": "LT",
     "isoAlpha3": "LTU",
     "continent": "Europe",
+    "capital": "Vilnius",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
     "m49IntermediateRegion": ""
@@ -1905,6 +2112,7 @@
     "isoAlpha2": "NO",
     "isoAlpha3": "NOR",
     "continent": "Europe",
+    "capital": "Oslo",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
     "m49IntermediateRegion": ""
@@ -1915,6 +2123,8 @@
     "isoAlpha2": "SJ",
     "isoAlpha3": "SJM",
     "continent": "Europe",
+    "capital": "Longyearbyen",
+    "capitalNote": "Administrative centre of Svalbard.",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
     "m49IntermediateRegion": ""
@@ -1925,6 +2135,7 @@
     "isoAlpha2": "SE",
     "isoAlpha3": "SWE",
     "continent": "Europe",
+    "capital": "Stockholm",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
     "m49IntermediateRegion": ""
@@ -1935,6 +2146,7 @@
     "isoAlpha2": "GB",
     "isoAlpha3": "GBR",
     "continent": "Europe",
+    "capital": "London",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
     "m49IntermediateRegion": ""
@@ -1945,6 +2157,7 @@
     "isoAlpha2": "AL",
     "isoAlpha3": "ALB",
     "continent": "Europe",
+    "capital": "Tirana",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
     "m49IntermediateRegion": ""
@@ -1955,6 +2168,7 @@
     "isoAlpha2": "AD",
     "isoAlpha3": "AND",
     "continent": "Europe",
+    "capital": "Andorra la Vella",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
     "m49IntermediateRegion": ""
@@ -1965,6 +2179,7 @@
     "isoAlpha2": "BA",
     "isoAlpha3": "BIH",
     "continent": "Europe",
+    "capital": "Sarajevo",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
     "m49IntermediateRegion": ""
@@ -1975,6 +2190,7 @@
     "isoAlpha2": "HR",
     "isoAlpha3": "HRV",
     "continent": "Europe",
+    "capital": "Zagreb",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
     "m49IntermediateRegion": ""
@@ -1985,6 +2201,7 @@
     "isoAlpha2": "GI",
     "isoAlpha3": "GIB",
     "continent": "Europe",
+    "capital": "Gibraltar",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
     "m49IntermediateRegion": ""
@@ -1995,6 +2212,7 @@
     "isoAlpha2": "GR",
     "isoAlpha3": "GRC",
     "continent": "Europe",
+    "capital": "Athens",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
     "m49IntermediateRegion": ""
@@ -2005,6 +2223,7 @@
     "isoAlpha2": "VA",
     "isoAlpha3": "VAT",
     "continent": "Europe",
+    "capital": "Vatican City",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
     "m49IntermediateRegion": ""
@@ -2015,6 +2234,7 @@
     "isoAlpha2": "IT",
     "isoAlpha3": "ITA",
     "continent": "Europe",
+    "capital": "Rome",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
     "m49IntermediateRegion": ""
@@ -2025,6 +2245,7 @@
     "isoAlpha2": "MT",
     "isoAlpha3": "MLT",
     "continent": "Europe",
+    "capital": "Valletta",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
     "m49IntermediateRegion": ""
@@ -2035,6 +2256,7 @@
     "isoAlpha2": "ME",
     "isoAlpha3": "MNE",
     "continent": "Europe",
+    "capital": "Podgorica",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
     "m49IntermediateRegion": ""
@@ -2045,6 +2267,7 @@
     "isoAlpha2": "MK",
     "isoAlpha3": "MKD",
     "continent": "Europe",
+    "capital": "Skopje",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
     "m49IntermediateRegion": ""
@@ -2055,6 +2278,7 @@
     "isoAlpha2": "PT",
     "isoAlpha3": "PRT",
     "continent": "Europe",
+    "capital": "Lisbon",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
     "m49IntermediateRegion": ""
@@ -2065,6 +2289,7 @@
     "isoAlpha2": "SM",
     "isoAlpha3": "SMR",
     "continent": "Europe",
+    "capital": "City of San Marino",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
     "m49IntermediateRegion": ""
@@ -2075,6 +2300,7 @@
     "isoAlpha2": "RS",
     "isoAlpha3": "SRB",
     "continent": "Europe",
+    "capital": "Belgrade",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
     "m49IntermediateRegion": ""
@@ -2085,6 +2311,7 @@
     "isoAlpha2": "SI",
     "isoAlpha3": "SVN",
     "continent": "Europe",
+    "capital": "Ljubljana",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
     "m49IntermediateRegion": ""
@@ -2095,6 +2322,7 @@
     "isoAlpha2": "ES",
     "isoAlpha3": "ESP",
     "continent": "Europe",
+    "capital": "Madrid",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
     "m49IntermediateRegion": ""
@@ -2105,6 +2333,7 @@
     "isoAlpha2": "AT",
     "isoAlpha3": "AUT",
     "continent": "Europe",
+    "capital": "Vienna",
     "m49Region": "Europe",
     "m49Subregion": "Western Europe",
     "m49IntermediateRegion": ""
@@ -2115,6 +2344,7 @@
     "isoAlpha2": "BE",
     "isoAlpha3": "BEL",
     "continent": "Europe",
+    "capital": "Brussels",
     "m49Region": "Europe",
     "m49Subregion": "Western Europe",
     "m49IntermediateRegion": ""
@@ -2125,6 +2355,7 @@
     "isoAlpha2": "FR",
     "isoAlpha3": "FRA",
     "continent": "Europe",
+    "capital": "Paris",
     "m49Region": "Europe",
     "m49Subregion": "Western Europe",
     "m49IntermediateRegion": ""
@@ -2135,6 +2366,7 @@
     "isoAlpha2": "DE",
     "isoAlpha3": "DEU",
     "continent": "Europe",
+    "capital": "Berlin",
     "m49Region": "Europe",
     "m49Subregion": "Western Europe",
     "m49IntermediateRegion": ""
@@ -2145,6 +2377,7 @@
     "isoAlpha2": "LI",
     "isoAlpha3": "LIE",
     "continent": "Europe",
+    "capital": "Vaduz",
     "m49Region": "Europe",
     "m49Subregion": "Western Europe",
     "m49IntermediateRegion": ""
@@ -2155,6 +2388,7 @@
     "isoAlpha2": "LU",
     "isoAlpha3": "LUX",
     "continent": "Europe",
+    "capital": "Luxembourg",
     "m49Region": "Europe",
     "m49Subregion": "Western Europe",
     "m49IntermediateRegion": ""
@@ -2165,6 +2399,7 @@
     "isoAlpha2": "MC",
     "isoAlpha3": "MCO",
     "continent": "Europe",
+    "capital": "Monaco",
     "m49Region": "Europe",
     "m49Subregion": "Western Europe",
     "m49IntermediateRegion": ""
@@ -2175,6 +2410,8 @@
     "isoAlpha2": "NL",
     "isoAlpha3": "NLD",
     "continent": "Europe",
+    "capital": "Amsterdam",
+    "capitalNote": "Constitutional capital. The government sits in The Hague.",
     "m49Region": "Europe",
     "m49Subregion": "Western Europe",
     "m49IntermediateRegion": ""
@@ -2185,6 +2422,8 @@
     "isoAlpha2": "CH",
     "isoAlpha3": "CHE",
     "continent": "Europe",
+    "capital": "Bern",
+    "capitalNote": "No capital by law; Bern is the de facto capital and seat of government.",
     "m49Region": "Europe",
     "m49Subregion": "Western Europe",
     "m49IntermediateRegion": ""
@@ -2195,6 +2434,7 @@
     "isoAlpha2": "AU",
     "isoAlpha3": "AUS",
     "continent": "Oceania",
+    "capital": "Canberra",
     "m49Region": "Oceania",
     "m49Subregion": "Australia and New Zealand",
     "m49IntermediateRegion": ""
@@ -2205,6 +2445,7 @@
     "isoAlpha2": "CX",
     "isoAlpha3": "CXR",
     "continent": "Oceania",
+    "capital": "Flying Fish Cove",
     "m49Region": "Oceania",
     "m49Subregion": "Australia and New Zealand",
     "m49IntermediateRegion": ""
@@ -2215,6 +2456,7 @@
     "isoAlpha2": "CC",
     "isoAlpha3": "CCK",
     "continent": "Oceania",
+    "capital": "West Island",
     "m49Region": "Oceania",
     "m49Subregion": "Australia and New Zealand",
     "m49IntermediateRegion": ""
@@ -2225,6 +2467,8 @@
     "isoAlpha2": "HM",
     "isoAlpha3": "HMD",
     "continent": "Oceania",
+    "capital": null,
+    "capitalNote": "Uninhabited.",
     "m49Region": "Oceania",
     "m49Subregion": "Australia and New Zealand",
     "m49IntermediateRegion": ""
@@ -2235,6 +2479,7 @@
     "isoAlpha2": "NZ",
     "isoAlpha3": "NZL",
     "continent": "Oceania",
+    "capital": "Wellington",
     "m49Region": "Oceania",
     "m49Subregion": "Australia and New Zealand",
     "m49IntermediateRegion": ""
@@ -2245,6 +2490,7 @@
     "isoAlpha2": "NF",
     "isoAlpha3": "NFK",
     "continent": "Oceania",
+    "capital": "Kingston",
     "m49Region": "Oceania",
     "m49Subregion": "Australia and New Zealand",
     "m49IntermediateRegion": ""
@@ -2255,6 +2501,7 @@
     "isoAlpha2": "FJ",
     "isoAlpha3": "FJI",
     "continent": "Oceania",
+    "capital": "Suva",
     "m49Region": "Oceania",
     "m49Subregion": "Melanesia",
     "m49IntermediateRegion": ""
@@ -2265,6 +2512,7 @@
     "isoAlpha2": "NC",
     "isoAlpha3": "NCL",
     "continent": "Oceania",
+    "capital": "Nouméa",
     "m49Region": "Oceania",
     "m49Subregion": "Melanesia",
     "m49IntermediateRegion": ""
@@ -2275,6 +2523,7 @@
     "isoAlpha2": "PG",
     "isoAlpha3": "PNG",
     "continent": "Oceania",
+    "capital": "Port Moresby",
     "m49Region": "Oceania",
     "m49Subregion": "Melanesia",
     "m49IntermediateRegion": ""
@@ -2285,6 +2534,7 @@
     "isoAlpha2": "SB",
     "isoAlpha3": "SLB",
     "continent": "Oceania",
+    "capital": "Honiara",
     "m49Region": "Oceania",
     "m49Subregion": "Melanesia",
     "m49IntermediateRegion": ""
@@ -2295,6 +2545,7 @@
     "isoAlpha2": "VU",
     "isoAlpha3": "VUT",
     "continent": "Oceania",
+    "capital": "Port Vila",
     "m49Region": "Oceania",
     "m49Subregion": "Melanesia",
     "m49IntermediateRegion": ""
@@ -2305,6 +2556,7 @@
     "isoAlpha2": "GU",
     "isoAlpha3": "GUM",
     "continent": "Oceania",
+    "capital": "Hagåtña",
     "m49Region": "Oceania",
     "m49Subregion": "Micronesia",
     "m49IntermediateRegion": ""
@@ -2315,6 +2567,7 @@
     "isoAlpha2": "KI",
     "isoAlpha3": "KIR",
     "continent": "Oceania",
+    "capital": "South Tarawa",
     "m49Region": "Oceania",
     "m49Subregion": "Micronesia",
     "m49IntermediateRegion": ""
@@ -2325,6 +2578,7 @@
     "isoAlpha2": "MH",
     "isoAlpha3": "MHL",
     "continent": "Oceania",
+    "capital": "Majuro",
     "m49Region": "Oceania",
     "m49Subregion": "Micronesia",
     "m49IntermediateRegion": ""
@@ -2335,6 +2589,7 @@
     "isoAlpha2": "FM",
     "isoAlpha3": "FSM",
     "continent": "Oceania",
+    "capital": "Palikir",
     "m49Region": "Oceania",
     "m49Subregion": "Micronesia",
     "m49IntermediateRegion": ""
@@ -2345,6 +2600,8 @@
     "isoAlpha2": "NR",
     "isoAlpha3": "NRU",
     "continent": "Oceania",
+    "capital": "Yaren",
+    "capitalNote": "No official capital; Yaren is the seat of parliament.",
     "m49Region": "Oceania",
     "m49Subregion": "Micronesia",
     "m49IntermediateRegion": ""
@@ -2355,6 +2612,7 @@
     "isoAlpha2": "MP",
     "isoAlpha3": "MNP",
     "continent": "Oceania",
+    "capital": "Saipan",
     "m49Region": "Oceania",
     "m49Subregion": "Micronesia",
     "m49IntermediateRegion": ""
@@ -2365,6 +2623,7 @@
     "isoAlpha2": "PW",
     "isoAlpha3": "PLW",
     "continent": "Oceania",
+    "capital": "Ngerulmud",
     "m49Region": "Oceania",
     "m49Subregion": "Micronesia",
     "m49IntermediateRegion": ""
@@ -2375,6 +2634,8 @@
     "isoAlpha2": "UM",
     "isoAlpha3": "UMI",
     "continent": "Oceania",
+    "capital": null,
+    "capitalNote": "A statistical grouping of separate islands.",
     "m49Region": "Oceania",
     "m49Subregion": "Micronesia",
     "m49IntermediateRegion": ""
@@ -2385,6 +2646,7 @@
     "isoAlpha2": "AS",
     "isoAlpha3": "ASM",
     "continent": "Oceania",
+    "capital": "Pago Pago",
     "m49Region": "Oceania",
     "m49Subregion": "Polynesia",
     "m49IntermediateRegion": ""
@@ -2395,6 +2657,7 @@
     "isoAlpha2": "CK",
     "isoAlpha3": "COK",
     "continent": "Oceania",
+    "capital": "Avarua",
     "m49Region": "Oceania",
     "m49Subregion": "Polynesia",
     "m49IntermediateRegion": ""
@@ -2405,6 +2668,7 @@
     "isoAlpha2": "PF",
     "isoAlpha3": "PYF",
     "continent": "Oceania",
+    "capital": "Papeete",
     "m49Region": "Oceania",
     "m49Subregion": "Polynesia",
     "m49IntermediateRegion": ""
@@ -2415,6 +2679,7 @@
     "isoAlpha2": "NU",
     "isoAlpha3": "NIU",
     "continent": "Oceania",
+    "capital": "Alofi",
     "m49Region": "Oceania",
     "m49Subregion": "Polynesia",
     "m49IntermediateRegion": ""
@@ -2425,6 +2690,7 @@
     "isoAlpha2": "PN",
     "isoAlpha3": "PCN",
     "continent": "Oceania",
+    "capital": "Adamstown",
     "m49Region": "Oceania",
     "m49Subregion": "Polynesia",
     "m49IntermediateRegion": ""
@@ -2435,6 +2701,7 @@
     "isoAlpha2": "WS",
     "isoAlpha3": "WSM",
     "continent": "Oceania",
+    "capital": "Apia",
     "m49Region": "Oceania",
     "m49Subregion": "Polynesia",
     "m49IntermediateRegion": ""
@@ -2445,6 +2712,8 @@
     "isoAlpha2": "TK",
     "isoAlpha3": "TKL",
     "continent": "Oceania",
+    "capital": null,
+    "capitalNote": "Each atoll has its own administrative centre.",
     "m49Region": "Oceania",
     "m49Subregion": "Polynesia",
     "m49IntermediateRegion": ""
@@ -2455,6 +2724,7 @@
     "isoAlpha2": "TO",
     "isoAlpha3": "TON",
     "continent": "Oceania",
+    "capital": "Nukuʻalofa",
     "m49Region": "Oceania",
     "m49Subregion": "Polynesia",
     "m49IntermediateRegion": ""
@@ -2465,6 +2735,7 @@
     "isoAlpha2": "TV",
     "isoAlpha3": "TUV",
     "continent": "Oceania",
+    "capital": "Funafuti",
     "m49Region": "Oceania",
     "m49Subregion": "Polynesia",
     "m49IntermediateRegion": ""
@@ -2475,6 +2746,7 @@
     "isoAlpha2": "WF",
     "isoAlpha3": "WLF",
     "continent": "Oceania",
+    "capital": "Mata-Utu",
     "m49Region": "Oceania",
     "m49Subregion": "Polynesia",
     "m49IntermediateRegion": ""
