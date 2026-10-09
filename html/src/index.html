@@ -3,65 +3,126 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f4f7f1">
-  <title>Atlas | World, by heart</title>
+  <meta name="theme-color" content="#f5f8f2">
+  <title>ATLAS | Continents</title>
+  <link rel="icon" href="./img/logo.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/site.css">
   <script src="./js/app.js" defer></script>
 </head>
-<body data-page="home">
+<body>
   <a class="skip-link" href="#main-content">Skip to content</a>
+
   <header class="site-header">
-    <div class="header-main">
-      <a class="brand" href="./index.html" aria-label="Atlas home">
-        <span class="brand-mark" aria-hidden="true">A</span>
-        <span>atlas<span class="brand-period">.</span></span>
-      </a>
-      <nav class="primary-nav" aria-label="Main navigation">
-        <a class="nav-link is-current" href="./index.html" aria-current="page">Home</a>
-        <a class="nav-link" href="./continents.html">Continents</a>
-      </nav>
+    <div class="header-top">
+      <div class="page-width header-top-inner">
+        <a class="brand" href="./index.html" aria-label="ATLAS, continents">
+          <img class="brand-logo" src="./img/logo.svg" alt="" width="40" height="40">
+          <span class="brand-name">ATLAS</span>
+        </a>
+        <form class="profile-form" aria-label="Your profile" novalidate>
+          <label class="visually-hidden" for="profile-name">Name (optional)</label>
+          <input id="profile-name" name="name" type="text" maxlength="60" placeholder="Your name" autocomplete="name">
+          <label class="visually-hidden" for="profile-age">Age (optional)</label>
+          <input id="profile-age" name="age" type="number" min="1" step="1" inputmode="numeric" placeholder="Age" aria-describedby="profile-status">
+          <button class="button" type="submit">Save</button>
+          <p class="profile-status" id="profile-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
     </div>
-    <div class="profile-bar">
-      <span class="profile-label">Your profile</span>
-      <form class="profile-form" novalidate>
-        <label class="visually-hidden" for="profile-name">Name (optional)</label>
-        <input id="profile-name" name="name" type="text" maxlength="60" placeholder="Name" autocomplete="name">
-        <label class="visually-hidden" for="profile-age">Age (optional)</label>
-        <input id="profile-age" name="age" type="number" min="1" step="1" inputmode="numeric" placeholder="Age" aria-describedby="profile-status">
-        <button class="button button-small" type="submit">Save</button>
-      </form>
-      <p class="profile-status" id="profile-status" role="status" aria-live="polite"></p>
+    <div class="header-menu">
+      <nav class="page-width" aria-label="Main menu">
+        <a class="menu-link" href="./index.html" aria-current="page">Continents</a>
+      </nav>
     </div>
   </header>
 
-  <main id="main-content" class="home-main">
-    <section class="home-hero" aria-labelledby="home-title">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="eyebrow-rule"></span> A little closer to everywhere</p>
-        <h1 id="home-title">The world,<br><em>by heart.</em></h1>
-        <p class="hero-description">A place to explore the names and shapes that make up our world.</p>
-        <a class="button button-primary" href="./continents.html">Explore the continents <span aria-hidden="true">&#8594;</span></a>
-        <p class="welcome-message" data-welcome hidden></p>
+  <main id="main-content" class="page-width">
+    <div class="page-heading">
+      <div>
+        <p class="eyebrow"><span class="eyebrow-rule" aria-hidden="true"></span>The world, in seven parts</p>
+        <h1>Continents</h1>
       </div>
-      <div class="hero-map" aria-hidden="true">
-        <div class="map-orbit orbit-one"></div>
-        <div class="map-orbit orbit-two"></div>
-        <div class="home-map-svg" data-world-map data-map-preview></div>
-        <span class="map-coordinate coordinate-north">51.5072 N</span>
-        <span class="map-coordinate coordinate-south">33.8688 S</span>
-        <span class="map-caption">ONE WORLD, MANY PLACES</span>
+      <p class="country-total" data-country-total></p>
+    </div>
+
+    <section class="explorer" data-explorer aria-label="Interactive world map">
+      <div class="search-bar">
+        <div class="country-search">
+          <label class="search-label" for="country-search">Search for a country</label>
+          <div class="search-field">
+            <span class="search-icon" aria-hidden="true"></span>
+            <input id="country-search" type="text" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="country-suggestions" autocomplete="off" spellcheck="false" placeholder="Start typing a country name" data-search-input>
+            <ul id="country-suggestions" class="suggestions" role="listbox" aria-label="Matching countries" hidden data-suggestions></ul>
+          </div>
+        </div>
       </div>
-      <div class="hero-index" aria-hidden="true"><span>01</span><span class="index-line"></span><span>07</span></div>
+
+      <div class="map-area" data-map-area>
+        <nav class="continent-panel" aria-label="Continents">
+          <p class="panel-label">Continents</p>
+          <div class="continent-list" data-continent-list></div>
+        </nav>
+
+        <figure class="map-panel">
+          <div class="map-toolbar">
+            <ul class="map-legend" aria-label="Map legend">
+              <li><span class="swatch swatch-continent"></span>Continent</li>
+              <li><span class="swatch swatch-country"></span>Country</li>
+            </ul>
+            <div class="zoom-control">
+              <input class="zoom-slider" type="range" min="0" max="100" step="1" value="0" aria-label="Map zoom" title="Zoom" data-zoom-slider>
+              <output class="zoom-value" aria-live="off" data-zoom-value>1.0&times;</output>
+              <button class="icon-button" type="button" aria-label="Reset to the continent view" title="Reset view" data-zoom-reset disabled>
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                  <path d="M1 4v6h6"/>
+                  <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/>
+                </svg>
+              </button>
+            </div>
+            <button class="icon-button" type="button" aria-pressed="false" aria-label="Enter full page view" title="Full page view" data-fullpage-toggle>
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                <path class="icon-expand" d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/>
+                <path class="icon-collapse" d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5"/>
+              </svg>
+            </button>
+          </div>
+          <div class="map-stage" data-world-map></div>
+        </figure>
+
+        <section class="country-panel" aria-labelledby="country-heading">
+          <p class="panel-label">Countries &amp; areas</p>
+          <div class="country-panel-heading">
+            <h2 id="country-heading" data-country-heading></h2>
+            <span class="country-count" data-country-count></span>
+          </div>
+          <div class="country-list" data-country-list></div>
+        </section>
+      </div>
+
+      <section class="country-info" aria-labelledby="country-info-title">
+        <h2 class="visually-hidden" id="country-info-title">Selected country</h2>
+        <img class="country-flag" data-info-flag alt="" width="72" height="54">
+        <div class="info-text">
+          <p class="info-name" data-info-name></p>
+          <p class="info-code">ISO alpha-3 <strong data-info-iso></strong></p>
+          <p class="info-note" data-info-note hidden>Too small to be drawn on this map.</p>
+        </div>
+      </section>
     </section>
 
-    <section class="home-footer" aria-label="Reference">
-      <span class="footer-kicker">THE ATLAS</span>
-      <p>Names and regional groupings follow the United Nations M49 standard.</p>
-      <a href="https://unstats.un.org/unsd/methodology/m49/overview/" target="_blank" rel="noreferrer">View the source <span aria-hidden="true">&#8599;</span></a>
-    </section>
+    <noscript><p class="noscript">ATLAS needs JavaScript to display the interactive map.</p></noscript>
+    <p class="visually-hidden" role="status" aria-live="polite" data-announcer></p>
   </main>
+
+  <footer class="site-footer">
+    <div class="page-width footer-inner">
+      <span class="footer-name">ATLAS</span>
+      <span class="footer-credit">Designed by poivronjaune</span>
+      <a class="footer-link" href="https://unstats.un.org/unsd/methodology/m49/overview/" target="_blank" rel="noopener noreferrer">UN-M49 Data</a>
+    </div>
+  </footer>
 </body>
 </html>
