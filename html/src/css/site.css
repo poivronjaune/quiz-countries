@@ -239,6 +239,24 @@ input {
   content: "";
 }
 
+.language-control {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.language-control select {
+  min-height: 32px;
+  padding: 4px 28px 4px 9px;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  color: var(--ink);
+  background: var(--white);
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+
 /* Main: the page pushes the footer to the bottom when it is short */
 main {
   flex: 1 0 auto;
