@@ -33,6 +33,8 @@ const WHEEL_SENSITIVITY = 0.002;
 const DRAG_THRESHOLD_PX = 4;
 
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+const I18N = window.ATLAS_I18N;
+I18N.init();
 
 const clamp = (value, min, max) => Math.min(max, Math.max(min, value));
 const lerp = (from, to, amount) => from + (to - from) * amount;
@@ -119,8 +121,9 @@ function setupProfile() {
     ageInput.value = Number.isInteger(saved.age) ? String(saved.age) : "";
   }
 
-  function report(message, isError) {
-    status.textContent = message;
+  function report(messageKey, isError) {
+    status.dataset.messageKey = messageKey;
+    status.textContent = I18N.t(messageKey);
     status.classList.toggle("is-error", isError);
   }
 
@@ -132,7 +135,7 @@ function setupProfile() {
 
     if (ageInput.validity.badInput || (age !== null && (!Number.isInteger(age) || age < 1))) {
       ageInput.setAttribute("aria-invalid", "true");
-      report("Enter a positive whole number for age.", true);
+      report("profile.age.error", true);
       ageInput.focus();
       return;
     }
@@ -140,13 +143,16 @@ function setupProfile() {
     ageInput.removeAttribute("aria-invalid");
     try {
       localStorage.setItem(PROFILE_KEY, JSON.stringify({ name, age }));
-      report("Saved on this device.", false);
+      report("profile.saved", false);
     } catch {
-      report("This browser could not save your profile.", true);
+      report("profile.save.error", true);
     }
   });
 
   ageInput.addEventListener("input", () => ageInput.removeAttribute("aria-invalid"));
+  document.addEventListener("atlas:languagechange", () => {
+    if (status.dataset.messageKey) report(status.dataset.messageKey, status.classList.contains("is-error"));
+  });
 }
 
 // Builds the SVG path and the bounding box of the main landmass (largest outer ring).
@@ -190,7 +196,7 @@ function createMap(features, countriesByIso, onSelect) {
     viewBox: `0 0 ${MAP_WIDTH} ${MAP_HEIGHT}`,
     preserveAspectRatio: "xMidYMid meet",
     role: "img",
-    "aria-label": "World map. Choose a continent and a country from the lists, or click a country on the map.",
+     "aria-label": I18N.t("map.aria"),
   });
   const land = svgElement("g");
   const top = svgElement("g");
@@ -209,7 +215,7 @@ function createMap(features, countriesByIso, onSelect) {
     if (iso) {
       path.dataset.iso = iso;
       const title = svgElement("title");
-      title.textContent = countriesByIso.get(iso).name;
+      title.textContent = I18N.countryName(countriesByIso.get(iso));
       path.append(title);
       shapes.set(iso, { path, box: main });
     }
@@ -285,23 +291,32 @@ async function setupAtlas() {
   try {
     data = await loadData();
   } catch (error) {
-    countryList.innerHTML = '<p class="loading-message">ATLAS data could not be loaded. Open this site through a web server.</p>';
+    countryList.textContent = I18N.t("map.data.error");
     console.error(error);
     return;
   }
 
   const { countries, features } = data;
-  const collator = new Intl.Collator("en");
+  let collator = new Intl.Collator(I18N.language);
   const countriesByIso = new Map(countries.map((country) => [country.isoAlpha3, country]));
-  const countriesByContinent = new Map(
-    CONTINENTS.map((name) => [
-      name,
-      countries.filter((country) => country.continent === name).sort((a, b) => collator.compare(a.name, b.name)),
-    ]),
-  );
-  const searchIndex = [...countries]
-    .sort((a, b) => collator.compare(a.name, b.name))
-    .map((country) => ({ country, key: normalize(country.name) }));
+  let countriesByContinent;
+  let searchIndex;
+
+  function rebuildLocalizedIndexes() {
+    collator = new Intl.Collator(I18N.language);
+    countriesByContinent = new Map(
+      CONTINENTS.map((name) => [
+        name,
+        countries.filter((country) => country.continent === name)
+          .sort((a, b) => collator.compare(I18N.countryName(a), I18N.countryName(b))),
+      ]),
+    );
+    searchIndex = [...countries]
+      .sort((a, b) => collator.compare(I18N.countryName(a), I18N.countryName(b)))
+      .map((country) => ({ country, key: normalize(I18N.countryName(country)) }));
+  }
+
+  rebuildLocalizedIndexes();
   const map = createMap(features, countriesByIso, selectCountry);
   stage.replaceChildren(map.svg);
 
@@ -315,6 +330,7 @@ async function setupAtlas() {
   let customView = false;
 
   totalLabel.textContent = `${countries.length} countries and areas`;
+  totalLabel.textContent = I18N.t("continents.total", { count: countries.length });
 
   function announce(message) {
     announcer.textContent = message;
@@ -328,6 +344,7 @@ async function setupAtlas() {
       button.dataset.continent = name;
       const label = document.createElement("span");
       label.textContent = name;
+        label.textContent = I18N.continentName(name);
       const count = document.createElement("span");
       count.className = "continent-count";
       count.textContent = String(countriesByContinent.get(name).length);
@@ -346,11 +363,13 @@ async function setupAtlas() {
       button.className = "country-option";
       button.dataset.iso = country.isoAlpha3;
       button.textContent = country.name;
+        button.textContent = I18N.countryName(country);
       button.addEventListener("click", () => selectCountry(country.isoAlpha3));
       return button;
     });
     countryList.replaceChildren(...buttons);
     countryHeading.textContent = selectedContinent;
+      countryHeading.textContent = I18N.continentName(selectedContinent);
     countryCount.textContent = String(list.length);
     listedContinent = selectedContinent;
   }
@@ -423,7 +442,7 @@ async function setupAtlas() {
   function showZoom(zoom) {
     const amount = zoom < 10 ? zoom.toFixed(1) : String(Math.round(zoom));
     zoomSlider.value = String(Math.round(zoomToSlider(zoom)));
-    zoomSlider.setAttribute("aria-valuetext", `${amount} times`);
+    zoomSlider.setAttribute("aria-valuetext", I18N.t("map.zoom.value", { amount }));
     zoomValue.textContent = `${amount}\u00D7`;
   }
 
@@ -460,14 +479,17 @@ async function setupAtlas() {
   function renderInfo() {
     const country = countriesByIso.get(selectedIso);
     info.flag.src = `./img/flags/${country.isoAlpha2.toLowerCase()}.svg`;
-    info.flag.alt = `Flag of ${country.name}`;
+    info.flag.alt = I18N.t("country.flag.alt", { country: I18N.countryName(country) });
     info.name.textContent = country.name;
+      info.name.textContent = I18N.countryName(country);
     info.iso.textContent = country.isoAlpha3;
     info.note.hidden = map.shapes.has(selectedIso);
     info.capital.textContent = country.capital ?? "None";
+      info.capital.textContent = I18N.capitalName(country) ?? I18N.t("country.capital.none");
     info.capital.classList.toggle("is-empty", !country.capital);
     info.capitalNote.textContent = country.capitalNote ?? "";
-    info.capitalNote.hidden = !country.capitalNote;
+    info.capitalNote.textContent = I18N.capitalNote(country) ?? "";
+    info.capitalNote.hidden = !I18N.capitalNote(country);
   }
 
   function render(animate) {
@@ -496,6 +518,10 @@ async function setupAtlas() {
     setCustomView(false);
     render(true);
     announce(`${name} selected. ${countriesByIso.get(selectedIso).name} selected.`);
+      announce(I18N.t("map.selected.continent", {
+        continent: I18N.continentName(name),
+        country: I18N.countryName(countriesByIso.get(selectedIso)),
+      }));
   }
 
   function selectCountry(iso) {
@@ -505,6 +531,10 @@ async function setupAtlas() {
     selectedIso = iso;
     render(true);
     announce(`${country.name} selected in ${country.continent}.`);
+      announce(I18N.t("map.selected.country", {
+        country: I18N.countryName(country),
+        continent: I18N.continentName(country.continent),
+      }));
   }
 
   // Search by start of name. The lists and the map only change once a suggestion is confirmed.
@@ -553,11 +583,12 @@ async function setupAtlas() {
       item.dataset.iso = country.isoAlpha3;
       const label = document.createElement("span");
       const prefix = document.createElement("mark");
-      prefix.textContent = country.name.slice(0, query.length);
-      label.append(prefix, country.name.slice(query.length));
+      const countryName = I18N.countryName(country);
+      prefix.textContent = countryName.slice(0, query.length);
+      label.append(prefix, countryName.slice(query.length));
       const meta = document.createElement("span");
       meta.className = "suggestion-meta";
-      meta.textContent = country.continent;
+      meta.textContent = I18N.continentName(country.continent);
       item.append(label, meta);
       return item;
     });
@@ -566,7 +597,7 @@ async function setupAtlas() {
       const empty = document.createElement("li");
       empty.className = "suggestion-empty";
       empty.setAttribute("role", "presentation");
-      empty.textContent = `No country starts with \u201C${typed}\u201D`;
+      empty.textContent = I18N.t("search.empty", { query: typed });
       items.push(empty);
     }
 
@@ -621,8 +652,8 @@ async function setupAtlas() {
     explorer.classList.toggle("is-fullpage", active);
     document.body.classList.toggle("is-fullpage", active);
     fullPageToggle.setAttribute("aria-pressed", String(active));
-    fullPageToggle.setAttribute("aria-label", active ? "Exit full page view" : "Enter full page view");
-    fullPageToggle.title = active ? "Normal view" : "Full page view";
+    fullPageToggle.setAttribute("aria-label", I18N.t(active ? "map.zoom.full.exit" : "map.zoom.full.enter"));
+    fullPageToggle.title = I18N.t(active ? "map.zoom.full.exit" : "map.zoom.full.enter");
     for (const element of backgroundElements) element.inert = active;
   }
 
@@ -733,6 +764,26 @@ async function setupAtlas() {
     const next = viewForZoom(zoomOf(view), stageAspect());
     setView(clampView({ ...next, x: view.x + view.w / 2 - next.w / 2, y: view.y + view.h / 2 - next.h / 2 }));
   }).observe(stage);
+
+  document.addEventListener("atlas:languagechange", () => {
+    rebuildLocalizedIndexes();
+    totalLabel.textContent = I18N.t("continents.total", { count: countries.length });
+    renderContinentButtons();
+    if (explorer.classList.contains("is-fullpage")) {
+      fullPageToggle.setAttribute("aria-label", I18N.t("map.zoom.full.exit"));
+      fullPageToggle.title = I18N.t("map.zoom.full.exit");
+    }
+    for (const { path } of map.shapes.values()) {
+      const title = path.querySelector("title");
+      if (title) title.textContent = I18N.countryName(countriesByIso.get(path.dataset.iso));
+    }
+    if (searchInput.value) {
+      searchInput.value = "";
+      closeSuggestions();
+    }
+    listedContinent = null;
+    render(false);
+  });
 }
 
 setupProfile();
