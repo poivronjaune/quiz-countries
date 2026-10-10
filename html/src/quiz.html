@@ -453,30 +453,37 @@
     }
   </style>
 </head>
-<body>
-  <a class="skip-link" href="#main-content">Skip to content</a>
+<body data-title-key="title.quiz">
+  <a class="skip-link" href="#main-content" data-i18n="skip.link">Skip to content</a>
 
   <header class="site-header">
     <div class="header-top">
       <div class="page-width header-top-inner">
-        <a class="brand" href="./index.html" aria-label="ATLAS, continents">
+        <a class="brand" href="./index.html" aria-label="ATLAS, continents" data-i18n-aria-label="brand.aria">
           <img class="brand-logo" src="./img/logo.svg" alt="" width="40" height="40">
           <span class="brand-name">ATLAS</span>
         </a>
-        <form class="profile-form" aria-label="Your profile" novalidate>
-          <label class="visually-hidden" for="profile-name">Name (optional)</label>
-          <input id="profile-name" name="name" type="text" maxlength="60" placeholder="Your name" autocomplete="name">
-          <label class="visually-hidden" for="profile-age">Age (optional)</label>
-          <input id="profile-age" name="age" type="number" min="1" step="1" inputmode="numeric" placeholder="Age" aria-describedby="profile-status">
-          <button class="button" type="submit">Save</button>
+        <form class="profile-form" aria-label="Your profile" data-i18n-aria-label="profile.aria" novalidate>
+          <label class="visually-hidden" for="profile-name" data-i18n="profile.name.label">Name (optional)</label>
+          <input id="profile-name" name="name" type="text" maxlength="60" placeholder="Your name" data-i18n-placeholder="profile.name.placeholder" autocomplete="name">
+          <label class="visually-hidden" for="profile-age" data-i18n="profile.age.label">Age (optional)</label>
+          <input id="profile-age" name="age" type="number" min="1" step="1" inputmode="numeric" placeholder="Age" data-i18n-placeholder="profile.age.placeholder" aria-describedby="profile-status">
+          <button class="button" type="submit" data-i18n="profile.save">Save</button>
           <p class="profile-status" id="profile-status" role="status" aria-live="polite"></p>
         </form>
       </div>
     </div>
     <div class="header-menu">
-      <nav class="page-width" aria-label="Main menu">
-        <a class="menu-link" href="./index.html">Continents</a>
-        <a class="menu-link" href="./quiz.html" aria-current="page">Quiz</a>
+      <nav class="page-width" aria-label="Main menu" data-i18n-aria-label="menu.aria">
+        <a class="menu-link" href="./index.html" data-i18n="menu.continents">Continents</a>
+        <a class="menu-link" href="./quiz.html" aria-current="page" data-i18n="menu.quiz">Quiz</a>
+        <label class="language-control">
+          <span class="visually-hidden" data-i18n="language.label">Language</span>
+          <select aria-label="Language" data-language-selector>
+            <option value="en" data-i18n="language.english">English</option>
+            <option value="fr" data-i18n="language.french">Français</option>
+          </select>
+        </label>
       </nav>
     </div>
   </header>
@@ -484,77 +491,80 @@
   <main id="main-content" class="page-width">
     <div class="quiz-heading">
       <div>
-        <p class="eyebrow"><span class="eyebrow-rule" aria-hidden="true"></span>Put your world knowledge to the test</p>
-        <h1>Geography quiz</h1>
+        <p class="eyebrow"><span class="eyebrow-rule" aria-hidden="true"></span><span data-i18n="quiz.slogan">Put your world knowledge to the test</span></p>
+        <h1 data-i18n="quiz.title">Geography quiz</h1>
       </div>
       <div class="quiz-score" aria-live="polite">
-        <span class="quiz-score-label">Score</span>
+        <span class="quiz-score-label" data-i18n="quiz.score">Score</span>
         <strong class="quiz-score-value"><span data-score>0</span><span aria-hidden="true"> / </span><span data-score-total>0</span></strong>
       </div>
     </div>
 
     <div class="quiz-layout">
       <section class="quiz-console" aria-labelledby="quiz-console-title">
-        <h2 id="quiz-console-title">Quiz setup</h2>
+        <h2 id="quiz-console-title" data-i18n="quiz.setup">Quiz setup</h2>
         <div class="quiz-settings" data-settings>
-          <label class="quiz-field" for="question-count">Number of questions
+          <label class="quiz-field" for="question-count"><span data-i18n="quiz.question.count">Number of questions</span>
             <select id="question-count" data-question-count>
-              <option value="5">5 questions</option>
-              <option value="10">10 questions</option>
-              <option value="20">20 questions</option>
-              <option value="50">50 questions</option>
+              <option value="5" data-i18n="quiz.questions.option" data-i18n-count="5">5 questions</option>
+              <option value="10" data-i18n="quiz.questions.option" data-i18n-count="10">10 questions</option>
+              <option value="20" data-i18n="quiz.questions.option" data-i18n-count="20">20 questions</option>
+              <option value="50" data-i18n="quiz.questions.option" data-i18n-count="50">50 questions</option>
             </select>
           </label>
-          <button class="quiz-button" type="button" data-start>Start quiz</button>
+          <button class="quiz-button" type="button" data-start data-i18n="quiz.start">Start quiz</button>
         </div>
 
         <div class="quiz-question" data-question hidden>
           <p class="quiz-progress" data-progress></p>
           <p class="quiz-prompt" data-prompt></p>
         </div>
-        <button class="quiz-button quiz-next" type="button" data-next hidden>Next question</button>
-        <p class="quiz-feedback" role="status" aria-live="polite" data-feedback>Choose a question count to begin.</p>
+        <button class="quiz-button quiz-next" type="button" data-next data-i18n="quiz.next" hidden>Next question</button>
+        <p class="quiz-feedback" role="status" aria-live="polite" data-feedback data-i18n="quiz.feedback.initial">Choose a question count to begin.</p>
         <section class="quiz-question-list-section" aria-labelledby="question-list-heading" data-question-list-section hidden>
-          <h3 class="quiz-question-list-heading" id="question-list-heading">Questions</h3>
+          <h3 class="quiz-question-list-heading" id="question-list-heading" data-i18n="quiz.questions">Questions</h3>
           <ol class="quiz-question-list" data-question-list></ol>
         </section>
       </section>
 
       <section class="quiz-map-panel" aria-labelledby="quiz-map-title">
         <div class="quiz-map-top">
-          <h2 id="quiz-map-title">World map</h2>
-          <ul class="quiz-legend" aria-label="Map legend">
-            <li><span class="quiz-swatch" aria-hidden="true"></span>Unanswered</li>
-            <li><span class="quiz-swatch quiz-swatch-correct" aria-hidden="true"></span>Correct country</li>
-            <li><span class="quiz-swatch quiz-swatch-wrong" aria-hidden="true"></span>Wrong pick</li>
+          <h2 id="quiz-map-title" data-i18n="quiz.map.title">World map</h2>
+          <ul class="quiz-legend" aria-label="Map legend" data-i18n-aria-label="map.legend.aria">
+            <li><span class="quiz-swatch" aria-hidden="true"></span><span data-i18n="quiz.legend.unanswered">Unanswered</span></li>
+            <li><span class="quiz-swatch quiz-swatch-correct" aria-hidden="true"></span><span data-i18n="quiz.legend.correct">Correct country</span></li>
+            <li><span class="quiz-swatch quiz-swatch-wrong" aria-hidden="true"></span><span data-i18n="quiz.legend.wrong">Wrong pick</span></li>
           </ul>
           <label class="quiz-zoom-control" for="quiz-zoom">
             <span class="visually-hidden">Map zoom</span>
-            <input class="quiz-zoom-slider" id="quiz-zoom" type="range" min="0" max="100" step="1" value="0" aria-label="Map zoom" data-zoom-slider>
+            <input class="quiz-zoom-slider" id="quiz-zoom" type="range" min="0" max="100" step="1" value="0" aria-label="Map zoom" data-i18n-aria-label="map.zoom" data-zoom-slider>
             <output class="quiz-zoom-value" data-zoom-value>1.0&times;</output>
           </label>
         </div>
         <div class="quiz-map-stage" data-world-map></div>
-        <p class="quiz-map-status">Click the named country to submit your answer. Scroll over the map or use the slider to zoom.</p>
+        <p class="quiz-map-status" data-i18n="quiz.map.instructions">Click the named country to submit your answer. Scroll over the map or use the slider to zoom.</p>
       </section>
     </div>
 
-    <noscript><p class="noscript">ATLAS needs JavaScript to run the geography quiz.</p></noscript>
+    <noscript><p class="noscript" data-i18n="quiz.noscript">ATLAS needs JavaScript to run the geography quiz.</p></noscript>
   </main>
 
   <footer class="site-footer">
     <div class="page-width footer-inner">
       <span class="footer-name">ATLAS</span>
-      <span class="footer-credit">Designed by poivronjaune</span>
-      <a class="footer-link" href="https://unstats.un.org/unsd/methodology/m49/overview/" target="_blank" rel="noopener noreferrer">UN-M49 Data</a>
+      <span class="footer-credit" data-i18n="footer.credit">Designed by poivronjaune</span>
+      <a class="footer-link" href="https://unstats.un.org/unsd/methodology/m49/overview/" target="_blank" rel="noopener noreferrer" data-i18n="footer.data">UN-M49 Data</a>
     </div>
   </footer>
 
+  <script src="./js/i18n.js"></script>
   <script>
     const SVG_NS = "http://www.w3.org/2000/svg";
     const MAX_ZOOM = 20;
     const DRAG_THRESHOLD_PX = 4;
     const PROFILE_KEY = "atlas.profile.v1";
+    const I18N = window.ATLAS_I18N;
+    I18N.init();
     const mapStage = document.querySelector("[data-world-map]");
     const settings = document.querySelector("[data-settings]");
     const questionBox = document.querySelector("[data-question]");
@@ -582,6 +592,14 @@
       const nameInput = form.elements.namedItem("name");
       const ageInput = form.elements.namedItem("age");
       const status = document.querySelector("#profile-status");
+      let statusKey = null;
+      let statusIsError = false;
+      function reportStatus(key, isError) {
+        statusKey = key;
+        statusIsError = isError;
+        status.textContent = I18N.t(key);
+        status.classList.toggle("is-error", isError);
+      }
       try {
         const saved = JSON.parse(localStorage.getItem(PROFILE_KEY));
         if (saved && typeof saved === "object") {
@@ -597,22 +615,22 @@
         const age = ageText === "" ? null : Number(ageText);
         if (ageInput.validity.badInput || (age !== null && (!Number.isInteger(age) || age < 1))) {
           ageInput.setAttribute("aria-invalid", "true");
-          status.textContent = "Enter a positive whole number for age.";
-          status.classList.add("is-error");
+          reportStatus("profile.age.error", true);
           ageInput.focus();
           return;
         }
         ageInput.removeAttribute("aria-invalid");
         try {
           localStorage.setItem(PROFILE_KEY, JSON.stringify({ name: nameInput.value.trim(), age }));
-          status.textContent = "Saved on this device.";
-          status.classList.remove("is-error");
+          reportStatus("profile.saved", false);
         } catch {
-          status.textContent = "This browser could not save your profile.";
-          status.classList.add("is-error");
+          reportStatus("profile.save.error", true);
         }
       });
       ageInput.addEventListener("input", () => ageInput.removeAttribute("aria-invalid"));
+      document.addEventListener("atlas:languagechange", () => {
+        if (statusKey) reportStatus(statusKey, statusIsError);
+      });
     }
 
     function project(longitude, latitude) {
@@ -638,7 +656,7 @@
       const svg = document.createElementNS(SVG_NS, "svg");
       svg.setAttribute("viewBox", "0 0 960 480");
       svg.setAttribute("role", "img");
-      svg.setAttribute("aria-label", "World map. Click the country named in the quiz prompt.");
+      svg.setAttribute("aria-label", I18N.t("quiz.map.aria"));
       for (const feature of features) {
         const iso = feature.properties.iso;
         const country = countriesByIso.get(iso);
@@ -720,10 +738,13 @@
     }
 
     function renderQuestionList() {
-      questionList.replaceChildren(...questions.map((question, index) => {
+      const answeredQuestions = questions
+        .map((question, index) => ({ question, index }))
+        .filter(({ question }) => question.result !== null);
+      questionListSection.hidden = answeredQuestions.length === 0;
+      questionList.replaceChildren(...answeredQuestions.map(({ question, index }) => {
         const item = document.createElement("li");
         item.className = "quiz-question-item";
-        if (index === questionIndex && !quizComplete) item.classList.add("is-current");
         if (question.result === true) item.classList.add("is-correct");
         if (question.result === false) item.classList.add("is-wrong");
 
@@ -732,14 +753,14 @@
         number.textContent = `${index + 1}.`;
         const name = document.createElement("span");
         name.className = "quiz-question-name";
-        name.textContent = question.name;
+        name.textContent = I18N.countryName(question);
         const state = document.createElement("span");
         state.className = "quiz-question-state";
-        state.textContent = question.result === true ? "Correct" : question.result === false ? "Wrong" : index === questionIndex && !quizComplete ? "Current" : "Up next";
+        state.textContent = I18N.t(question.result === true ? "quiz.state.correct" : "quiz.state.wrong");
         item.append(number, name, state);
         return item;
       }));
-      questionList.querySelector(".is-current")?.scrollIntoView({ block: "center" });
+      questionList.lastElementChild?.scrollIntoView({ block: "nearest" });
     }
 
     function showQuestion() {
@@ -747,11 +768,10 @@
       clearHighlights();
       nextButton.hidden = true;
       questionBox.hidden = false;
-      questionListSection.hidden = false;
       setView(makeView(1));
-      progressLabel.textContent = `Question ${questionIndex + 1} of ${questions.length}`;
-      promptLabel.textContent = `Find ${currentQuestion().name} on the map.`;
-      setFeedback("Click the country on the map to submit your answer.");
+      progressLabel.textContent = I18N.t("quiz.progress", { index: questionIndex + 1, total: questions.length });
+      promptLabel.textContent = I18N.t("quiz.prompt.find", { country: I18N.countryName(currentQuestion()) });
+      setFeedback(I18N.t("quiz.feedback.select"));
       renderQuestionList();
     }
 
@@ -761,6 +781,7 @@
       const correct = guess.isoAlpha3 === target.isoAlpha3;
       answered = true;
       target.result = correct;
+      target.guessIso = guess.isoAlpha3;
       const targetPath = countryShapes.get(target.isoAlpha3);
       if (targetPath) targetPath.classList.add("is-target");
       if (!correct && guess.isoAlpha3 && guess.isoAlpha3 !== target.isoAlpha3) {
@@ -769,9 +790,12 @@
       if (correct) {
         score += 1;
         scoreLabel.textContent = String(score);
-        setFeedback(`Correct. You found ${target.name}.`, "correct");
+        setFeedback(I18N.t("quiz.feedback.correct", { country: I18N.countryName(target) }), "correct");
       } else {
-        setFeedback(`That was ${guess.name}. The highlighted green country is ${target.name}.`, "wrong");
+        setFeedback(I18N.t("quiz.feedback.wrong", {
+          guess: I18N.countryName(guess),
+          country: I18N.countryName(target),
+        }), "wrong");
       }
       renderQuestionList();
       if (questionIndex + 1 < questions.length) {
@@ -786,17 +810,17 @@
       quizComplete = true;
       settings.hidden = false;
       questionBox.hidden = false;
-      progressLabel.textContent = "Quiz complete";
-      promptLabel.textContent = `You scored ${score} out of ${questions.length}.`;
-      document.querySelector("[data-start]").textContent = "Play again";
+      progressLabel.textContent = I18N.t("quiz.complete");
+      promptLabel.textContent = I18N.t("quiz.feedback.final.prompt", { score, total: questions.length });
+      document.querySelector("[data-start]").textContent = I18N.t("quiz.play.again");
       renderQuestionList();
-      setFeedback(`Final score: ${score} of ${questions.length}. Your result will stay here until you leave this page.`, "correct");
+      setFeedback(I18N.t("quiz.feedback.final.status", { score, total: questions.length }), "correct");
     }
 
     function startQuiz() {
       const pool = [...countriesByIso.values()].filter((country) => countryShapes.has(country.isoAlpha3));
       if (!pool.length) {
-        setFeedback("There are no selectable countries on the map.", "error");
+        setFeedback(I18N.t("quiz.feedback.no.countries"), "error");
         return;
       }
       for (let index = pool.length - 1; index > 0; index -= 1) {
@@ -889,6 +913,39 @@
       const zoom = view ? zoomOf(view) : 1;
       setView(makeView(zoom));
     }).observe(mapStage);
+
+    document.addEventListener("atlas:languagechange", () => {
+      for (const [iso, path] of countryShapes) {
+        const title = path.querySelector("title");
+        if (title) title.textContent = I18N.countryName(countriesByIso.get(iso));
+      }
+      mapStage.querySelector("svg")?.setAttribute("aria-label", I18N.t("quiz.map.aria"));
+      if (!questions.length) return;
+
+      const target = currentQuestion();
+      document.querySelector("[data-start]").textContent = I18N.t(quizComplete ? "quiz.play.again" : "quiz.start");
+      if (quizComplete) {
+        progressLabel.textContent = I18N.t("quiz.complete");
+        promptLabel.textContent = I18N.t("quiz.feedback.final.prompt", { score, total: questions.length });
+        setFeedback(I18N.t("quiz.feedback.final.status", { score, total: questions.length }), "correct");
+      } else {
+        progressLabel.textContent = I18N.t("quiz.progress", { index: questionIndex + 1, total: questions.length });
+        promptLabel.textContent = I18N.t("quiz.prompt.find", { country: I18N.countryName(target) });
+        if (answered) {
+          if (target.result) {
+            setFeedback(I18N.t("quiz.feedback.correct", { country: I18N.countryName(target) }), "correct");
+          } else {
+            setFeedback(I18N.t("quiz.feedback.wrong", {
+              guess: I18N.countryName(countriesByIso.get(target.guessIso)),
+              country: I18N.countryName(target),
+            }), "wrong");
+          }
+        } else {
+          setFeedback(I18N.t("quiz.feedback.select"));
+        }
+      }
+      renderQuestionList();
+    });
 
     async function initialize() {
       profileSetup();
