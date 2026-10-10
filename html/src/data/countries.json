@@ -8,7 +8,14 @@
     "capital": "Algiers",
     "m49Region": "Africa",
     "m49Subregion": "Northern Africa",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Algérie",
+        "continent": "Afrique",
+        "capital": "Alger"
+      }
+    }
   },
   {
     "name": "Egypt",
@@ -19,7 +26,14 @@
     "capital": "Cairo",
     "m49Region": "Africa",
     "m49Subregion": "Northern Africa",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Égypte",
+        "continent": "Afrique",
+        "capital": "Le Caire"
+      }
+    }
   },
   {
     "name": "Libya",
@@ -30,7 +44,14 @@
     "capital": "Tripoli",
     "m49Region": "Africa",
     "m49Subregion": "Northern Africa",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Libye",
+        "continent": "Afrique",
+        "capital": "Tripoli"
+      }
+    }
   },
   {
     "name": "Morocco",
@@ -41,7 +62,14 @@
     "capital": "Rabat",
     "m49Region": "Africa",
     "m49Subregion": "Northern Africa",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Maroc",
+        "continent": "Afrique",
+        "capital": "Rabat"
+      }
+    }
   },
   {
     "name": "Sudan",
@@ -52,7 +80,14 @@
     "capital": "Khartoum",
     "m49Region": "Africa",
     "m49Subregion": "Northern Africa",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Soudan",
+        "continent": "Afrique",
+        "capital": "Khartoum"
+      }
+    }
   },
   {
     "name": "Tunisia",
@@ -63,7 +98,14 @@
     "capital": "Tunis",
     "m49Region": "Africa",
     "m49Subregion": "Northern Africa",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Tunisie",
+        "continent": "Afrique",
+        "capital": "Tunis"
+      }
+    }
   },
   {
     "name": "Western Sahara",
@@ -74,7 +116,14 @@
     "capital": "Laayoune",
     "m49Region": "Africa",
     "m49Subregion": "Northern Africa",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Sahara Occidental",
+        "continent": "Afrique",
+        "capital": "Laâyoune"
+      }
+    }
   },
   {
     "name": "British Indian Ocean Territory",
@@ -85,7 +134,14 @@
     "capital": "Diego Garcia",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Eastern Africa"
+    "m49IntermediateRegion": "Eastern Africa",
+    "language": {
+      "fr": {
+        "name": "Territoire britannique de l'océan Indien",
+        "continent": "Afrique",
+        "capital": "Diego Garcia"
+      }
+    }
   },
   {
     "name": "Burundi",
@@ -97,7 +153,15 @@
     "capitalNote": "Political capital since 2019. Bujumbura is the economic capital.",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Eastern Africa"
+    "m49IntermediateRegion": "Eastern Africa",
+    "language": {
+      "fr": {
+        "name": "Burundi",
+        "continent": "Afrique",
+        "capital": "Gitega",
+        "capitalNote": "Capitale politique depuis 2019. Bujumbura est la capitale économique."
+      }
+    }
   },
   {
     "name": "Comoros",
@@ -108,7 +172,14 @@
     "capital": "Moroni",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Eastern Africa"
+    "m49IntermediateRegion": "Eastern Africa",
+    "language": {
+      "fr": {
+        "name": "Comores",
+        "continent": "Afrique",
+        "capital": "Moroni"
+      }
+    }
   },
   {
     "name": "Djibouti",
@@ -119,7 +190,14 @@
     "capital": "Djibouti",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Eastern Africa"
+    "m49IntermediateRegion": "Eastern Africa",
+    "language": {
+      "fr": {
+        "name": "Djibouti",
+        "continent": "Afrique",
+        "capital": "Djibouti"
+      }
+    }
   },
   {
     "name": "Eritrea",
@@ -130,7 +208,14 @@
     "capital": "Asmara",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Eastern Africa"
+    "m49IntermediateRegion": "Eastern Africa",
+    "language": {
+      "fr": {
+        "name": "Érythrée",
+        "continent": "Afrique",
+        "capital": "Asmara"
+      }
+    }
   },
   {
     "name": "Ethiopia",
@@ -141,7 +226,14 @@
     "capital": "Addis Ababa",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Eastern Africa"
+    "m49IntermediateRegion": "Eastern Africa",
+    "language": {
+      "fr": {
+        "name": "Éthiopie",
+        "continent": "Afrique",
+        "capital": "Addis-Abeba"
+      }
+    }
   },
   {
     "name": "French Southern Territories",
@@ -152,7 +244,14 @@
     "capital": "Port-aux-Français",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Eastern Africa"
+    "m49IntermediateRegion": "Eastern Africa",
+    "language": {
+      "fr": {
+        "name": "Terres australes et antarctiques françaises",
+        "continent": "Afrique",
+        "capital": "Port-aux-Français"
+      }
+    }
   },
   {
     "name": "Kenya",
@@ -163,7 +262,14 @@
     "capital": "Nairobi",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Eastern Africa"
+    "m49IntermediateRegion": "Eastern Africa",
+    "language": {
+      "fr": {
+        "name": "Kenya",
+        "continent": "Afrique",
+        "capital": "Nairobi"
+      }
+    }
   },
   {
     "name": "Madagascar",
@@ -174,7 +280,14 @@
     "capital": "Antananarivo",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Eastern Africa"
+    "m49IntermediateRegion": "Eastern Africa",
+    "language": {
+      "fr": {
+        "name": "Madagascar",
+        "continent": "Afrique",
+        "capital": "Antananarivo"
+      }
+    }
   },
   {
     "name": "Malawi",
@@ -185,7 +298,14 @@
     "capital": "Lilongwe",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Eastern Africa"
+    "m49IntermediateRegion": "Eastern Africa",
+    "language": {
+      "fr": {
+        "name": "Malawi",
+        "continent": "Afrique",
+        "capital": "Lilongwe"
+      }
+    }
   },
   {
     "name": "Mauritius",
@@ -196,7 +316,14 @@
     "capital": "Port Louis",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Eastern Africa"
+    "m49IntermediateRegion": "Eastern Africa",
+    "language": {
+      "fr": {
+        "name": "Île Maurice",
+        "continent": "Afrique",
+        "capital": "Port-Louis"
+      }
+    }
   },
   {
     "name": "Mayotte",
@@ -207,7 +334,14 @@
     "capital": "Mamoudzou",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Eastern Africa"
+    "m49IntermediateRegion": "Eastern Africa",
+    "language": {
+      "fr": {
+        "name": "Mayotte",
+        "continent": "Afrique",
+        "capital": "Mamoudzou"
+      }
+    }
   },
   {
     "name": "Mozambique",
@@ -218,7 +352,14 @@
     "capital": "Maputo",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Eastern Africa"
+    "m49IntermediateRegion": "Eastern Africa",
+    "language": {
+      "fr": {
+        "name": "Mozambique",
+        "continent": "Afrique",
+        "capital": "Maputo"
+      }
+    }
   },
   {
     "name": "Réunion",
@@ -229,7 +370,14 @@
     "capital": "Saint-Denis",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Eastern Africa"
+    "m49IntermediateRegion": "Eastern Africa",
+    "language": {
+      "fr": {
+        "name": "Réunion",
+        "continent": "Afrique",
+        "capital": "Saint-Denis"
+      }
+    }
   },
   {
     "name": "Rwanda",
@@ -240,7 +388,14 @@
     "capital": "Kigali",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Eastern Africa"
+    "m49IntermediateRegion": "Eastern Africa",
+    "language": {
+      "fr": {
+        "name": "Rwanda",
+        "continent": "Afrique",
+        "capital": "Kigali"
+      }
+    }
   },
   {
     "name": "Seychelles",
@@ -251,7 +406,14 @@
     "capital": "Victoria",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Eastern Africa"
+    "m49IntermediateRegion": "Eastern Africa",
+    "language": {
+      "fr": {
+        "name": "Seychelles",
+        "continent": "Afrique",
+        "capital": "Victoria"
+      }
+    }
   },
   {
     "name": "Somalia",
@@ -262,7 +424,14 @@
     "capital": "Mogadishu",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Eastern Africa"
+    "m49IntermediateRegion": "Eastern Africa",
+    "language": {
+      "fr": {
+        "name": "Somalie",
+        "continent": "Afrique",
+        "capital": "Mogadiscio"
+      }
+    }
   },
   {
     "name": "South Sudan",
@@ -273,7 +442,14 @@
     "capital": "Juba",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Eastern Africa"
+    "m49IntermediateRegion": "Eastern Africa",
+    "language": {
+      "fr": {
+        "name": "Soudan du Sud",
+        "continent": "Afrique",
+        "capital": "Djouba"
+      }
+    }
   },
   {
     "name": "Uganda",
@@ -284,7 +460,14 @@
     "capital": "Kampala",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Eastern Africa"
+    "m49IntermediateRegion": "Eastern Africa",
+    "language": {
+      "fr": {
+        "name": "Ouganda",
+        "continent": "Afrique",
+        "capital": "Kampala"
+      }
+    }
   },
   {
     "name": "United Republic of Tanzania",
@@ -295,7 +478,14 @@
     "capital": "Dodoma",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Eastern Africa"
+    "m49IntermediateRegion": "Eastern Africa",
+    "language": {
+      "fr": {
+        "name": "Tanzanie",
+        "continent": "Afrique",
+        "capital": "Dodoma"
+      }
+    }
   },
   {
     "name": "Zambia",
@@ -306,7 +496,14 @@
     "capital": "Lusaka",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Eastern Africa"
+    "m49IntermediateRegion": "Eastern Africa",
+    "language": {
+      "fr": {
+        "name": "Zambie",
+        "continent": "Afrique",
+        "capital": "Lusaka"
+      }
+    }
   },
   {
     "name": "Zimbabwe",
@@ -317,7 +514,14 @@
     "capital": "Harare",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Eastern Africa"
+    "m49IntermediateRegion": "Eastern Africa",
+    "language": {
+      "fr": {
+        "name": "Zimbabwe",
+        "continent": "Afrique",
+        "capital": "Harare"
+      }
+    }
   },
   {
     "name": "Angola",
@@ -328,7 +532,14 @@
     "capital": "Luanda",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Middle Africa"
+    "m49IntermediateRegion": "Middle Africa",
+    "language": {
+      "fr": {
+        "name": "Angola",
+        "continent": "Afrique",
+        "capital": "Luanda"
+      }
+    }
   },
   {
     "name": "Cameroon",
@@ -339,7 +550,14 @@
     "capital": "Yaoundé",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Middle Africa"
+    "m49IntermediateRegion": "Middle Africa",
+    "language": {
+      "fr": {
+        "name": "Cameroun",
+        "continent": "Afrique",
+        "capital": "Yaoundé"
+      }
+    }
   },
   {
     "name": "Central African Republic",
@@ -350,7 +568,14 @@
     "capital": "Bangui",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Middle Africa"
+    "m49IntermediateRegion": "Middle Africa",
+    "language": {
+      "fr": {
+        "name": "République centrafricaine",
+        "continent": "Afrique",
+        "capital": "Bangui"
+      }
+    }
   },
   {
     "name": "Chad",
@@ -361,7 +586,14 @@
     "capital": "N'Djamena",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Middle Africa"
+    "m49IntermediateRegion": "Middle Africa",
+    "language": {
+      "fr": {
+        "name": "Tchad",
+        "continent": "Afrique",
+        "capital": "N'Djaména"
+      }
+    }
   },
   {
     "name": "Congo",
@@ -372,7 +604,14 @@
     "capital": "Brazzaville",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Middle Africa"
+    "m49IntermediateRegion": "Middle Africa",
+    "language": {
+      "fr": {
+        "name": "Congo",
+        "continent": "Afrique",
+        "capital": "Brazzaville"
+      }
+    }
   },
   {
     "name": "Democratic Republic of the Congo",
@@ -383,7 +622,14 @@
     "capital": "Kinshasa",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Middle Africa"
+    "m49IntermediateRegion": "Middle Africa",
+    "language": {
+      "fr": {
+        "name": "Congo (Rép. dém.)",
+        "continent": "Afrique",
+        "capital": "Kinshasa"
+      }
+    }
   },
   {
     "name": "Equatorial Guinea",
@@ -395,7 +641,15 @@
     "capitalNote": "Capital since January 2026; the previous capital was Malabo.",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Middle Africa"
+    "m49IntermediateRegion": "Middle Africa",
+    "language": {
+      "fr": {
+        "name": "Guinée équatoriale",
+        "continent": "Afrique",
+        "capital": "Ciudad de la Paz",
+        "capitalNote": "Capitale depuis janvier 2026 ; l'ancienne capitale était Malabo."
+      }
+    }
   },
   {
     "name": "Gabon",
@@ -406,7 +660,14 @@
     "capital": "Libreville",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Middle Africa"
+    "m49IntermediateRegion": "Middle Africa",
+    "language": {
+      "fr": {
+        "name": "Gabon",
+        "continent": "Afrique",
+        "capital": "Libreville"
+      }
+    }
   },
   {
     "name": "Sao Tome and Principe",
@@ -417,7 +678,14 @@
     "capital": "São Tomé",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Middle Africa"
+    "m49IntermediateRegion": "Middle Africa",
+    "language": {
+      "fr": {
+        "name": "São Tomé et Príncipe",
+        "continent": "Afrique",
+        "capital": "São Tomé"
+      }
+    }
   },
   {
     "name": "Botswana",
@@ -428,7 +696,14 @@
     "capital": "Gaborone",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Southern Africa"
+    "m49IntermediateRegion": "Southern Africa",
+    "language": {
+      "fr": {
+        "name": "Botswana",
+        "continent": "Afrique",
+        "capital": "Gaborone"
+      }
+    }
   },
   {
     "name": "Eswatini",
@@ -440,7 +715,15 @@
     "capitalNote": "Executive capital. Lobamba is the legislative capital.",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Southern Africa"
+    "m49IntermediateRegion": "Southern Africa",
+    "language": {
+      "fr": {
+        "name": "Eswatini",
+        "continent": "Afrique",
+        "capital": "Mbabane",
+        "capitalNote": "Capitale exécutive. Lobamba est la capitale législative."
+      }
+    }
   },
   {
     "name": "Lesotho",
@@ -451,7 +734,14 @@
     "capital": "Maseru",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Southern Africa"
+    "m49IntermediateRegion": "Southern Africa",
+    "language": {
+      "fr": {
+        "name": "Lesotho",
+        "continent": "Afrique",
+        "capital": "Maseru"
+      }
+    }
   },
   {
     "name": "Namibia",
@@ -462,7 +752,14 @@
     "capital": "Windhoek",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Southern Africa"
+    "m49IntermediateRegion": "Southern Africa",
+    "language": {
+      "fr": {
+        "name": "Namibie",
+        "continent": "Afrique",
+        "capital": "Windhoek"
+      }
+    }
   },
   {
     "name": "South Africa",
@@ -474,7 +771,15 @@
     "capitalNote": "Executive capital. Cape Town is the legislative capital and Bloemfontein the judicial capital.",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Southern Africa"
+    "m49IntermediateRegion": "Southern Africa",
+    "language": {
+      "fr": {
+        "name": "Afrique du Sud",
+        "continent": "Afrique",
+        "capital": "Pretoria",
+        "capitalNote": "Capitale exécutive. Le Cap est la capitale législative et Bloemfontein la capitale judiciaire."
+      }
+    }
   },
   {
     "name": "Benin",
@@ -486,7 +791,15 @@
     "capitalNote": "Official capital. The government sits in Cotonou.",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Western Africa"
+    "m49IntermediateRegion": "Western Africa",
+    "language": {
+      "fr": {
+        "name": "Bénin",
+        "continent": "Afrique",
+        "capital": "Porto-Novo",
+        "capitalNote": "Capitale officielle. Le gouvernement siège à Cotonou."
+      }
+    }
   },
   {
     "name": "Burkina Faso",
@@ -497,7 +810,14 @@
     "capital": "Ouagadougou",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Western Africa"
+    "m49IntermediateRegion": "Western Africa",
+    "language": {
+      "fr": {
+        "name": "Burkina Faso",
+        "continent": "Afrique",
+        "capital": "Ouagadougou"
+      }
+    }
   },
   {
     "name": "Cabo Verde",
@@ -508,7 +828,14 @@
     "capital": "Praia",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Western Africa"
+    "m49IntermediateRegion": "Western Africa",
+    "language": {
+      "fr": {
+        "name": "Îles du Cap-Vert",
+        "continent": "Afrique",
+        "capital": "Praia"
+      }
+    }
   },
   {
     "name": "Côte d’Ivoire",
@@ -519,7 +846,14 @@
     "capital": "Yamoussoukro",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Western Africa"
+    "m49IntermediateRegion": "Western Africa",
+    "language": {
+      "fr": {
+        "name": "Côte d'Ivoire",
+        "continent": "Afrique",
+        "capital": "Yamoussoukro"
+      }
+    }
   },
   {
     "name": "Gambia",
@@ -530,7 +864,14 @@
     "capital": "Banjul",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Western Africa"
+    "m49IntermediateRegion": "Western Africa",
+    "language": {
+      "fr": {
+        "name": "Gambie",
+        "continent": "Afrique",
+        "capital": "Banjul"
+      }
+    }
   },
   {
     "name": "Ghana",
@@ -541,7 +882,14 @@
     "capital": "Accra",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Western Africa"
+    "m49IntermediateRegion": "Western Africa",
+    "language": {
+      "fr": {
+        "name": "Ghana",
+        "continent": "Afrique",
+        "capital": "Accra"
+      }
+    }
   },
   {
     "name": "Guinea",
@@ -552,7 +900,14 @@
     "capital": "Conakry",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Western Africa"
+    "m49IntermediateRegion": "Western Africa",
+    "language": {
+      "fr": {
+        "name": "Guinée",
+        "continent": "Afrique",
+        "capital": "Conakry"
+      }
+    }
   },
   {
     "name": "Guinea-Bissau",
@@ -563,7 +918,14 @@
     "capital": "Bissau",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Western Africa"
+    "m49IntermediateRegion": "Western Africa",
+    "language": {
+      "fr": {
+        "name": "Guinée-Bissau",
+        "continent": "Afrique",
+        "capital": "Bissau"
+      }
+    }
   },
   {
     "name": "Liberia",
@@ -574,7 +936,14 @@
     "capital": "Monrovia",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Western Africa"
+    "m49IntermediateRegion": "Western Africa",
+    "language": {
+      "fr": {
+        "name": "Liberia",
+        "continent": "Afrique",
+        "capital": "Monrovia"
+      }
+    }
   },
   {
     "name": "Mali",
@@ -585,7 +954,14 @@
     "capital": "Bamako",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Western Africa"
+    "m49IntermediateRegion": "Western Africa",
+    "language": {
+      "fr": {
+        "name": "Mali",
+        "continent": "Afrique",
+        "capital": "Bamako"
+      }
+    }
   },
   {
     "name": "Mauritania",
@@ -596,7 +972,14 @@
     "capital": "Nouakchott",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Western Africa"
+    "m49IntermediateRegion": "Western Africa",
+    "language": {
+      "fr": {
+        "name": "Mauritanie",
+        "continent": "Afrique",
+        "capital": "Nouakchott"
+      }
+    }
   },
   {
     "name": "Niger",
@@ -607,7 +990,14 @@
     "capital": "Niamey",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Western Africa"
+    "m49IntermediateRegion": "Western Africa",
+    "language": {
+      "fr": {
+        "name": "Niger",
+        "continent": "Afrique",
+        "capital": "Niamey"
+      }
+    }
   },
   {
     "name": "Nigeria",
@@ -618,7 +1008,14 @@
     "capital": "Abuja",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Western Africa"
+    "m49IntermediateRegion": "Western Africa",
+    "language": {
+      "fr": {
+        "name": "Nigéria",
+        "continent": "Afrique",
+        "capital": "Abuja"
+      }
+    }
   },
   {
     "name": "Saint Helena",
@@ -629,7 +1026,14 @@
     "capital": "Jamestown",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Western Africa"
+    "m49IntermediateRegion": "Western Africa",
+    "language": {
+      "fr": {
+        "name": "Sainte-Hélène, Ascension et Tristan da Cunha",
+        "continent": "Afrique",
+        "capital": "Jamestown"
+      }
+    }
   },
   {
     "name": "Senegal",
@@ -640,7 +1044,14 @@
     "capital": "Dakar",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Western Africa"
+    "m49IntermediateRegion": "Western Africa",
+    "language": {
+      "fr": {
+        "name": "Sénégal",
+        "continent": "Afrique",
+        "capital": "Dakar"
+      }
+    }
   },
   {
     "name": "Sierra Leone",
@@ -651,7 +1062,14 @@
     "capital": "Freetown",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Western Africa"
+    "m49IntermediateRegion": "Western Africa",
+    "language": {
+      "fr": {
+        "name": "Sierra Leone",
+        "continent": "Afrique",
+        "capital": "Freetown"
+      }
+    }
   },
   {
     "name": "Togo",
@@ -662,7 +1080,14 @@
     "capital": "Lomé",
     "m49Region": "Africa",
     "m49Subregion": "Sub-Saharan Africa",
-    "m49IntermediateRegion": "Western Africa"
+    "m49IntermediateRegion": "Western Africa",
+    "language": {
+      "fr": {
+        "name": "Togo",
+        "continent": "Afrique",
+        "capital": "Lomé"
+      }
+    }
   },
   {
     "name": "Anguilla",
@@ -673,7 +1098,14 @@
     "capital": "The Valley",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Anguilla",
+        "continent": "Amérique du Nord",
+        "capital": "The Valley"
+      }
+    }
   },
   {
     "name": "Antigua and Barbuda",
@@ -684,7 +1116,14 @@
     "capital": "St. John's",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Antigua-et-Barbuda",
+        "continent": "Amérique du Nord",
+        "capital": "Saint John's"
+      }
+    }
   },
   {
     "name": "Aruba",
@@ -695,7 +1134,14 @@
     "capital": "Oranjestad",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Aruba",
+        "continent": "Amérique du Nord",
+        "capital": "Oranjestad"
+      }
+    }
   },
   {
     "name": "Bahamas",
@@ -706,7 +1152,14 @@
     "capital": "Nassau",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Bahamas",
+        "continent": "Amérique du Nord",
+        "capital": "Nassau"
+      }
+    }
   },
   {
     "name": "Barbados",
@@ -717,7 +1170,14 @@
     "capital": "Bridgetown",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Barbade",
+        "continent": "Amérique du Nord",
+        "capital": "Bridgetown"
+      }
+    }
   },
   {
     "name": "Bonaire, Sint Eustatius and Saba",
@@ -729,7 +1189,15 @@
     "capitalNote": "Capital of Bonaire. Sint Eustatius has Oranjestad and Saba has The Bottom.",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Pays-Bas caribéens",
+        "continent": "Amérique du Nord",
+        "capital": "Kralendijk",
+        "capitalNote": "Capitale de Bonaire. Sint Eustatius a pour capitale Oranjestad et Saba, The Bottom."
+      }
+    }
   },
   {
     "name": "British Virgin Islands",
@@ -740,7 +1208,14 @@
     "capital": "Road Town",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Îles Vierges britanniques",
+        "continent": "Amérique du Nord",
+        "capital": "Road Town"
+      }
+    }
   },
   {
     "name": "Cayman Islands",
@@ -751,7 +1226,14 @@
     "capital": "George Town",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Îles Caïmans",
+        "continent": "Amérique du Nord",
+        "capital": "George Town"
+      }
+    }
   },
   {
     "name": "Cuba",
@@ -762,7 +1244,14 @@
     "capital": "Havana",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Cuba",
+        "continent": "Amérique du Nord",
+        "capital": "La Havane"
+      }
+    }
   },
   {
     "name": "Curaçao",
@@ -773,7 +1262,14 @@
     "capital": "Willemstad",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Curaçao",
+        "continent": "Amérique du Nord",
+        "capital": "Willemstad"
+      }
+    }
   },
   {
     "name": "Dominica",
@@ -784,7 +1280,14 @@
     "capital": "Roseau",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Dominique",
+        "continent": "Amérique du Nord",
+        "capital": "Roseau"
+      }
+    }
   },
   {
     "name": "Dominican Republic",
@@ -795,7 +1298,14 @@
     "capital": "Santo Domingo",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "République dominicaine",
+        "continent": "Amérique du Nord",
+        "capital": "Saint-Domingue"
+      }
+    }
   },
   {
     "name": "Grenada",
@@ -806,7 +1316,14 @@
     "capital": "St. George's",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Grenade",
+        "continent": "Amérique du Nord",
+        "capital": "Saint-Georges"
+      }
+    }
   },
   {
     "name": "Guadeloupe",
@@ -817,7 +1334,14 @@
     "capital": "Basse-Terre",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Guadeloupe",
+        "continent": "Amérique du Nord",
+        "capital": "Basse-Terre"
+      }
+    }
   },
   {
     "name": "Haiti",
@@ -828,7 +1352,14 @@
     "capital": "Port-au-Prince",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Haïti",
+        "continent": "Amérique du Nord",
+        "capital": "Port-au-Prince"
+      }
+    }
   },
   {
     "name": "Jamaica",
@@ -839,7 +1370,14 @@
     "capital": "Kingston",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Jamaïque",
+        "continent": "Amérique du Nord",
+        "capital": "Kingston"
+      }
+    }
   },
   {
     "name": "Martinique",
@@ -850,7 +1388,14 @@
     "capital": "Fort-de-France",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Martinique",
+        "continent": "Amérique du Nord",
+        "capital": "Fort-de-France"
+      }
+    }
   },
   {
     "name": "Montserrat",
@@ -862,7 +1407,15 @@
     "capitalNote": "De jure capital, abandoned after the 1997 volcanic eruption. The government sits in Brades.",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Montserrat",
+        "continent": "Amérique du Nord",
+        "capital": "Plymouth",
+        "capitalNote": "Capitale de jure, abandonnée après l’éruption volcanique de 1997. Le gouvernement siège à Brades."
+      }
+    }
   },
   {
     "name": "Puerto Rico",
@@ -873,7 +1426,14 @@
     "capital": "San Juan",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Porto Rico",
+        "continent": "Amérique du Nord",
+        "capital": "San Juan"
+      }
+    }
   },
   {
     "name": "Saint Barthélemy",
@@ -884,7 +1444,14 @@
     "capital": "Gustavia",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Saint-Barthélemy",
+        "continent": "Amérique du Nord",
+        "capital": "Gustavia"
+      }
+    }
   },
   {
     "name": "Saint Kitts and Nevis",
@@ -895,7 +1462,14 @@
     "capital": "Basseterre",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Saint-Christophe-et-Niévès",
+        "continent": "Amérique du Nord",
+        "capital": "Basseterre"
+      }
+    }
   },
   {
     "name": "Saint Lucia",
@@ -906,7 +1480,14 @@
     "capital": "Castries",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Sainte-Lucie",
+        "continent": "Amérique du Nord",
+        "capital": "Castries"
+      }
+    }
   },
   {
     "name": "Saint Martin (French Part)",
@@ -917,7 +1498,14 @@
     "capital": "Marigot",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Saint-Martin",
+        "continent": "Amérique du Nord",
+        "capital": "Marigot"
+      }
+    }
   },
   {
     "name": "Saint Vincent and the Grenadines",
@@ -928,7 +1516,14 @@
     "capital": "Kingstown",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Saint-Vincent-et-les-Grenadines",
+        "continent": "Amérique du Nord",
+        "capital": "Kingstown"
+      }
+    }
   },
   {
     "name": "Sint Maarten (Dutch part)",
@@ -939,7 +1534,14 @@
     "capital": "Philipsburg",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Saint-Martin",
+        "continent": "Amérique du Nord",
+        "capital": "Philipsburg"
+      }
+    }
   },
   {
     "name": "Trinidad and Tobago",
@@ -950,7 +1552,14 @@
     "capital": "Port of Spain",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Trinité-et-Tobago",
+        "continent": "Amérique du Nord",
+        "capital": "Port-d'Espagne"
+      }
+    }
   },
   {
     "name": "Turks and Caicos Islands",
@@ -961,7 +1570,14 @@
     "capital": "Cockburn Town",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Îles Turques-et-Caïques",
+        "continent": "Amérique du Nord",
+        "capital": "Cockburn Town"
+      }
+    }
   },
   {
     "name": "United States Virgin Islands",
@@ -972,7 +1588,14 @@
     "capital": "Charlotte Amalie",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Caribbean"
+    "m49IntermediateRegion": "Caribbean",
+    "language": {
+      "fr": {
+        "name": "Îles Vierges des États-Unis",
+        "continent": "Amérique du Nord",
+        "capital": "Charlotte-Amélie"
+      }
+    }
   },
   {
     "name": "Belize",
@@ -983,7 +1606,14 @@
     "capital": "Belmopan",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Central America"
+    "m49IntermediateRegion": "Central America",
+    "language": {
+      "fr": {
+        "name": "Belize",
+        "continent": "Amérique du Nord",
+        "capital": "Belmopan"
+      }
+    }
   },
   {
     "name": "Costa Rica",
@@ -994,7 +1624,14 @@
     "capital": "San José",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Central America"
+    "m49IntermediateRegion": "Central America",
+    "language": {
+      "fr": {
+        "name": "Costa Rica",
+        "continent": "Amérique du Nord",
+        "capital": "San José"
+      }
+    }
   },
   {
     "name": "El Salvador",
@@ -1005,7 +1642,14 @@
     "capital": "San Salvador",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Central America"
+    "m49IntermediateRegion": "Central America",
+    "language": {
+      "fr": {
+        "name": "Salvador",
+        "continent": "Amérique du Nord",
+        "capital": "San Salvador"
+      }
+    }
   },
   {
     "name": "Guatemala",
@@ -1016,7 +1660,14 @@
     "capital": "Guatemala City",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Central America"
+    "m49IntermediateRegion": "Central America",
+    "language": {
+      "fr": {
+        "name": "Guatemala",
+        "continent": "Amérique du Nord",
+        "capital": "Guatemala"
+      }
+    }
   },
   {
     "name": "Honduras",
@@ -1027,7 +1678,14 @@
     "capital": "Tegucigalpa",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Central America"
+    "m49IntermediateRegion": "Central America",
+    "language": {
+      "fr": {
+        "name": "Honduras",
+        "continent": "Amérique du Nord",
+        "capital": "Tegucigalpa"
+      }
+    }
   },
   {
     "name": "Mexico",
@@ -1038,7 +1696,14 @@
     "capital": "Mexico City",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Central America"
+    "m49IntermediateRegion": "Central America",
+    "language": {
+      "fr": {
+        "name": "Mexique",
+        "continent": "Amérique du Nord",
+        "capital": "Mexico"
+      }
+    }
   },
   {
     "name": "Nicaragua",
@@ -1049,7 +1714,14 @@
     "capital": "Managua",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Central America"
+    "m49IntermediateRegion": "Central America",
+    "language": {
+      "fr": {
+        "name": "Nicaragua",
+        "continent": "Amérique du Nord",
+        "capital": "Managua"
+      }
+    }
   },
   {
     "name": "Panama",
@@ -1060,7 +1732,14 @@
     "capital": "Panama City",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "Central America"
+    "m49IntermediateRegion": "Central America",
+    "language": {
+      "fr": {
+        "name": "Panama",
+        "continent": "Amérique du Nord",
+        "capital": "Panama"
+      }
+    }
   },
   {
     "name": "Argentina",
@@ -1071,7 +1750,14 @@
     "capital": "Buenos Aires",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "South America"
+    "m49IntermediateRegion": "South America",
+    "language": {
+      "fr": {
+        "name": "Argentine",
+        "continent": "Amérique du Sud",
+        "capital": "Buenos Aires"
+      }
+    }
   },
   {
     "name": "Bolivia (Plurinational State of)",
@@ -1083,7 +1769,15 @@
     "capitalNote": "Constitutional capital. The government sits in La Paz.",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "South America"
+    "m49IntermediateRegion": "South America",
+    "language": {
+      "fr": {
+        "name": "Bolivie",
+        "continent": "Amérique du Sud",
+        "capital": "Sucre",
+        "capitalNote": "Capitale constitutionnelle. Le gouvernement siège à La Paz."
+      }
+    }
   },
   {
     "name": "Bouvet Island",
@@ -1095,7 +1789,15 @@
     "capitalNote": "Uninhabited.",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "South America"
+    "m49IntermediateRegion": "South America",
+    "language": {
+      "fr": {
+        "name": "Île Bouvet",
+        "continent": "Amérique du Sud",
+        "capital": null,
+        "capitalNote": "Île inhabitée."
+      }
+    }
   },
   {
     "name": "Brazil",
@@ -1106,7 +1808,14 @@
     "capital": "Brasília",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "South America"
+    "m49IntermediateRegion": "South America",
+    "language": {
+      "fr": {
+        "name": "Brésil",
+        "continent": "Amérique du Sud",
+        "capital": "Brasilia"
+      }
+    }
   },
   {
     "name": "Chile",
@@ -1117,7 +1826,14 @@
     "capital": "Santiago",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "South America"
+    "m49IntermediateRegion": "South America",
+    "language": {
+      "fr": {
+        "name": "Chili",
+        "continent": "Amérique du Sud",
+        "capital": "Santiago"
+      }
+    }
   },
   {
     "name": "Colombia",
@@ -1128,7 +1844,14 @@
     "capital": "Bogotá",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "South America"
+    "m49IntermediateRegion": "South America",
+    "language": {
+      "fr": {
+        "name": "Colombie",
+        "continent": "Amérique du Sud",
+        "capital": "Bogota"
+      }
+    }
   },
   {
     "name": "Ecuador",
@@ -1139,7 +1862,14 @@
     "capital": "Quito",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "South America"
+    "m49IntermediateRegion": "South America",
+    "language": {
+      "fr": {
+        "name": "Équateur",
+        "continent": "Amérique du Sud",
+        "capital": "Quito"
+      }
+    }
   },
   {
     "name": "Falkland Islands (Malvinas)",
@@ -1150,7 +1880,14 @@
     "capital": "Stanley",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "South America"
+    "m49IntermediateRegion": "South America",
+    "language": {
+      "fr": {
+        "name": "Îles Malouines",
+        "continent": "Amérique du Sud",
+        "capital": "Port Stanley"
+      }
+    }
   },
   {
     "name": "French Guiana",
@@ -1161,7 +1898,14 @@
     "capital": "Cayenne",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "South America"
+    "m49IntermediateRegion": "South America",
+    "language": {
+      "fr": {
+        "name": "Guyane",
+        "continent": "Amérique du Sud",
+        "capital": "Cayenne"
+      }
+    }
   },
   {
     "name": "Guyana",
@@ -1172,7 +1916,14 @@
     "capital": "Georgetown",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "South America"
+    "m49IntermediateRegion": "South America",
+    "language": {
+      "fr": {
+        "name": "Guyana",
+        "continent": "Amérique du Sud",
+        "capital": "Georgetown"
+      }
+    }
   },
   {
     "name": "Paraguay",
@@ -1183,7 +1934,14 @@
     "capital": "Asunción",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "South America"
+    "m49IntermediateRegion": "South America",
+    "language": {
+      "fr": {
+        "name": "Paraguay",
+        "continent": "Amérique du Sud",
+        "capital": "Asuncion"
+      }
+    }
   },
   {
     "name": "Peru",
@@ -1194,7 +1952,14 @@
     "capital": "Lima",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "South America"
+    "m49IntermediateRegion": "South America",
+    "language": {
+      "fr": {
+        "name": "Pérou",
+        "continent": "Amérique du Sud",
+        "capital": "Lima"
+      }
+    }
   },
   {
     "name": "South Georgia and the South Sandwich Islands",
@@ -1205,7 +1970,14 @@
     "capital": "King Edward Point",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "South America"
+    "m49IntermediateRegion": "South America",
+    "language": {
+      "fr": {
+        "name": "Géorgie du Sud-et-les Îles Sandwich du Sud",
+        "continent": "Amérique du Sud",
+        "capital": "King Edward Point"
+      }
+    }
   },
   {
     "name": "Suriname",
@@ -1216,7 +1988,14 @@
     "capital": "Paramaribo",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "South America"
+    "m49IntermediateRegion": "South America",
+    "language": {
+      "fr": {
+        "name": "Surinam",
+        "continent": "Amérique du Sud",
+        "capital": "Paramaribo"
+      }
+    }
   },
   {
     "name": "Uruguay",
@@ -1227,7 +2006,14 @@
     "capital": "Montevideo",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "South America"
+    "m49IntermediateRegion": "South America",
+    "language": {
+      "fr": {
+        "name": "Uruguay",
+        "continent": "Amérique du Sud",
+        "capital": "Montevideo"
+      }
+    }
   },
   {
     "name": "Venezuela (Bolivarian Republic of)",
@@ -1238,7 +2024,14 @@
     "capital": "Caracas",
     "m49Region": "Americas",
     "m49Subregion": "Latin America and the Caribbean",
-    "m49IntermediateRegion": "South America"
+    "m49IntermediateRegion": "South America",
+    "language": {
+      "fr": {
+        "name": "Venezuela",
+        "continent": "Amérique du Sud",
+        "capital": "Caracas"
+      }
+    }
   },
   {
     "name": "Bermuda",
@@ -1249,7 +2042,14 @@
     "capital": "Hamilton",
     "m49Region": "Americas",
     "m49Subregion": "Northern America",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Bermudes",
+        "continent": "Amérique du Nord",
+        "capital": "Hamilton"
+      }
+    }
   },
   {
     "name": "Canada",
@@ -1260,7 +2060,14 @@
     "capital": "Ottawa",
     "m49Region": "Americas",
     "m49Subregion": "Northern America",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Canada",
+        "continent": "Amérique du Nord",
+        "capital": "Ottawa"
+      }
+    }
   },
   {
     "name": "Greenland",
@@ -1271,7 +2078,14 @@
     "capital": "Nuuk",
     "m49Region": "Americas",
     "m49Subregion": "Northern America",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Groenland",
+        "continent": "Amérique du Nord",
+        "capital": "Nuuk"
+      }
+    }
   },
   {
     "name": "Saint Pierre and Miquelon",
@@ -1282,7 +2096,14 @@
     "capital": "Saint-Pierre",
     "m49Region": "Americas",
     "m49Subregion": "Northern America",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Saint-Pierre-et-Miquelon",
+        "continent": "Amérique du Nord",
+        "capital": "Saint-Pierre"
+      }
+    }
   },
   {
     "name": "United States of America",
@@ -1293,7 +2114,14 @@
     "capital": "Washington, D.C.",
     "m49Region": "Americas",
     "m49Subregion": "Northern America",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "États-Unis",
+        "continent": "Amérique du Nord",
+        "capital": "Washington"
+      }
+    }
   },
   {
     "name": "Antarctica",
@@ -1305,7 +2133,15 @@
     "capitalNote": "Governed under the Antarctic Treaty System.",
     "m49Region": "",
     "m49Subregion": "",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Antarctique",
+        "continent": "Antarctique",
+        "capital": null,
+        "capitalNote": "Régie par le système du Traité sur l’Antarctique."
+      }
+    }
   },
   {
     "name": "Kazakhstan",
@@ -1316,7 +2152,14 @@
     "capital": "Astana",
     "m49Region": "Asia",
     "m49Subregion": "Central Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Kazakhstan",
+        "continent": "Asie",
+        "capital": "Astana"
+      }
+    }
   },
   {
     "name": "Kyrgyzstan",
@@ -1327,7 +2170,14 @@
     "capital": "Bishkek",
     "m49Region": "Asia",
     "m49Subregion": "Central Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Kirghizistan",
+        "continent": "Asie",
+        "capital": "Bichkek"
+      }
+    }
   },
   {
     "name": "Tajikistan",
@@ -1338,7 +2188,14 @@
     "capital": "Dushanbe",
     "m49Region": "Asia",
     "m49Subregion": "Central Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Tadjikistan",
+        "continent": "Asie",
+        "capital": "Douchanbé"
+      }
+    }
   },
   {
     "name": "Turkmenistan",
@@ -1349,7 +2206,14 @@
     "capital": "Ashgabat",
     "m49Region": "Asia",
     "m49Subregion": "Central Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Turkménistan",
+        "continent": "Asie",
+        "capital": "Achgabat"
+      }
+    }
   },
   {
     "name": "Uzbekistan",
@@ -1360,7 +2224,14 @@
     "capital": "Tashkent",
     "m49Region": "Asia",
     "m49Subregion": "Central Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Ouzbékistan",
+        "continent": "Asie",
+        "capital": "Tachkent"
+      }
+    }
   },
   {
     "name": "China",
@@ -1371,7 +2242,14 @@
     "capital": "Beijing",
     "m49Region": "Asia",
     "m49Subregion": "Eastern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Chine",
+        "continent": "Asie",
+        "capital": "Pékin"
+      }
+    }
   },
   {
     "name": "China, Hong Kong Special Administrative Region",
@@ -1383,7 +2261,15 @@
     "capitalNote": "Special administrative region of China, with its administrative centre at Tamar.",
     "m49Region": "Asia",
     "m49Subregion": "Eastern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Hong Kong",
+        "continent": "Asie",
+        "capital": "Hong Kong",
+        "capitalNote": "Région administrative spéciale de Chine, dont le centre administratif se trouve à Tamar."
+      }
+    }
   },
   {
     "name": "China, Macao Special Administrative Region",
@@ -1395,7 +2281,15 @@
     "capitalNote": "Special administrative region of China.",
     "m49Region": "Asia",
     "m49Subregion": "Eastern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Macao",
+        "continent": "Asie",
+        "capital": "Macao",
+        "capitalNote": "Région administrative spéciale de Chine."
+      }
+    }
   },
   {
     "name": "Democratic People's Republic of Korea",
@@ -1406,7 +2300,14 @@
     "capital": "Pyongyang",
     "m49Region": "Asia",
     "m49Subregion": "Eastern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Corée du Nord",
+        "continent": "Asie",
+        "capital": "Pyongyang"
+      }
+    }
   },
   {
     "name": "Japan",
@@ -1417,7 +2318,14 @@
     "capital": "Tokyo",
     "m49Region": "Asia",
     "m49Subregion": "Eastern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Japon",
+        "continent": "Asie",
+        "capital": "Tokyo"
+      }
+    }
   },
   {
     "name": "Mongolia",
@@ -1428,7 +2336,14 @@
     "capital": "Ulaanbaatar",
     "m49Region": "Asia",
     "m49Subregion": "Eastern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Mongolie",
+        "continent": "Asie",
+        "capital": "Oulan-Bator"
+      }
+    }
   },
   {
     "name": "Republic of Korea",
@@ -1439,7 +2354,14 @@
     "capital": "Seoul",
     "m49Region": "Asia",
     "m49Subregion": "Eastern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Corée du Sud",
+        "continent": "Asie",
+        "capital": "Séoul"
+      }
+    }
   },
   {
     "name": "Brunei Darussalam",
@@ -1450,7 +2372,14 @@
     "capital": "Bandar Seri Begawan",
     "m49Region": "Asia",
     "m49Subregion": "South-eastern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Brunei",
+        "continent": "Asie",
+        "capital": "Bandar Seri Begawan"
+      }
+    }
   },
   {
     "name": "Cambodia",
@@ -1461,7 +2390,14 @@
     "capital": "Phnom Penh",
     "m49Region": "Asia",
     "m49Subregion": "South-eastern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Cambodge",
+        "continent": "Asie",
+        "capital": "Phnom Penh"
+      }
+    }
   },
   {
     "name": "Indonesia",
@@ -1472,7 +2408,14 @@
     "capital": "Jakarta",
     "m49Region": "Asia",
     "m49Subregion": "South-eastern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Indonésie",
+        "continent": "Asie",
+        "capital": "Jakarta"
+      }
+    }
   },
   {
     "name": "Lao People's Democratic Republic",
@@ -1483,7 +2426,14 @@
     "capital": "Vientiane",
     "m49Region": "Asia",
     "m49Subregion": "South-eastern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Laos",
+        "continent": "Asie",
+        "capital": "Vientiane"
+      }
+    }
   },
   {
     "name": "Malaysia",
@@ -1495,7 +2445,15 @@
     "capitalNote": "National capital. Putrajaya is the administrative centre.",
     "m49Region": "Asia",
     "m49Subregion": "South-eastern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Malaisie",
+        "continent": "Asie",
+        "capital": "Kuala Lumpur",
+        "capitalNote": "Capitale nationale. Putrajaya est le centre administratif."
+      }
+    }
   },
   {
     "name": "Myanmar",
@@ -1506,7 +2464,14 @@
     "capital": "Naypyidaw",
     "m49Region": "Asia",
     "m49Subregion": "South-eastern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Birmanie",
+        "continent": "Asie",
+        "capital": "Naypyidaw"
+      }
+    }
   },
   {
     "name": "Philippines",
@@ -1517,7 +2482,14 @@
     "capital": "Manila",
     "m49Region": "Asia",
     "m49Subregion": "South-eastern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Philippines",
+        "continent": "Asie",
+        "capital": "Manille"
+      }
+    }
   },
   {
     "name": "Singapore",
@@ -1528,7 +2500,14 @@
     "capital": "Singapore",
     "m49Region": "Asia",
     "m49Subregion": "South-eastern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Singapour",
+        "continent": "Asie",
+        "capital": "Singapour"
+      }
+    }
   },
   {
     "name": "Thailand",
@@ -1539,7 +2518,14 @@
     "capital": "Bangkok",
     "m49Region": "Asia",
     "m49Subregion": "South-eastern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Thaïlande",
+        "continent": "Asie",
+        "capital": "Bangkok"
+      }
+    }
   },
   {
     "name": "Timor-Leste",
@@ -1550,7 +2536,14 @@
     "capital": "Dili",
     "m49Region": "Asia",
     "m49Subregion": "South-eastern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Timor oriental",
+        "continent": "Asie",
+        "capital": "Dili"
+      }
+    }
   },
   {
     "name": "Viet Nam",
@@ -1561,7 +2554,14 @@
     "capital": "Hanoi",
     "m49Region": "Asia",
     "m49Subregion": "South-eastern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Viêt Nam",
+        "continent": "Asie",
+        "capital": "Hanoï"
+      }
+    }
   },
   {
     "name": "Afghanistan",
@@ -1572,7 +2572,14 @@
     "capital": "Kabul",
     "m49Region": "Asia",
     "m49Subregion": "Southern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Afghanistan",
+        "continent": "Asie",
+        "capital": "Kaboul"
+      }
+    }
   },
   {
     "name": "Bangladesh",
@@ -1583,7 +2590,14 @@
     "capital": "Dhaka",
     "m49Region": "Asia",
     "m49Subregion": "Southern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Bangladesh",
+        "continent": "Asie",
+        "capital": "Dacca"
+      }
+    }
   },
   {
     "name": "Bhutan",
@@ -1594,7 +2608,14 @@
     "capital": "Thimphu",
     "m49Region": "Asia",
     "m49Subregion": "Southern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Bhoutan",
+        "continent": "Asie",
+        "capital": "Thimphou"
+      }
+    }
   },
   {
     "name": "India",
@@ -1605,7 +2626,14 @@
     "capital": "New Delhi",
     "m49Region": "Asia",
     "m49Subregion": "Southern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Inde",
+        "continent": "Asie",
+        "capital": "New Delhi"
+      }
+    }
   },
   {
     "name": "Iran (Islamic Republic of)",
@@ -1616,7 +2644,14 @@
     "capital": "Tehran",
     "m49Region": "Asia",
     "m49Subregion": "Southern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Iran",
+        "continent": "Asie",
+        "capital": "Téhéran"
+      }
+    }
   },
   {
     "name": "Maldives",
@@ -1627,7 +2662,14 @@
     "capital": "Malé",
     "m49Region": "Asia",
     "m49Subregion": "Southern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Maldives",
+        "continent": "Asie",
+        "capital": "Malé"
+      }
+    }
   },
   {
     "name": "Nepal",
@@ -1638,7 +2680,14 @@
     "capital": "Kathmandu",
     "m49Region": "Asia",
     "m49Subregion": "Southern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Népal",
+        "continent": "Asie",
+        "capital": "Katmandou"
+      }
+    }
   },
   {
     "name": "Pakistan",
@@ -1649,7 +2698,14 @@
     "capital": "Islamabad",
     "m49Region": "Asia",
     "m49Subregion": "Southern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Pakistan",
+        "continent": "Asie",
+        "capital": "Islamabad"
+      }
+    }
   },
   {
     "name": "Sri Lanka",
@@ -1661,7 +2717,15 @@
     "capitalNote": "Legislative capital. Colombo is the executive and judicial capital.",
     "m49Region": "Asia",
     "m49Subregion": "Southern Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Sri Lanka",
+        "continent": "Asie",
+        "capital": "Sri Jayawardenapura",
+        "capitalNote": "Capitale législative. Colombo est la capitale exécutive et judiciaire."
+      }
+    }
   },
   {
     "name": "Armenia",
@@ -1672,7 +2736,14 @@
     "capital": "Yerevan",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Arménie",
+        "continent": "Asie",
+        "capital": "Erevan"
+      }
+    }
   },
   {
     "name": "Azerbaijan",
@@ -1683,7 +2754,14 @@
     "capital": "Baku",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Azerbaïdjan",
+        "continent": "Asie",
+        "capital": "Bakou"
+      }
+    }
   },
   {
     "name": "Bahrain",
@@ -1694,7 +2772,14 @@
     "capital": "Manama",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Bahreïn",
+        "continent": "Asie",
+        "capital": "Manama"
+      }
+    }
   },
   {
     "name": "Cyprus",
@@ -1705,7 +2790,14 @@
     "capital": "Nicosia",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Chypre",
+        "continent": "Asie",
+        "capital": "Nicosie"
+      }
+    }
   },
   {
     "name": "Georgia",
@@ -1716,7 +2808,14 @@
     "capital": "Tbilisi",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Géorgie",
+        "continent": "Asie",
+        "capital": "Tbilissi"
+      }
+    }
   },
   {
     "name": "Iraq",
@@ -1727,7 +2826,14 @@
     "capital": "Baghdad",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Irak",
+        "continent": "Asie",
+        "capital": "Bagdad"
+      }
+    }
   },
   {
     "name": "Israel",
@@ -1739,7 +2845,15 @@
     "capitalNote": "Jerusalem's status is disputed, and most countries keep their embassies in Tel Aviv.",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Israël",
+        "continent": "Asie",
+        "capital": "Jérusalem",
+        "capitalNote": "Le statut de Jérusalem est contesté ; la plupart des pays maintiennent leurs ambassades à Tel-Aviv."
+      }
+    }
   },
   {
     "name": "Jordan",
@@ -1750,7 +2864,14 @@
     "capital": "Amman",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Jordanie",
+        "continent": "Asie",
+        "capital": "Amman"
+      }
+    }
   },
   {
     "name": "Kuwait",
@@ -1761,7 +2882,14 @@
     "capital": "Kuwait City",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Koweït",
+        "continent": "Asie",
+        "capital": "Koweït"
+      }
+    }
   },
   {
     "name": "Lebanon",
@@ -1772,7 +2900,14 @@
     "capital": "Beirut",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Liban",
+        "continent": "Asie",
+        "capital": "Beyrouth"
+      }
+    }
   },
   {
     "name": "Oman",
@@ -1783,7 +2918,14 @@
     "capital": "Muscat",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Oman",
+        "continent": "Asie",
+        "capital": "Mascate"
+      }
+    }
   },
   {
     "name": "Qatar",
@@ -1794,7 +2936,14 @@
     "capital": "Doha",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Qatar",
+        "continent": "Asie",
+        "capital": "Doha"
+      }
+    }
   },
   {
     "name": "Saudi Arabia",
@@ -1805,7 +2954,14 @@
     "capital": "Riyadh",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Arabie Saoudite",
+        "continent": "Asie",
+        "capital": "Riyad"
+      }
+    }
   },
   {
     "name": "State of Palestine",
@@ -1817,7 +2973,15 @@
     "capitalNote": "Declared capital. The government is administratively based in Ramallah.",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Palestine",
+        "continent": "Asie",
+        "capital": "Jérusalem-Est",
+        "capitalNote": "Capitale déclarée. Le siège administratif du gouvernement est à Ramallah."
+      }
+    }
   },
   {
     "name": "Syrian Arab Republic",
@@ -1828,7 +2992,14 @@
     "capital": "Damascus",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Syrie",
+        "continent": "Asie",
+        "capital": "Damas"
+      }
+    }
   },
   {
     "name": "Türkiye",
@@ -1839,7 +3010,14 @@
     "capital": "Ankara",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Turquie",
+        "continent": "Asie",
+        "capital": "Ankara"
+      }
+    }
   },
   {
     "name": "United Arab Emirates",
@@ -1850,7 +3028,14 @@
     "capital": "Abu Dhabi",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Émirats arabes unis",
+        "continent": "Asie",
+        "capital": "Abou Dabi"
+      }
+    }
   },
   {
     "name": "Yemen",
@@ -1862,7 +3047,15 @@
     "capitalNote": "Constitutional capital. Aden is the provisional capital claimed by the Presidential Leadership Council.",
     "m49Region": "Asia",
     "m49Subregion": "Western Asia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Yémen",
+        "continent": "Asie",
+        "capital": "Sanaa",
+        "capitalNote": "Capitale constitutionnelle. Aden est la capitale provisoire revendiquée par le Conseil de direction présidentiel."
+      }
+    }
   },
   {
     "name": "Belarus",
@@ -1873,7 +3066,14 @@
     "capital": "Minsk",
     "m49Region": "Europe",
     "m49Subregion": "Eastern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Biélorussie",
+        "continent": "Europe",
+        "capital": "Minsk"
+      }
+    }
   },
   {
     "name": "Bulgaria",
@@ -1884,7 +3084,14 @@
     "capital": "Sofia",
     "m49Region": "Europe",
     "m49Subregion": "Eastern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Bulgarie",
+        "continent": "Europe",
+        "capital": "Sofia"
+      }
+    }
   },
   {
     "name": "Czechia",
@@ -1895,7 +3102,14 @@
     "capital": "Prague",
     "m49Region": "Europe",
     "m49Subregion": "Eastern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Tchéquie",
+        "continent": "Europe",
+        "capital": "Prague"
+      }
+    }
   },
   {
     "name": "Hungary",
@@ -1906,7 +3120,14 @@
     "capital": "Budapest",
     "m49Region": "Europe",
     "m49Subregion": "Eastern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Hongrie",
+        "continent": "Europe",
+        "capital": "Budapest"
+      }
+    }
   },
   {
     "name": "Poland",
@@ -1917,7 +3138,14 @@
     "capital": "Warsaw",
     "m49Region": "Europe",
     "m49Subregion": "Eastern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Pologne",
+        "continent": "Europe",
+        "capital": "Varsovie"
+      }
+    }
   },
   {
     "name": "Republic of Moldova",
@@ -1928,7 +3156,14 @@
     "capital": "Chișinău",
     "m49Region": "Europe",
     "m49Subregion": "Eastern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Moldavie",
+        "continent": "Europe",
+        "capital": "Chișinău"
+      }
+    }
   },
   {
     "name": "Romania",
@@ -1939,7 +3174,14 @@
     "capital": "Bucharest",
     "m49Region": "Europe",
     "m49Subregion": "Eastern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Roumanie",
+        "continent": "Europe",
+        "capital": "Bucarest"
+      }
+    }
   },
   {
     "name": "Russian Federation",
@@ -1950,7 +3192,14 @@
     "capital": "Moscow",
     "m49Region": "Europe",
     "m49Subregion": "Eastern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Russie",
+        "continent": "Europe",
+        "capital": "Moscou"
+      }
+    }
   },
   {
     "name": "Slovakia",
@@ -1961,7 +3210,14 @@
     "capital": "Bratislava",
     "m49Region": "Europe",
     "m49Subregion": "Eastern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Slovaquie",
+        "continent": "Europe",
+        "capital": "Bratislava"
+      }
+    }
   },
   {
     "name": "Ukraine",
@@ -1972,7 +3228,14 @@
     "capital": "Kyiv",
     "m49Region": "Europe",
     "m49Subregion": "Eastern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Ukraine",
+        "continent": "Europe",
+        "capital": "Kiev"
+      }
+    }
   },
   {
     "name": "Åland Islands",
@@ -1983,7 +3246,14 @@
     "capital": "Mariehamn",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Ahvenanmaa",
+        "continent": "Europe",
+        "capital": "Mariehamn"
+      }
+    }
   },
   {
     "name": "Denmark",
@@ -1994,7 +3264,14 @@
     "capital": "Copenhagen",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Danemark",
+        "continent": "Europe",
+        "capital": "Copenhague"
+      }
+    }
   },
   {
     "name": "Estonia",
@@ -2005,7 +3282,14 @@
     "capital": "Tallinn",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Estonie",
+        "continent": "Europe",
+        "capital": "Tallinn"
+      }
+    }
   },
   {
     "name": "Faroe Islands",
@@ -2016,7 +3300,14 @@
     "capital": "Tórshavn",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Îles Féroé",
+        "continent": "Europe",
+        "capital": "Tórshavn"
+      }
+    }
   },
   {
     "name": "Finland",
@@ -2027,7 +3318,14 @@
     "capital": "Helsinki",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Finlande",
+        "continent": "Europe",
+        "capital": "Helsinki"
+      }
+    }
   },
   {
     "name": "Guernsey",
@@ -2038,7 +3336,14 @@
     "capital": "Saint Peter Port",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Guernesey",
+        "continent": "Europe",
+        "capital": "Saint-Pierre-Port"
+      }
+    }
   },
   {
     "name": "Iceland",
@@ -2049,7 +3354,14 @@
     "capital": "Reykjavík",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Islande",
+        "continent": "Europe",
+        "capital": "Reykjavik"
+      }
+    }
   },
   {
     "name": "Ireland",
@@ -2060,7 +3372,14 @@
     "capital": "Dublin",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Irlande",
+        "continent": "Europe",
+        "capital": "Dublin"
+      }
+    }
   },
   {
     "name": "Isle of Man",
@@ -2071,7 +3390,14 @@
     "capital": "Douglas",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Île de Man",
+        "continent": "Europe",
+        "capital": "Douglas"
+      }
+    }
   },
   {
     "name": "Jersey",
@@ -2082,7 +3408,14 @@
     "capital": "Saint Helier",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Jersey",
+        "continent": "Europe",
+        "capital": "Saint-Hélier"
+      }
+    }
   },
   {
     "name": "Latvia",
@@ -2093,7 +3426,14 @@
     "capital": "Riga",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Lettonie",
+        "continent": "Europe",
+        "capital": "Riga"
+      }
+    }
   },
   {
     "name": "Lithuania",
@@ -2104,7 +3444,14 @@
     "capital": "Vilnius",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Lituanie",
+        "continent": "Europe",
+        "capital": "Vilnius"
+      }
+    }
   },
   {
     "name": "Norway",
@@ -2115,7 +3462,14 @@
     "capital": "Oslo",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Norvège",
+        "continent": "Europe",
+        "capital": "Oslo"
+      }
+    }
   },
   {
     "name": "Svalbard and Jan Mayen Islands",
@@ -2127,7 +3481,15 @@
     "capitalNote": "Administrative centre of Svalbard.",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Svalbard et Jan Mayen",
+        "continent": "Europe",
+        "capital": "Longyearbyen",
+        "capitalNote": "Centre administratif du Svalbard."
+      }
+    }
   },
   {
     "name": "Sweden",
@@ -2138,7 +3500,14 @@
     "capital": "Stockholm",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Suède",
+        "continent": "Europe",
+        "capital": "Stockholm"
+      }
+    }
   },
   {
     "name": "United Kingdom of Great Britain and Northern Ireland",
@@ -2149,7 +3518,14 @@
     "capital": "London",
     "m49Region": "Europe",
     "m49Subregion": "Northern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Royaume-Uni",
+        "continent": "Europe",
+        "capital": "Londres"
+      }
+    }
   },
   {
     "name": "Albania",
@@ -2160,7 +3536,14 @@
     "capital": "Tirana",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Albanie",
+        "continent": "Europe",
+        "capital": "Tirana"
+      }
+    }
   },
   {
     "name": "Andorra",
@@ -2171,7 +3554,14 @@
     "capital": "Andorra la Vella",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Andorre",
+        "continent": "Europe",
+        "capital": "Andorre-la-Vieille"
+      }
+    }
   },
   {
     "name": "Bosnia and Herzegovina",
@@ -2182,7 +3572,14 @@
     "capital": "Sarajevo",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Bosnie-Herzégovine",
+        "continent": "Europe",
+        "capital": "Sarajevo"
+      }
+    }
   },
   {
     "name": "Croatia",
@@ -2193,7 +3590,14 @@
     "capital": "Zagreb",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Croatie",
+        "continent": "Europe",
+        "capital": "Zagreb"
+      }
+    }
   },
   {
     "name": "Gibraltar",
@@ -2204,7 +3608,14 @@
     "capital": "Gibraltar",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Gibraltar",
+        "continent": "Europe",
+        "capital": "Gibraltar"
+      }
+    }
   },
   {
     "name": "Greece",
@@ -2215,7 +3626,14 @@
     "capital": "Athens",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Grèce",
+        "continent": "Europe",
+        "capital": "Athènes"
+      }
+    }
   },
   {
     "name": "Holy See",
@@ -2226,7 +3644,14 @@
     "capital": "Vatican City",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Cité du Vatican",
+        "continent": "Europe",
+        "capital": "Vatican"
+      }
+    }
   },
   {
     "name": "Italy",
@@ -2237,7 +3662,14 @@
     "capital": "Rome",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Italie",
+        "continent": "Europe",
+        "capital": "Rome"
+      }
+    }
   },
   {
     "name": "Malta",
@@ -2248,7 +3680,14 @@
     "capital": "Valletta",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Malte",
+        "continent": "Europe",
+        "capital": "La Valette"
+      }
+    }
   },
   {
     "name": "Montenegro",
@@ -2259,7 +3698,14 @@
     "capital": "Podgorica",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Monténégro",
+        "continent": "Europe",
+        "capital": "Podgorica"
+      }
+    }
   },
   {
     "name": "North Macedonia",
@@ -2270,7 +3716,14 @@
     "capital": "Skopje",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Macédoine du Nord",
+        "continent": "Europe",
+        "capital": "Skopje"
+      }
+    }
   },
   {
     "name": "Portugal",
@@ -2281,7 +3734,14 @@
     "capital": "Lisbon",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Portugal",
+        "continent": "Europe",
+        "capital": "Lisbonne"
+      }
+    }
   },
   {
     "name": "San Marino",
@@ -2292,7 +3752,14 @@
     "capital": "City of San Marino",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Saint-Marin",
+        "continent": "Europe",
+        "capital": "Saint-Marin"
+      }
+    }
   },
   {
     "name": "Serbia",
@@ -2303,7 +3770,14 @@
     "capital": "Belgrade",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Serbie",
+        "continent": "Europe",
+        "capital": "Belgrade"
+      }
+    }
   },
   {
     "name": "Slovenia",
@@ -2314,7 +3788,14 @@
     "capital": "Ljubljana",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Slovénie",
+        "continent": "Europe",
+        "capital": "Ljubljana"
+      }
+    }
   },
   {
     "name": "Spain",
@@ -2325,7 +3806,14 @@
     "capital": "Madrid",
     "m49Region": "Europe",
     "m49Subregion": "Southern Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Espagne",
+        "continent": "Europe",
+        "capital": "Madrid"
+      }
+    }
   },
   {
     "name": "Austria",
@@ -2336,7 +3824,14 @@
     "capital": "Vienna",
     "m49Region": "Europe",
     "m49Subregion": "Western Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Autriche",
+        "continent": "Europe",
+        "capital": "Vienne"
+      }
+    }
   },
   {
     "name": "Belgium",
@@ -2347,7 +3842,14 @@
     "capital": "Brussels",
     "m49Region": "Europe",
     "m49Subregion": "Western Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Belgique",
+        "continent": "Europe",
+        "capital": "Bruxelles"
+      }
+    }
   },
   {
     "name": "France",
@@ -2358,7 +3860,14 @@
     "capital": "Paris",
     "m49Region": "Europe",
     "m49Subregion": "Western Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "France",
+        "continent": "Europe",
+        "capital": "Paris"
+      }
+    }
   },
   {
     "name": "Germany",
@@ -2369,7 +3878,14 @@
     "capital": "Berlin",
     "m49Region": "Europe",
     "m49Subregion": "Western Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Allemagne",
+        "continent": "Europe",
+        "capital": "Berlin"
+      }
+    }
   },
   {
     "name": "Liechtenstein",
@@ -2380,7 +3896,14 @@
     "capital": "Vaduz",
     "m49Region": "Europe",
     "m49Subregion": "Western Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Liechtenstein",
+        "continent": "Europe",
+        "capital": "Vaduz"
+      }
+    }
   },
   {
     "name": "Luxembourg",
@@ -2391,7 +3914,14 @@
     "capital": "Luxembourg",
     "m49Region": "Europe",
     "m49Subregion": "Western Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Luxembourg",
+        "continent": "Europe",
+        "capital": "Luxembourg"
+      }
+    }
   },
   {
     "name": "Monaco",
@@ -2402,7 +3932,14 @@
     "capital": "Monaco",
     "m49Region": "Europe",
     "m49Subregion": "Western Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Monaco",
+        "continent": "Europe",
+        "capital": "Monaco"
+      }
+    }
   },
   {
     "name": "Netherlands (Kingdom of the)",
@@ -2414,7 +3951,15 @@
     "capitalNote": "Constitutional capital. The government sits in The Hague.",
     "m49Region": "Europe",
     "m49Subregion": "Western Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Pays-Bas",
+        "continent": "Europe",
+        "capital": "Amsterdam",
+        "capitalNote": "Capitale constitutionnelle. Le gouvernement siège à La Haye."
+      }
+    }
   },
   {
     "name": "Switzerland",
@@ -2426,7 +3971,15 @@
     "capitalNote": "No capital by law; Bern is the de facto capital and seat of government.",
     "m49Region": "Europe",
     "m49Subregion": "Western Europe",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Suisse",
+        "continent": "Europe",
+        "capital": "Berne",
+        "capitalNote": "Aucune capitale définie par la loi ; Berne est la capitale de facto et le siège du gouvernement."
+      }
+    }
   },
   {
     "name": "Australia",
@@ -2437,7 +3990,14 @@
     "capital": "Canberra",
     "m49Region": "Oceania",
     "m49Subregion": "Australia and New Zealand",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Australie",
+        "continent": "Océanie",
+        "capital": "Canberra"
+      }
+    }
   },
   {
     "name": "Christmas Island",
@@ -2448,7 +4008,14 @@
     "capital": "Flying Fish Cove",
     "m49Region": "Oceania",
     "m49Subregion": "Australia and New Zealand",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Île Christmas",
+        "continent": "Océanie",
+        "capital": "Flying Fish Cove"
+      }
+    }
   },
   {
     "name": "Cocos (Keeling) Islands",
@@ -2459,7 +4026,14 @@
     "capital": "West Island",
     "m49Region": "Oceania",
     "m49Subregion": "Australia and New Zealand",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Îles Cocos",
+        "continent": "Océanie",
+        "capital": "West Island"
+      }
+    }
   },
   {
     "name": "Heard Island and McDonald Islands",
@@ -2471,7 +4045,15 @@
     "capitalNote": "Uninhabited.",
     "m49Region": "Oceania",
     "m49Subregion": "Australia and New Zealand",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Îles Heard-et-MacDonald",
+        "continent": "Océanie",
+        "capital": null,
+        "capitalNote": "Îles inhabitées."
+      }
+    }
   },
   {
     "name": "New Zealand",
@@ -2482,7 +4064,14 @@
     "capital": "Wellington",
     "m49Region": "Oceania",
     "m49Subregion": "Australia and New Zealand",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Nouvelle-Zélande",
+        "continent": "Océanie",
+        "capital": "Wellington"
+      }
+    }
   },
   {
     "name": "Norfolk Island",
@@ -2493,7 +4082,14 @@
     "capital": "Kingston",
     "m49Region": "Oceania",
     "m49Subregion": "Australia and New Zealand",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Île Norfolk",
+        "continent": "Océanie",
+        "capital": "Kingston"
+      }
+    }
   },
   {
     "name": "Fiji",
@@ -2504,7 +4100,14 @@
     "capital": "Suva",
     "m49Region": "Oceania",
     "m49Subregion": "Melanesia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Fidji",
+        "continent": "Océanie",
+        "capital": "Suva"
+      }
+    }
   },
   {
     "name": "New Caledonia",
@@ -2515,7 +4118,14 @@
     "capital": "Nouméa",
     "m49Region": "Oceania",
     "m49Subregion": "Melanesia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Nouvelle-Calédonie",
+        "continent": "Océanie",
+        "capital": "Nouméa"
+      }
+    }
   },
   {
     "name": "Papua New Guinea",
@@ -2526,7 +4136,14 @@
     "capital": "Port Moresby",
     "m49Region": "Oceania",
     "m49Subregion": "Melanesia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Papouasie-Nouvelle-Guinée",
+        "continent": "Océanie",
+        "capital": "Port Moresby"
+      }
+    }
   },
   {
     "name": "Solomon Islands",
@@ -2537,7 +4154,14 @@
     "capital": "Honiara",
     "m49Region": "Oceania",
     "m49Subregion": "Melanesia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Îles Salomon",
+        "continent": "Océanie",
+        "capital": "Honiara"
+      }
+    }
   },
   {
     "name": "Vanuatu",
@@ -2548,7 +4172,14 @@
     "capital": "Port Vila",
     "m49Region": "Oceania",
     "m49Subregion": "Melanesia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Vanuatu",
+        "continent": "Océanie",
+        "capital": "Port-Vila"
+      }
+    }
   },
   {
     "name": "Guam",
@@ -2559,7 +4190,14 @@
     "capital": "Hagåtña",
     "m49Region": "Oceania",
     "m49Subregion": "Micronesia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Guam",
+        "continent": "Océanie",
+        "capital": "Hagåtña"
+      }
+    }
   },
   {
     "name": "Kiribati",
@@ -2570,7 +4208,14 @@
     "capital": "South Tarawa",
     "m49Region": "Oceania",
     "m49Subregion": "Micronesia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Kiribati",
+        "continent": "Océanie",
+        "capital": "Tarawa-Sud"
+      }
+    }
   },
   {
     "name": "Marshall Islands",
@@ -2581,7 +4226,14 @@
     "capital": "Majuro",
     "m49Region": "Oceania",
     "m49Subregion": "Micronesia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Îles Marshall",
+        "continent": "Océanie",
+        "capital": "Majuro"
+      }
+    }
   },
   {
     "name": "Micronesia (Federated States of)",
@@ -2592,7 +4244,14 @@
     "capital": "Palikir",
     "m49Region": "Oceania",
     "m49Subregion": "Micronesia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Micronésie",
+        "continent": "Océanie",
+        "capital": "Palikir"
+      }
+    }
   },
   {
     "name": "Naoero",
@@ -2604,7 +4263,15 @@
     "capitalNote": "No official capital; Yaren is the seat of parliament.",
     "m49Region": "Oceania",
     "m49Subregion": "Micronesia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Nauru",
+        "continent": "Océanie",
+        "capital": "Yaren",
+        "capitalNote": "Aucune capitale officielle ; Yaren est le siège du Parlement."
+      }
+    }
   },
   {
     "name": "Northern Mariana Islands",
@@ -2615,7 +4282,14 @@
     "capital": "Saipan",
     "m49Region": "Oceania",
     "m49Subregion": "Micronesia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Îles Mariannes du Nord",
+        "continent": "Océanie",
+        "capital": "Saïpan"
+      }
+    }
   },
   {
     "name": "Palau",
@@ -2626,7 +4300,14 @@
     "capital": "Ngerulmud",
     "m49Region": "Oceania",
     "m49Subregion": "Micronesia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Palaos (Palau)",
+        "continent": "Océanie",
+        "capital": "Ngerulmud"
+      }
+    }
   },
   {
     "name": "United States Minor Outlying Islands",
@@ -2638,7 +4319,15 @@
     "capitalNote": "A statistical grouping of separate islands.",
     "m49Region": "Oceania",
     "m49Subregion": "Micronesia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Îles mineures éloignées des États-Unis",
+        "continent": "Océanie",
+        "capital": null,
+        "capitalNote": "Ensemble statistique de plusieurs îles distinctes."
+      }
+    }
   },
   {
     "name": "American Samoa",
@@ -2649,7 +4338,14 @@
     "capital": "Pago Pago",
     "m49Region": "Oceania",
     "m49Subregion": "Polynesia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Samoa américaines",
+        "continent": "Océanie",
+        "capital": "Pago Pago"
+      }
+    }
   },
   {
     "name": "Cook Islands",
@@ -2660,7 +4356,14 @@
     "capital": "Avarua",
     "m49Region": "Oceania",
     "m49Subregion": "Polynesia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Îles Cook",
+        "continent": "Océanie",
+        "capital": "Avarua"
+      }
+    }
   },
   {
     "name": "French Polynesia",
@@ -2671,7 +4374,14 @@
     "capital": "Papeete",
     "m49Region": "Oceania",
     "m49Subregion": "Polynesia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Polynésie française",
+        "continent": "Océanie",
+        "capital": "Papeete"
+      }
+    }
   },
   {
     "name": "Niue",
@@ -2682,7 +4392,14 @@
     "capital": "Alofi",
     "m49Region": "Oceania",
     "m49Subregion": "Polynesia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Niue",
+        "continent": "Océanie",
+        "capital": "Alofi"
+      }
+    }
   },
   {
     "name": "Pitcairn",
@@ -2693,7 +4410,14 @@
     "capital": "Adamstown",
     "m49Region": "Oceania",
     "m49Subregion": "Polynesia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Îles Pitcairn",
+        "continent": "Océanie",
+        "capital": "Adamstown"
+      }
+    }
   },
   {
     "name": "Samoa",
@@ -2704,7 +4428,14 @@
     "capital": "Apia",
     "m49Region": "Oceania",
     "m49Subregion": "Polynesia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Samoa",
+        "continent": "Océanie",
+        "capital": "Apia"
+      }
+    }
   },
   {
     "name": "Tokelau",
@@ -2716,7 +4447,15 @@
     "capitalNote": "Each atoll has its own administrative centre.",
     "m49Region": "Oceania",
     "m49Subregion": "Polynesia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Tokelau",
+        "continent": "Océanie",
+        "capital": null,
+        "capitalNote": "Chaque atoll possède son propre centre administratif."
+      }
+    }
   },
   {
     "name": "Tonga",
@@ -2727,7 +4466,14 @@
     "capital": "Nukuʻalofa",
     "m49Region": "Oceania",
     "m49Subregion": "Polynesia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Tonga",
+        "continent": "Océanie",
+        "capital": "Nukuʻalofa"
+      }
+    }
   },
   {
     "name": "Tuvalu",
@@ -2738,7 +4484,14 @@
     "capital": "Funafuti",
     "m49Region": "Oceania",
     "m49Subregion": "Polynesia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Tuvalu",
+        "continent": "Océanie",
+        "capital": "Funafuti"
+      }
+    }
   },
   {
     "name": "Wallis and Futuna Islands",
@@ -2749,6 +4502,13 @@
     "capital": "Mata-Utu",
     "m49Region": "Oceania",
     "m49Subregion": "Polynesia",
-    "m49IntermediateRegion": ""
+    "m49IntermediateRegion": "",
+    "language": {
+      "fr": {
+        "name": "Wallis-et-Futuna",
+        "continent": "Océanie",
+        "capital": "Mata Utu"
+      }
+    }
   }
 ]
