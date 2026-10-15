@@ -1,0 +1,685 @@
+# ATLAS — Product Requirements Document (v3.2)
+
+| | |
+|---|---|
+| **Product** | ATLAS — a web app to practice country names, locations, flags and capitals |
+| **Repository** | `poivronjaune/quiz-countries` (folder `html/`) |
+| **Document version** | 3.2 (supersedes v3.1, v3.0, v2.0 and `html/prd.md` v1). Where v3.2 conflicts with an older requirement, **v3.2 wins** and the older text below has been rewritten to match. |
+| **Date** | 2026-10-13 |
+| **Status** | Implemented in ATLAS V3.2 (see section 0 for what changed and 15 for the implementation status) |
+| **Languages** | English, French (extensible) |
+
+---
+
+## 0. What is new in v3.2
+
+v3.2 adds sound and reworks two pieces of layout. These requirements **override** anything older that says otherwise (the affected sections S-1, S-2, S-4, E-8, 4.4, 4.5, 4.6, 9.5 and A1 were rewritten).
+
+| ID | Change | Why |
+|---|---|---|
+| **D-1** | **Country name on top, fixed 2-line area.** In the Explore detail card the country name is on its own row **above** the flag and the capital. The name area always reserves exactly **two lines** of height, whatever the name length, so the card (and the phone bottom sheet) never changes size when the selection changes. Long names shrink slightly to fit two lines; the full name is always available (tooltip and screen reader). Details in E-8 and 3.2.1. | Long names (for example "South Georgia and the South Sandwich Islands") used to wrap to three lines and resize the panel. |
+| **SND-1** | **Sound effects.** A success sound for a correct answer, a failure sound for a wrong answer, and a soft clock tick while the quiz timer runs and a question is waiting for an answer. All sounds are generated in the browser (Web Audio API); no audio files, no downloads. Details in section 6.5. | Requested: audio feedback. |
+| **H-1** | **Header rework (right side).** Row 1: brand on the left; name, age, Save and Clear my data on the right. Row 2: main menu on the left; **language selector and sound button on the right**, aligned with the menu items. The profile status message moves to row 1, between the brand and the profile fields, so it still never overlaps anything. Details in S-1. | Requested: language selector moves to the second header line, level with the menu. |
+| **SND-2** | **Sound button.** A speaker icon button to the **right of the language selector**. Sound is **on by default**. Pressing it mutes or unmutes all sound effects. The choice is remembered on the device. | Requested: a mute control. |
+
+Superseded from v3.1: B-2 (language on the profile row). B-1, B-3, B-4 and B-5 still hold; B-4 is refined by D-1.
+
+---
+
+## 0.1 History: v3.1
+
+v3.1 was a bug-fix and polish release on top of v3.0.
+
+| ID | Change | Status in v3.2 |
+|---|---|---|
+| **B-1** | Header status line ("Your data was cleared.", "Saved.") is part of the normal layout and cannot be covered by another control. | Kept; the line moved (H-1). |
+| **B-2** | Language selector on the profile row (name, age, Save, Clear and language on one line). | **Replaced by H-1.** |
+| **B-3** | Mouse wheel scrolls the page again. A plain wheel over the map zooms only when the page behind it cannot scroll; otherwise the page scrolls and a hint says "Use Ctrl + scroll to zoom the map". Ctrl / Cmd + wheel and trackpad pinch always zoom. | Kept. |
+| **B-4** | Simpler detail card: flag, name, capital and the zoom-to-country button. No ISO code, region line or notes. | Kept; name position changed (D-1). |
+| **B-5** | One hints control in the quiz setup (the switch); the eye button stays in the quiz bar. | Kept. |
+
+---
+
+## 0.2 History: v3
+
+v3 keeps everything in v2 and adds three user-requested changes. Requirement IDs below are used again in the sections they touch.
+
+| ID | Change | Why |
+|---|---|---|
+| **M-1** | **Hover hints everywhere.** Moving the mouse over a country on the map shows its name in a small tooltip, on Explore **and during the Quiz** (Locate mode). | Users want to find a country by exploring the map with the mouse, also while practising. |
+| **Q-8** | **Hints can be turned off.** The Locate quiz setup has a "Country name hints" switch (default **on**). A button with an eye icon in the quiz bar turns hints on or off during a quiz. The choice is remembered (`atlas.settings.v1`). | Lets a learner make the quiz harder, or fair for a test, without losing hints elsewhere. |
+| **M-2** | **Every country can be seen, even Monaco.** Countries that are tiny on screen get a clickable round badge ("dot") of constant size, drawn on top of the map, and the maximum zoom goes from 20× to **60×**. | At 20×, Monaco, Vatican City, Tuvalu and about 70 other countries and areas were smaller than a pixel or two. Three areas have no shape at all (Bouvet Island, Gibraltar, U.S. Minor Outlying Islands). |
+
+Also documented here because it exists in the code but was not in v2: **E-11 "Zoom to country"**, a button on the detail card that frames the selected country (up to 12× zoom).
+
+---
+
+## 1. Overview
+
+ATLAS is a static, responsive web app that helps people learn:
+
+1. **Country names** and which continent they belong to
+2. **Where each country is** on a world map
+3. **The flag** of each country
+4. **The capital** of each country
+
+It has two areas: **Explore** (browse continents and countries, see details) and **Quiz** (practice and evaluate). Everything runs in the browser, with no account and no server-side logic. Data is the UN M49 country list plus a world GeoJSON file and one SVG flag per country.
+
+### 1.1 Goals
+
+- G1. Learn by **exploring**: tap or click anything on the map or in a list and instantly see its name, flag, capital and position.
+- G2. Learn by **testing**: quizzes for location, flag and capital, not only location.
+- G3. **Mobile-first usability**: everything needed after selecting a country is visible without scrolling the page, and the map works with touch (one-finger pan, pinch zoom, double-tap zoom).
+- G4. Equally good on desktop, tablet and phone from one codebase.
+- G5. Fully bilingual (EN/FR) and accessible (keyboard, screen reader, contrast, reduced motion).
+- G6. **Every** country and area in the list is visible and selectable on the map at some zoom level, however small (v3).
+
+### 1.2 Non-goals (this version)
+
+- User accounts, cloud sync, leaderboards
+- Sub-national maps (states, provinces), cities, or rivers
+- Native mobile apps (a PWA is in scope; see 9.4)
+
+### 1.3 Users
+
+| Persona | Need |
+|---|---|
+| **Student (10–18)**, mostly on a phone | Quick sessions, big tap targets, clear feedback |
+| **Adult learner / traveller**, phone or laptop | Look up a country, then test themselves |
+| **Teacher / parent**, desktop or tablet | Run a short quiz on a given continent |
+
+---
+
+## 2. Gap analysis: your request vs the existing PRD vs the code
+
+Reviewed: `html/prd.md`, `src/index.html`, `src/quiz.html`, `src/css/site.css`, `src/js/app.js`, `src/js/i18n.js`, `src/data/countries.json` (248 entries), `src/data/world-countries.geojson` (250 features, 246 with an ISO code), `src/img/flags/` (249 SVGs). Findings come from reading the code, not from testing on real devices.
+
+| Requested capability | In existing `prd.md`? | In current code? | v2 action |
+|---|---|---|---|
+| Learn **country names** by continent | Yes (Feature 2) | Yes | Keep; add name-recall quiz mode |
+| **Location on a world map** | Yes (Features 2, 3) | Yes | Keep; improve with touch and better framing |
+| **Flags** | Partly: small flag on the info panel only | Yes, info panel only | Add flag quizzes (flag → name, name → flag) |
+| **Capitals** | Partly: shown on the info panel only | Yes, info panel only | Add capital quizzes (capital → country, country → capital) |
+| **Responsive web app** | **No** (no breakpoints, no mobile requirement) | Partly: CSS breakpoints exist, layout is clunky | Full responsive spec (section 4) |
+| **Mobile map pan and zoom** | **No** (mouse and scroll wheel only) | **No**: touch drag is explicitly disabled in code; no pinch; no `touch-action` | Full touch spec (section 5) |
+| **Flag and capital visible after selecting a country, without scrolling** | **No** (info panel is "under the map") | **No**: on phones the panel sits below a 360 px map and a 300 px list | New bottom-sheet design (section 4) |
+| Quiz "by typing or by clicking the map" | Stated in the intro of Feature 3 | Click only; no typing | Add typed answers with autocomplete |
+| Multilingual EN/FR | Yes (Feature 4) | Yes, with a few hard-coded English strings | Keep; fix gaps (section 12) |
+
+**Conclusion:** the existing PRD does **not** fully cover your requirements. It describes a desktop-style location explorer plus a click-the-map quiz. It has no flag or capital quizzes, no responsive or mobile requirements, and no touch interaction. It also contains typos (the app name appears as "ATALS"), broken numbering (e.g. 2.1, then 2.8, 2.9…; "1.7" repeats 1.4–1.5) and one contradiction (footer position described twice). This v2 replaces it.
+
+---
+
+## 3. Feature overview
+
+IDs are stable and can be used as ticket references.
+
+### 3.1 Shell (all pages)
+
+| ID | Requirement |
+|---|---|
+| S-1 | **Two-row header (v3.2).** Row 1: logo and name "ATLAS" on the left; then the profile status message ("Saved.", "Your data was cleared."), which takes the free space in the middle and is right-aligned; on the right the profile fields: name, age, Save, Clear my data. Row 2: main menu (Explore, Quiz) on the left; on the right, the **language selector followed by the sound button**, both aligned with the menu items, the sound button being the right-most element of the header. The status message is in normal layout, so nothing overlaps it; when there is not enough width it wraps onto its own line under row 1. On narrow tablets the profile fields may wrap. On phones everything sits in the menu panel (see S-2). |
+| S-2 | **On phones the header is compact** (section 4.2): logo, page title, and the profile, language and sound button behind a single "menu" button; primary navigation moves to a bottom tab bar. In the menu panel the language selector and the sound button share one row, the sound button on the right. |
+| S-3 | One-row footer: app name on the left, "Designed by poivronjaune" in the centre, "UN-M49 Data" link (to `https://unstats.un.org/unsd/methodology/m49/overview/`) on the right. Sticks to the bottom on short pages and follows the content on long pages. On the Explore page on phones the footer is below the fold by design. |
+| S-4 | Language selector (English / Français). The choice persists on the device and applies to all labels, continent, country and capital names. |
+| S-5 | Profile (optional name and age) is stored **only in the browser** (`localStorage`); nothing is sent anywhere. |
+| S-6 | No separate home page: Explore is the default landing page. |
+| S-7 | **Sound button (v3.2).** Speaker icon, 44 px target, in the header on every page, right of the language selector. Sound is on by default; the choice is stored in `localStorage` (`atlas.sound.v1`) and "Clear my data" resets it to on. It is a toggle button with a fixed accessible name ("Sound effects") and `aria-pressed` that is `true` when sound is on; the icon shows a speaker with waves when on and a crossed-out speaker when muted. See section 6.5. |
+
+### 3.2 Explore
+
+| ID | Requirement |
+|---|---|
+| E-1 | Slogan "The world, in seven parts", title "Continents" and the total number of countries and areas. |
+| E-2 | A continent and a country are **always** selected. Default: Africa and its first country (alphabetical in the current language). |
+| E-3 | Continent list (7 continents, each with a country count). Selecting one highlights it on the map (dark green) and reframes the map. |
+| E-4 | Country list for the selected continent, sorted in the current language. No search bar inside the list. |
+| E-5 | Map colours: land light green, white borders, selected continent dark green, selected country a high-contrast colour (currently orange `#ff5a1f` with a dark edge). |
+| E-6 | Tapping/clicking a country on the map updates the continent and country selection everywhere (lists, map, detail card). |
+| E-7 | **Search** by "starts with" with a suggestion list. Nothing changes until a suggestion is confirmed. Accent-insensitive ("ecuador" and "Équateur" both work). |
+| E-8 | **Country detail card (v3.2 layout)**: three parts, top to bottom: (1) the **country name** in a fixed two-line area; (2) below it one row with the **flag** on the left, the **capital** next to it, and the zoom-to-country button (E-11) on the right. No ISO code, no continent / sub-region line and no notes. Several capitals are shown together in the capital line. Always visible without page scroll (section 4). See 3.2.1 for the name area rules. |
+| E-9 | Very small countries that are barely visible on the map get a pulsing ring marker and a "too small to be drawn" note when they have no shape at all. |
+| E-10 | Full-screen map toggle (desktop and tablet). On phones the map is already full height, so the toggle is hidden. |
+| E-11 | **Zoom to country** button on the detail card: frames the selected country (maximum 12×; for very small countries the view stays on the micro-country badge, see 5.5). On phones it also collapses the sheet to Peek. |
+| E-12 | **Hover hint (M-1)**: on devices with a mouse, hovering a country shows a tooltip with its name in the current language. Hidden while the map is being dragged. |
+
+#### 3.2.1 Country name area (D-1)
+
+| Rule | Value |
+|---|---|
+| Position | Above the flag and the capital, full card width, left-aligned, top-aligned inside its area. |
+| Reserved height | Exactly **2 lines** (`2 × line-height`), always, even when the name fits on one line. The card never grows or shrinks when the selection changes. |
+| Font | Serif, 1.25 rem on phone and 1.4 rem on desktop as the starting size. |
+| Long names | If the name needs more than two lines, the font size is reduced step by step (down to 80 % of the starting size) until it fits. If it still does not fit it is cut with an ellipsis after line 2. |
+| Full name always available | The element carries `title` with the full name and the full text stays in the DOM, so screen readers read the whole name. |
+| Test names | At least: "South Georgia and the South Sandwich Islands", "United Kingdom of Great Britain and Northern Ireland", "Democratic Republic of the Congo", "Îles mineures éloignées des États-Unis" and the longest French names must keep the card height identical to the one for "Chad", on phone, tablet and desktop. |
+
+### 3.3 Quiz
+
+See section 6 for details.
+
+| ID | Requirement |
+|---|---|
+| Q-1 | Quiz **modes**: Locate, Flag → Name, Name → Flag, Capital → Country, Country → Capital. |
+| Q-2 | Settings: mode, number of questions (5/10/20/50), region filter (World or one continent), difficulty (UN members only, or all countries and areas), answer style (multiple choice or typed, where applicable). |
+| Q-3 | Score visible at all times during the quiz; a final result stays on screen until the user leaves the page or starts again. |
+| Q-4 | Questions are listed **as they are answered**, never all at the start. |
+| Q-5 | Wrong answer: the wrong country is shown red and the correct one dark green (Locate mode). Other modes show the correct answer clearly in text and colour. |
+| Q-6 | End-of-quiz screen with score, the list of missed items and a "Practice missed" button. |
+| Q-7 | Best score per mode is stored locally. |
+| Q-8 | **Hints switch (v3).** Locate mode: setting "Country name hints" (default on). When on, hovering a country with the mouse shows its name, as in Explore. When off, no names are shown on the map. Also toggled during the quiz with the eye button in the quiz bar (`aria-pressed`). Touch screens have no hover, so the setting has no effect there; this is stated in the setting's help text. |
+
+### 3.4 Multilingual
+
+| ID | Requirement |
+|---|---|
+| L-1 | Language selector in the header (EN/FR) on every page. |
+| L-2 | UI strings live in locale files (one per language), not inside JavaScript logic. |
+| L-3 | `countries.json` keeps a `language` object with translated country, continent and capital names per language code. Adding a language means adding one locale file plus one key per country. |
+| L-4 | Sorting, search and highlighting use the active language's collation and accent-insensitive matching. |
+
+### 3.5 Sound (v3.2)
+
+| ID | Requirement |
+|---|---|
+| SND-1 | Sounds are synthesized with the Web Audio API. No audio files, no network requests, works offline. |
+| SND-2 | Events: **success** (correct answer), **fail** (wrong answer), **tick** (clock tick while the quiz timer runs and a question is open). Full rules in 6.5. |
+| SND-3 | Sound is on by default. The header sound button (S-7) mutes and unmutes everything immediately; muting also stops a tick that is scheduled. |
+| SND-4 | Sound is never the only signal: correct and wrong answers keep their icon, colour and text. |
+| SND-5 | Explore has no sound effects. The sound button is still shown so that the header is the same on every page. |
+
+---
+
+## 4. UX design: responsive layout
+
+### 4.1 The problem with the current layout
+
+On phones (≤ 960 px) the explorer becomes a single column made of: continent chips, then a **360 px map**, then a **300 px country list**, and only after all of that the selected-country panel with the flag and capital. After tapping a country on the map the user has to scroll a long way to see what they selected, which breaks the "tap, see, learn" loop.
+
+### 4.2 Design principle: map first, details always in view
+
+> The selected country's flag, name and capital must always be on screen together with the map. Lists are a secondary way to select and live in a panel the user can pull up or put away.
+
+### 4.3 Breakpoints
+
+| Name | Width | Layout |
+|---|---|---|
+| **Phone** | < 640 px | Full-height map, floating controls, bottom sheet (4.4) |
+| **Tablet** | 640–1023 px | Map fills the left/main area, a side panel (320 px) on the right holds the detail card and lists |
+| **Desktop** | ≥ 1024 px | Three-pane layout (4.6) |
+
+Use CSS container/media queries with `dvh`/`svh` units so browser toolbars on phones do not clip the layout. Minimum supported width 320 px.
+
+### 4.4 Phone layout (portrait)
+
+```
+┌───────────────────────────────┐
+│ ☰  ATLAS                  Quiz│  compact header (48 px); profile,
+│                               │  language and sound are in ☰
+├───────────────────────────────┤
+│ 🔍 Search a country           │  search (overlay, 44 px)
+│ [Africa][Asia][Europe][N.Am]→ │  continent chips, horizontal scroll
+│                               │
+│          M A P                │  fills all remaining height
+│     (pan / pinch / tap)       │
+│                          ┌─┐  │
+│                          │+│  │  floating controls
+│                          │−│  │  (zoom in, zoom out,
+│                          │⟲│  │   reset view)
+│ ┌───────────────────────────┐ │
+│ │ ▬▬                        │ │  ← bottom sheet, PEEK state
+│ │ Nigeria                   │ │     name: fixed 2-line area
+│ │                           │ │
+│ │ 🇳🇬 Capital: Abuja     ◎  │ │     flag, capital, zoom button
+│ └───────────────────────────┘ │
+├───────────────────────────────┤
+│  🌍 Explore       ❓ Quiz     │  bottom tab bar (56 px)
+└───────────────────────────────┘
+```
+
+**Bottom sheet** (the key change):
+
+| State | Height | Content | How to reach |
+|---|---|---|---|
+| **Peek** (default) | about **140 px** (fixed, v3.2) | Drag handle, name (fixed 2-line area), then flag, capital and zoom button | Appears as soon as a country is selected |
+| **Half** | about 50 % of the screen | Peek content plus the scrollable country list of the continent (2 columns) | Swipe up on the handle, or tap the handle or the chevron |
+| **Hidden** | 0 | Map only | Swipe down from Peek (a small "show details" pill remains) |
+
+Rules:
+
+- The map's visible area is the space **above** the sheet. When the sheet changes height, the selected country is re-centred in the visible part of the map (not behind the sheet).
+- Tapping the map selects a country, shows the Peek sheet and keeps the user's zoom level. The page itself never scrolls on this screen (`overflow: hidden` on the explorer, `overscroll-behavior: none`).
+- Selecting a continent chip reframes the map and selects the first country of that continent (E-2).
+- Choosing a country from the list in Half state selects it, moves the map, and collapses to Peek so the map is visible again.
+- The sheet's content is announced to screen readers (`aria-live="polite"`) and the sheet is a `role="region"` with a labelled handle button that toggles its state (the swipe gesture is an enhancement, not the only way).
+- Profile (name/age), the language selector and the sound button live in the ☰ menu on phones, which opens a full-height sheet. The language selector and the sound button share one row.
+
+### 4.5 Phone layout (landscape) and tablet
+
+- **Landscape phone** (height < 500 px): the bottom tab bar becomes a left rail, the compact header is hidden on scroll-free pages, and the bottom sheet becomes a right-hand panel (320 px) containing the detail card and list.
+- **Tablet portrait**: same as phone, with the sheet in Half state by default.
+- **Tablet landscape**: the Desktop layout with narrower side panels.
+
+### 4.6 Desktop layout (≥ 1024 px)
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│ [logo] ATLAS     Saved.   [Name] [Age] [Save] [Clear my data]│
+│ Explore   Quiz                              [English ▾] [🔊] │
+├──────────────────────────────────────────────────────────────┤
+│ The world, in seven parts      Continents      248 countries │
+│ 🔍 Search…                                                   │
+├────────────┬───────────────────────────────┬─────────────────┤
+│ Continents │                               │ ┌─────────────┐ │
+│ ▸ Africa 60│                               │ │ Nigeria     │ │
+│   Antarct… │            M A P              │ │ (2-line     │ │
+│   Asia  50 │   (wheel zoom, drag to pan,   │ │  name area) │ │
+│   Europe 51│    zoom slider, reset,        │ │ 🇳🇬 Abuja  ◎ │ │
+│   …        │    full-screen)               │ └─────────────┘ │
+│            │                               │ Africa · 60     │
+│            │                               │ ▸ Algeria       │
+│            │                               │   Angola        │
+│            │                               │   …  (scrolls)  │
+├────────────┴───────────────────────────────┴─────────────────┤
+│ ATLAS            Designed by poivronjaune        UN-M49 Data │
+└──────────────────────────────────────────────────────────────┘
+```
+
+Changes from today:
+
+- The **detail card moves to the top of the right panel** (above the country list) instead of under the map, so it is in view next to the map. It is no longer separated from the map by a scroll.
+- The map area height is `calc(100dvh − header − search row)` with a minimum of 520 px, so on a typical laptop (1366×768) the whole explorer fits without page scroll. If the viewport is shorter than the minimum the page scrolls, but the detail card stays visible because the right panel is `position: sticky`.
+- A hover tooltip shows the country name on the map. The legend moves into the map's corner.
+- The full-screen toggle stays in the map toolbar.
+
+### 4.7 Quiz layout
+
+**Phone:**
+
+```
+┌───────────────────────────────┐
+│ ←  Quiz · Locate     3/10  ★2 │  progress and score in a sticky bar
+├───────────────────────────────┤
+│  Find  Kenya  on the map      │  question card (sticky)
+├───────────────────────────────┤
+│                               │
+│          M A P                │  same touch map as Explore
+│                          [+−⟲]│
+│                               │
+├───────────────────────────────┤
+│  ✔ Correct!  [ Next question ]│  feedback bar and primary action,
+└───────────────────────────────┘  in the thumb zone
+```
+
+- For choice-based modes (flag, capital) the 4 answer buttons occupy the lower half of the screen (minimum 48 px high, full width) instead of the map.
+- The "answered questions" list opens from a button in the top bar (a bottom sheet) so it never pushes the map out of view.
+
+**Desktop:** left column (settings → question → feedback → answered list), right area the map or the answer grid, as today but with the answered list limited in height and scrolling inside itself.
+
+### 4.8 Visual and interaction standards
+
+- Touch targets at least 44×44 px (list rows 48 px on phones).
+- Body text at least 16 px on phones (prevents iOS zoom on input focus); inputs 16 px.
+- Hover styles only under `@media (hover: hover)`, so a tap does not leave a "stuck" hover colour on touch devices.
+- Respect `prefers-reduced-motion` (already done) and `prefers-color-scheme` (optional dark theme in a later phase).
+- Safe areas: use `env(safe-area-inset-*)` for the bottom tab bar and sheet on notched phones.
+- Loading state: skeleton map and a progress message while data loads; an error state with a "Retry" button.
+
+---
+
+## 5. Map interaction specification (mouse, pen and touch)
+
+### 5.1 Common behaviour
+
+- The map is an SVG scaled by changing its `viewBox`. Zoom range **1× to 60×** (1× shows the whole world). v2 used 20×; v3 raises it because the smallest countries are far below one pixel at 20× (see 5.5).
+- Panning is clamped so the map cannot leave the world rectangle.
+- A new selection animates the view (450 ms, instant when reduced motion is on).
+- After the user zooms or pans manually, selecting another country **keeps their zoom** and centres the new country; choosing a continent resets to that continent's default framing. "Reset view" returns to the default framing.
+
+### 5.2 Input matrix
+
+| Action | Mouse / trackpad | Touch | Keyboard |
+|---|---|---|---|
+| Select country | Click | **Tap** (movement under 8 px) | Choose in the list (arrow keys) |
+| Pan | Left-button drag | **One-finger drag** | Arrow keys when the map has focus |
+| Zoom | **Ctrl / Cmd + wheel** (anchored at cursor; also trackpad pinch) always; plain wheel only when the page cannot scroll (v3.1, see B-3); slider | **Pinch** (anchored at the midpoint of the two fingers), **double-tap** to zoom in 2× at the tap point, **+ / − buttons** | `+` / `−` keys |
+| Reset view | Reset button | Reset button (⟲) | `0` key |
+| Country name hint | **Hover** (tooltip, can be switched off in the Quiz) | Not available (no hover); the detail card shows the name after a tap | n/a |
+| Full screen | Toggle button | Not needed (map is already full height) | `F` key or toggle |
+
+### 5.3 Touch implementation requirements
+
+1. Use **Pointer Events** for everything (mouse, pen, touch) with `setPointerCapture`, and set `touch-action: none` on the map stage so the browser does not scroll or zoom the page while the finger is on the map. (Today touch is explicitly excluded from dragging in `app.js` and `quiz.html`, and there is no `touch-action`.)
+2. Track active pointers in a `Map`. One pointer pans. Two pointers zoom and pan together (scale equals the ratio of the finger distance now to the distance at the start, anchored at the midpoint).
+3. A tap is a pointer that moves less than 8 px (touch) or 4 px (mouse) and lasts less than 300 ms. Only taps select a country. This replaces the `setTimeout` click-suppression hack.
+4. **Forgiving taps on small countries**: when the tap lands on ocean, find the nearest selectable country within 16 px (screen) and select it if it is a small country (box under 22 px on screen) or a micro-state. A transparent, enlarged hit-circle can be drawn around micro-states at low zoom.
+5. Momentum (inertia) after a flick is optional; if added it must stop on touch and never run with reduced motion.
+6. Provide on-screen **+ / − / reset** buttons (44 px) for users who cannot pinch (motor impairments, one-handed use). Keep the slider on desktop only.
+7. Prevent page rubber-banding while the map has focus: `overscroll-behavior: none` on the explorer container.
+8. Avoid accidental browser zoom on double-tap (`touch-action: none` handles this).
+
+### 5.4 Performance targets for the map
+
+- Pinch/pan at 60 fps on a mid-range phone (about 2020 hardware). Updating the `viewBox` is cheap, but 100 000 coordinates with `vector-effect: non-scaling-stroke` can be slow while moving. Mitigations:
+  - Simplify geometry at build time (section 12); use a lighter geometry while the map is being moved if still needed.
+  - While a gesture is active, add a `.is-moving` class that turns off transitions and hover styles.
+- Coalesce pointer moves with `requestAnimationFrame`.
+
+### 5.5 Making very small countries visible (M-2)
+
+**Problem found in v2.** The map is a 960×480 drawing of the whole world. Monaco is 0.17 map units wide, Vatican City 0.03. Even at 20× zoom on a laptop that is a 3 px or 0.5 px speck, so users could not see or tap them. In total 72 countries and areas are narrower than 2 map units, 95 narrower than 6, and 3 have no shape at all.
+
+**Solution: a screen-sized badge ("dot") for every small country.**
+
+| Rule | Value |
+|---|---|
+| Candidates | Every country whose largest shape is under 14 map units wide, plus every country without a shape (about 130 of 248). |
+| When shown | The dot appears when the map is zoomed in **2.5× or more** and the country's drawn size on screen is **under 12 px** in both directions. Otherwise only the real shape is shown. |
+| Size | Radius 6 px on screen at any zoom (the SVG radius is recomputed as 6 / scale when the view changes). Two-pixel white outline. |
+| Position | Centre of the bounding box of the country's largest shape (`centroid` in `countries.json`). For countries without a shape, a manual point (Bouvet Island, Gibraltar, U.S. Minor Outlying Islands). |
+| Colours | Same states as shapes: neutral green, continent dark green, selected orange with dark outline, pending/correct/wrong in the quiz. The pulsing ring marker (E-9) is still drawn around a selected micro-country. |
+| Interaction | The dot is a normal map target: tap or click selects the country, hover shows its name (M-1), double-tap and pinch work as everywhere else. The forgiving-tap rule (5.3 item 4) still applies. |
+| Hidden when not needed | Once a country is drawn 12 px or larger, the dot disappears and the real shape takes over, so large zoom levels show the true outline. |
+| Maximum zoom | 60× so that crowded areas (for example Monaco beside France and Italy, or the Caribbean) can be pulled apart. |
+| Stacking | Dots sit above shapes and below the pulse ring. A selected or marked dot is raised above other dots. |
+
+**Why not enlarge the shapes?** Scaling a micro-country's polygon up would distort neighbours and borders. A badge keeps the map truthful and gives a large, fixed tap target (12 px diameter, 44 px effective with the forgiving-tap rule). Both ideas were considered; the badge was chosen, and the higher zoom was added as the second measure.
+
+**Known limits.** At the 1× world view the dots are hidden by design (about 130 would clutter the map). Zooming in 2.5× reveals them. Dense clusters (Caribbean, Pacific atolls) overlap until zoomed further. The centre of a bounding box can lie in the sea for archipelagos such as the Maldives; this is intended, since it still marks the group.
+
+---
+
+## 6. Quiz specification
+
+### 6.1 Modes
+
+| Mode | Question | Answer input |
+|---|---|---|
+| **Locate** | "Find *Kenya* on the map" | Tap the country on the pan/zoom map |
+| **Flag → Name** | Flag image | Choose one of 4 names, or type (autocomplete) |
+| **Name → Flag** | Country name | Choose one of 4 flags (2×2 grid) |
+| **Capital → Country** | "*Nairobi* is the capital of…" | Choose one of 4, or type |
+| **Country → Capital** | "What is the capital of *Kenya*?" | Choose one of 4, or type |
+| **Map → Name** (later phase) | A country highlighted on the map | Choose or type the name |
+
+### 6.2 Settings (shown before the quiz starts, remembered locally)
+
+- Mode
+- Region: World or one continent
+- Pool: **UN member and observer states** (default) or all 248 countries and areas
+- Number of questions: 5, 10, 20, 50
+- Answer style (for modes where it applies): Multiple choice (default on phones) or Typed (default on desktop)
+- **Country name hints (Locate mode only, default on) — v3.** See Q-8. A single switch in the setup (v3.1: the duplicate On / Off control was removed). Also available as an eye button during the quiz.
+
+### 6.3 Rules
+
+- A random country is chosen for each question, **without repeats** inside one quiz (Fisher–Yates shuffle, as today).
+- Distractors for multiple choice are picked from the same continent first, so answers are plausible but not obvious.
+- Typed answers: accent-insensitive, case-insensitive, punctuation-insensitive. Only the active language's names are accepted, plus a configurable list of `aliases` (for example "USA", "Ivory Coast"). Countries with several capitals accept any of them.
+- Countries without a capital (Antarctica, Bouvet Island, Heard & McDonald Islands, US Minor Outlying Islands, Tokelau in the current data) are excluded from the capital modes.
+- Countries without a map shape (Bouvet Island, Gibraltar, US Minor Outlying Islands) are excluded from Locate mode (as today).
+- Score: 1 point per correct answer. A streak counter and elapsed time are shown but do not change the score.
+- One attempt per question; after answering, show feedback and the **Next** button (the last question shows **See results**).
+
+### 6.4 Feedback and results
+
+- Correct: green confirmation, plus the flag and capital as a small "learn more" reinforcement.
+- Wrong: show the correct answer, and in Locate mode colour the wrong pick red and the right country dark green, with the map framing the correct country.
+- Results screen: score, percentage, list of missed items (country, your answer, correct answer), **Practice missed** (new quiz limited to those countries), **Play again**, and **Change settings**.
+- Best score per mode and region stored in `localStorage` (key `atlas.stats.v1`).
+
+### 6.5 Sound effects (v3.2)
+
+Sounds are short synthesized tones (Web Audio API, one shared `AudioContext`).
+
+| Sound | Trigger | Design | Level |
+|---|---|---|---|
+| **Success** | The user answers correctly (any mode, any answer style). | Rising three-note arpeggio C5 → E5 → G5, about 0.45 s, sine / triangle, quick decay. | Master level 0.30 |
+| **Fail** | The user answers wrongly. | Two falling low notes (about 196 Hz then 147 Hz), about 0.40 s, triangle wave through a low-pass filter, so it is clear but not harsh. | Master level 0.30 |
+| **Tick** | The quiz timer is running **and** a question is waiting for an answer. About once per second, in step with the on-screen clock. | A very short (about 25 ms) filtered click, like a clock; alternates two slightly different pitches (tick, tock). | 0.12, clearly quieter than success and fail |
+| **Countdown** | Reserved. Played instead of the tick during the last 5 seconds of a question **if** a time limit is ever added (higher pitch, same rhythm). There is no time limit in v3.2, so it is not used yet. | | |
+
+Rules:
+
+1. **Default on.** The header sound button (S-7) toggles. Muting takes effect immediately and cancels sounds already scheduled. Unmuting plays one short soft blip as confirmation (this also unlocks audio).
+2. **Browser audio policy.** The `AudioContext` is created or resumed on the first user gesture (pointer, key or touch). A sound requested before that is skipped silently. Answering a question is itself a gesture, so success and fail always work.
+3. **Timer sound scope.** The tick starts when a question is shown and stops when it is answered, when the player quits, on the results screen and when the settings screen is shown. It pauses while the tab is hidden (`visibilitychange`). It only exists in the Quiz.
+4. **No overlap.** A new success or fail sound stops the previous one; the tick never overlaps success or fail.
+5. **Failure is silent.** If the Web Audio API is missing or throws, the app works normally without sound and without error messages.
+6. **Persistence.** `atlas.sound.v1` = `{ "on": true | false }`. Unknown or missing value means on. Cleared by "Clear my data".
+7. **Accessibility.** The sound button has a fixed name ("Sound effects") and `aria-pressed`; all information given by sound is also given visually and in text (SND-4). Sounds are short and low-volume; no sound is played on page load.
+8. **Language.** The button name is a locale string (EN / FR).
+
+---
+
+## 7. Internationalisation
+
+- Locale files: `src/locales/en.json`, `src/locales/fr.json`. Keys use the existing dotted naming (`quiz.start`, `country.capital`…); the existing strings in `i18n.js` can be moved over unchanged.
+- Placeholders use `{name}` as today; add pluralisation via `Intl.PluralRules` (for example "1 question / 5 questions").
+- Country data: `language.<code>.name|capital|continent|aliases`. The continent translation table currently duplicated in `i18n.js` is removed, since the data file already carries `language.fr.continent`.
+- All user-facing strings must go through `t()`: this includes ARIA labels, tooltips (`<title>` of map shapes at first render), error messages and the "Play again" button text. Language change updates the page without a reload.
+- Number and list formatting uses `Intl`.
+- Detect the browser language on first visit (`navigator.language`), fall back to English, then remember the explicit choice.
+
+---
+
+## 8. Data model
+
+Existing `countries.json` record (kept):
+
+```json
+{
+  "name": "Algeria",
+  "m49Code": "012",
+  "isoAlpha2": "DZ",
+  "isoAlpha3": "DZA",
+  "continent": "Africa",
+  "capital": "Algiers",
+  "m49Region": "Africa",
+  "m49Subregion": "Northern Africa",
+  "m49IntermediateRegion": "",
+  "language": { "fr": { "name": "Algérie", "continent": "Afrique", "capital": "Alger" } }
+}
+```
+
+Proposed additions:
+
+| Field | Purpose |
+|---|---|
+| `status` | `"member"`, `"observer"` or `"territory"`; feeds the "UN members only" quiz pool |
+| `capitals` (array) | All accepted capitals (replaces single `capital` + `capitalNote` for quizzes) |
+| `aliases` (per language) | Alternative accepted spellings for typed answers |
+| `centroid` `[lon, lat]` | Marker position for countries too small or missing on the map (for example Gibraltar) |
+| `difficulty` (1–3) | Optional, used by an "easy / hard" filter (area and familiarity) |
+
+Validation script (run in CI): every country has a flag file, a French name, a continent that is one of the seven, and either a capital or an explicit "no capital" flag; every map ISO exists in the data.
+
+Current data observations: 248 countries; 5 without a capital; 3 without a map shape; every record already has a French translation.
+
+---
+
+## 9. Non-functional requirements
+
+### 9.1 Performance
+- First useful render (map visible) under 2.5 s on a simulated mid-range phone on 4G; interactive under 3.5 s.
+- Total transferred on first load (compressed) under 600 KB excluding flags; flags are loaded on demand.
+- No layout shift when the bottom sheet opens (fixed heights, `contain` where possible).
+
+### 9.2 Accessibility (target WCAG 2.2 AA)
+- Everything that can be done on the map can also be done from the lists, search or buttons.
+- The Quiz must be fully playable without the map: the typed and multiple-choice modes serve that purpose, and Locate mode offers an "answer by typing the name" alternative for keyboard and screen reader users.
+- Visible focus ring, logical tab order, `aria-live` announcements for selection changes and quiz feedback.
+- Colour is never the only signal (correct/wrong also use icon and text).
+- Contrast of text at least 4.5:1; the selected-country colour must have at least 3:1 against both the land and the continent colours.
+- Target size at least 24×24 px (AA); the design uses 44 px.
+- Support text zoom to 200 % without loss of function.
+
+### 9.3 Browser support
+Last 2 versions of Chrome, Edge, Firefox, Safari (macOS and iOS 15+), Samsung Internet. ES modules, Pointer Events and `dvh` are used; provide a `vh` fallback.
+
+### 9.4 Offline and installability (PWA, phase 3)
+- Web app manifest and a service worker that precaches the shell, JS, CSS, locale files, data files and the most used flags; the rest are cached on first view.
+- Works offline after the first visit. Show an "offline" indicator.
+
+### 9.5 Privacy and security
+- No analytics or third-party requests by default; **self-host fonts** (currently loaded from Google Fonts).
+- Profile, stats, settings and the sound choice stay in `localStorage`. Add a "Clear my data" button (it also resets the sound choice to on).
+- Add a Content-Security-Policy (`default-src 'self'`) once fonts are self-hosted.
+- The age field may identify minors: keep it optional, local-only and say so in the UI.
+
+---
+
+## 10. Acceptance criteria (selected)
+
+| # | Criterion |
+|---|---|
+| A1 | On a 360×640 viewport, after tapping any country on the map, its name, flag and capital are visible **without scrolling** and the map still shows the selected country. |
+| A2 | On the same viewport, a one-finger drag pans the map and a two-finger pinch zooms it, and the page does not scroll or zoom while doing so. |
+| A3 | A double-tap zooms in about 2× around the tapped point; the + / − / reset buttons work and have 44 px targets. |
+| A4 | On a 1366×768 desktop, the map, continent list, country list and detail card are all visible without page scroll. |
+| A5 | Selecting a country from the list, the map or the search gives the same selection state everywhere (continent highlight, list highlight, map highlight, detail card). |
+| A6 | Switching language updates every visible string, the map tooltips, list order and the search behaviour without reloading, and the choice survives a reload. |
+| A7 | Each quiz mode can be completed with keyboard only and with a screen reader. |
+| A8 | A 10-question Flag → Name quiz on a phone never needs vertical page scroll to read the question, choose an answer and press Next. |
+| A9 | Panning and pinching stay at 50 fps or better on a mid-range phone with the full world data loaded (measured with the browser performance tools). |
+| A10 | Lighthouse (mobile): Performance ≥ 85, Accessibility ≥ 95, Best Practices ≥ 95. |
+| A11 | **(v3)** With a mouse on Explore, hovering any country shows its name in the current language within one frame; the tooltip disappears while dragging. |
+| A12 | **(v3)** In a Locate quiz with hints on, hovering a country shows its name; with the setup switch off, or after pressing the eye button, no tooltip appears. The choice persists for the next quiz. |
+| A13 | **(v3)** Monaco, Vatican City, San Marino, Tuvalu and Gibraltar can each be found by search, seen as a visible badge at 60× or earlier, and selected by clicking or tapping the badge. For every country in `countries.json`, a visible and tappable target exists at some zoom between 1× and 60×. |
+| A14 | **(v3.1, replaced by A18 in v3.2)** Pressing "Clear my data" shows the confirmation and nothing overlaps it. |
+| A15 | **(v3.1)** On a page that can scroll (for example Quiz on a short window), the mouse wheel over the map scrolls the page and shows the Ctrl-scroll hint; Ctrl + wheel zooms the map. On Explore with a full-screen map the plain wheel zooms. |
+| A16 | **(v3.1, refined v3.2)** The Explore detail card contains only the name (above), the flag, the capital and the target button. The quiz setup shows exactly one hints control. |
+| A17 | **(v3.2)** For every country in `countries.json`, in English and French, on phone, tablet and desktop, the detail card has exactly the same height as for "Chad" and the name fits in two lines or is cut with an ellipsis after two. |
+| A18 | **(v3.2)** On desktop the language selector and the sound button are on the second header row, aligned with the menu items and right-aligned, sound button right-most. Name, age, Save and Clear my data are on the first row. Pressing Clear my data shows the status message on the first row without overlapping anything. |
+| A19 | **(v3.2)** With sound on, a correct answer plays the success sound once, a wrong answer plays the fail sound once, and a tick plays about once per second while a question is waiting for an answer. With sound muted, nothing plays. The mute choice survives a reload; after "Clear my data" sound is on again. |
+| A20 | **(v3.2)** No tick plays on the settings screen, on the results screen, on Explore, after the question is answered, or while the browser tab is hidden. |
+
+---
+
+## 11. Delivery plan
+
+| Phase | Scope | Result |
+|---|---|---|
+| **1. Mobile UX fix** | Shared map module; touch pan, pinch and double-tap; floating controls; phone layout with bottom sheet and bottom tab bar; desktop right-panel detail card | Solves the main complaint; Explore feels right on every device |
+| **2. Quiz expansion** | Flag and capital modes; typed and multiple-choice answers; results screen and "practice missed"; local stats; data additions (`status`, `capitals`, `aliases`) | Covers all four learning areas |
+| **3. Quality and reach** | Locale files; build step for simplified geometry; self-hosted fonts; PWA and offline; tests and CI; dark theme | Fast, installable, maintainable |
+
+---
+
+### 11.1 Delivery status
+
+| Phase | Status in ATLAS V3.2 |
+|---|---|
+| 1. Mobile UX fix | Done (bottom sheet, touch pan, pinch, double-tap, floating controls, desktop right panel, landscape variant) |
+| 2. Quiz expansion | Done (five modes, typed and multiple choice, results, practice missed, local stats, hints switch) |
+| 3. Quality and reach | Partly done: locale files, build script for simplified shapes (shapes 1.7 MB to 270 KB), PWA manifest and service worker, unit tests (node:test), data validation, CI workflow. **Not done:** dark theme, Playwright tests in the repo, ESLint and Prettier, Equal Earth projection, measured performance and Lighthouse runs |
+| v3 additions | Done: M-1, Q-8, M-2, E-11 |
+| v3.1 fixes | Done: B-1 to B-5 (B-2 replaced by H-1) |
+| v3.2 additions | Done: D-1, SND-1, SND-2, H-1 |
+
+---
+
+## 12. Technical section: code review findings and recommendations
+
+> **Status in v3.** Items 1 to 5, 6 (language-code driven accessors), 7, 8, 9, 12 (centroids), 13 (no external fonts), 16, 17, 19, 20 and 22 are addressed in the new code base. Items 10 (projection), 14 (flag optimisation: the SVGs are already minimal, the heaviest is 175 KB), 15 (ESLint, Prettier, Playwright in the repo), 18 and 21 (headers, CSP) remain open and are listed in section 15.
+
+Based on a read-through of the current code (no runtime profiling). Strengths worth keeping: no innerHTML use (DOM is built with `createElement`/`textContent`), accessible list navigation with roving `tabindex`, `aria-live` announcements, reduced-motion support, `inert` background in full-page mode, `dvh` units, accent-insensitive search, graceful `localStorage` failure handling, and a clear data/UI separation.
+
+### 12.1 High priority
+
+1. **Duplicated map code.** `quiz.html` contains about 400 lines of inline CSS and about 400 lines of inline JS that re-implement what `app.js` already does: projection, SVG path building, `clampView`, zoom maths, wheel zoom, drag-to-pan, resize handling and the profile form. The two copies have already diverged (the quiz copy lacks `fitView` and `MARKER_*` logic, uses `toFixed(2)` instead of `round2`, and only starts a drag when zoom > 1). Extract ES modules and share them:
+   - `js/data.js` (load and index countries and geometry)
+   - `js/map-view.js` (SVG creation, view maths, pointer gestures; used by Explore and Quiz)
+   - `js/profile.js`, `js/i18n.js`, `js/search.js`
+   - `explore.js` and `quiz.js` as thin page controllers
+   Move the inline `<style>` of `quiz.html` into `css/quiz.css`.
+
+2. **Leftover duplicate assignments in `app.js`** from an unfinished localisation refactor. English values are assigned first and then immediately overwritten (and the indentation is inconsistent). Examples: `totalLabel.textContent` set twice (≈ lines 332–333); continent button label (≈ 346–347); country button text (≈ 365–366); heading (≈ 371–372); info name and capital (≈ 483–491); `announce` calls (≈ 520–523 and 533–538). Remove the first of each pair. These are harmless today but hide real bugs and confuse readers.
+
+3. **Touch input disabled.** `pointerdown` handlers return early for `pointerType === "touch"` in both `app.js` and `quiz.html`, and nothing sets `touch-action`. Replace with the Pointer Events gesture engine in section 5.3, using `setPointerCapture` instead of adding and removing `window` listeners on every drag.
+
+4. **Heavy geometry parsed on every page load.** `world-countries.geojson` is 1.68 MB with roughly 100 000 coordinates, and `buildShape` converts it to path strings in the browser on each load (and again on the quiz page). Fixes: pre-build SVG path strings at build time (a small Python or Node script in the repo), simplify the geometry (for example `mapshaper`/TopoJSON at about 10–15 % of the points), or serve TopoJSON and decode it. Keep a higher-detail layer for zoom levels above about 6× if the loss of detail shows. Enable gzip or Brotli on the host. Expected result: well under 300 KB for the map data.
+
+5. **Layout built on fixed heights.** `.map-area` uses `clamp(480px, 64vh, 640px)` and on small screens `grid-template-rows: auto 360px 300px`, which is what pushes the flag and capital far below the fold. Replace with a flex/grid layout driven by `100dvh`, plus the sheet pattern in section 4.
+
+### 12.2 Medium priority
+
+6. **Two sources of truth for translations.** `CONTINENTS_FR` in `i18n.js` duplicates `language.fr.continent` in `countries.json`; and `localizedContinentName` calls a function named `countryContinent` (misleading name). Use one source and rename. Also `language === "fr"` is hard-coded in several places, so adding a third language means editing code; make the functions language-code driven (`country.language?.[lang]?.name ?? country.name`).
+
+7. **Untranslated or hard-coded strings** found in `quiz.html`: the hidden "Map zoom" label (≈ line 539), `aria-valuetext` "times" (≈ 712), the "Play again" button text set in `startQuiz` (≈ 839), the data-load error message (≈ 962), and map `<title>` elements created with the English name at first render (≈ 669) and only localised after a language change. Route all through `t()`.
+
+8. **Click suppression with `setTimeout(0)`** after a drag. Replace with the tap-versus-drag test (movement threshold plus duration) done in `pointerup`, which is also what touch needs.
+
+9. **Hover styles on touch devices.** `.map-shape[data-iso]:hover` and list `:hover` rules will stick after a tap on phones. Wrap them in `@media (hover: hover)`.
+
+10. **Equirectangular projection (plate carrée).** It is simple but it greatly stretches the polar regions (Russia, Canada, Greenland, Antarctica look far larger than they are) and splits the Pacific at the antimeridian, which is why `CONTINENT_BOUNDS` needs special cases (Russia, Oceania, Fiji). A Natural Earth or Equal Earth projection, pre-computed at build time, gives better shapes for learning. This is optional but pairs well with item 4 because the projection moves to the build step.
+
+11. **Search and map selection are tied to the SVG only.** The SVG has `role="img"`, which hides its children from assistive technology, so individual countries are not reachable on the map by keyboard. This is acceptable for Explore (lists exist) but is why the quiz needs the typed alternative (section 9.2). Consider `role="group"` plus focusable paths with `aria-label` only if keyboard map navigation is wanted.
+
+12. **No safeguard for missing shapes.** Three countries (Bouvet Island, Gibraltar, US Minor Outlying Islands) have no map shape; only a text note tells the user. Add `centroid` to the data so the ring marker can still point at them.
+
+13. **External fonts.** Fonts load from Google Fonts: a privacy and offline concern and an extra render-blocking request chain. Self-host the woff2 files (subset to Latin) with `font-display: swap`.
+
+14. **Flag assets.** 249 SVGs, a few very large (for example `rs.svg` about 182 KB, `mx.svg` about 85 KB, `es.svg` about 81 KB, `sv.svg` about 77 KB). Run SVGO, consider swapping the heaviest for simplified versions, and lazy-load flags (`loading="lazy"`, `decoding="async"`); for quiz modes, preload the next question's flag.
+
+### 12.3 Low priority and tooling
+
+15. **No build, lint or tests.** Add `package.json` with: ESLint and Prettier; Vitest unit tests for pure functions (`clampView`, `fitView`, `zoomOf`, `normalize`, quiz question generation, answer matching); Playwright end-to-end tests at a phone viewport (360×640) and a desktop viewport covering acceptance criteria A1 to A8; a data validation script (section 8); and a GitHub Actions workflow that runs these and deploys `html/src` to GitHub Pages.
+
+16. **Global state in `quiz.html`.** Many top-level `let`s (`questions`, `score`, `answered`, `quizComplete`, `view`…) are mutated from many functions. Use a small state object with one `render()` function, or a minimal store; this makes the new modes much easier to add.
+
+17. **Magic numbers** (`MAX_ZOOM`, thresholds, 960×480 literals in `quiz.html`) should come from one shared constants module; the quiz page currently hard-codes `960`/`480` in several places while `app.js` has `MAP_WIDTH`/`MAP_HEIGHT`.
+
+18. **Resource hints and caching headers.** Add `<link rel="preload">` for the data files, long-lived cache headers with hashed file names for static assets, and `Cache-Control` on the JSON.
+
+19. **`file://` usage.** `fetch("./data/...")` fails when `index.html` is opened directly from disk (the code already shows an error message). Document a one-line dev server in the README (for example `npx serve html/src` or `python -m http.server -d html/src`).
+
+20. **Repository layout.** There is a root-level `countries_data.json`, `data/`, and `merge_data_to_json.py` next to `html/src/data/countries.json`. Make the generator script write into `html/src/data/` and document which file is the source of truth, so the two copies cannot drift.
+
+21. **Security headers and CSP.** Once fonts are local, add a CSP (via `<meta>` or host headers), `Referrer-Policy`, and `rel="noopener noreferrer"` on external links (already present on the footer link).
+
+22. **Stats and profile storage.** Version the storage keys (`atlas.profile.v1` is already versioned; keep that convention for `atlas.stats.v1` and `atlas.settings.v1`) and wrap reads in a validating helper.
+
+---
+
+## 13. Open questions
+
+1. Should the quiz pool default to UN member and observer states (about 195) rather than all 248 entries? (Proposed: yes.)
+2. Should typed answers accept the other language's name as a fallback? (Proposed: no.)
+3. Is a dark theme wanted in phase 3?
+4. Preferred hosting (GitHub Pages assumed) and whether custom domain and HTTP headers can be set.
+5. Do you want a "learn mode" (flashcards for flag, capital and name with spaced repetition) after phase 2?
+
+---
+
+5. **(v3)** Should hover hints also be available on touch screens, for example as a long-press tooltip? (Proposed: no; the detail card already shows the name.)
+6. **(v3)** Should the micro-country badges also appear at the 1× world view? (Proposed: no, they would clutter the map; they appear from 2.5×. The threshold is one constant, `DOT_MIN_ZOOM`.)
+7. **(v3)** Should hints default to off in a future "exam" mode with a score that counts toward a best-score record?
+8. **(v3.2)** The only timer in the app is the elapsed-time clock, so the clock sound is a tick on that timer. Should a time limit per question (with the Countdown sound) be added?
+9. **(v3.2)** Should a short sound also play on the results screen (for example for a new best score)? (Proposed: no, not requested.)
+
+## 14. Glossary
+
+- **M49**: United Nations Statistics Division standard country and area codes.
+- **ISO alpha-2 / alpha-3**: two- and three-letter country codes (for example NG / NGA).
+- **Bottom sheet**: a panel anchored to the bottom of a phone screen that the user can pull up or down.
+- **Pinch zoom**: two-finger gesture that zooms by changing the distance between fingers.
+- **Peek**: the minimal, always-visible state of the bottom sheet.
+- **Hint**: the country-name tooltip shown when the mouse hovers over a country (M-1); can be switched off in the Locate quiz (Q-8).
+- **Dot / badge**: a round marker of constant screen size drawn for a country too small to see (M-2).
+- **Tick**: the soft clock sound played once per second while a quiz question is waiting for an answer (SND-1).
+- **Name area**: the fixed two-line space reserved for the country name in the detail card (D-1).
+- **Micro-country**: a country or area whose drawn size is under 12 px at the current zoom, for example Monaco or Vatican City.
+
+
+---
+
+## 15. Implementation status and known gaps (ATLAS V3.2)
+
+| Area | Status |
+|---|---|
+| Verified in a headless Chromium (phone 360×640, tablet 820×1100, landscape phone 740×360, desktop 1366×768) | Explore and all five quiz modes complete without console errors; no page scroll on phone Explore and Quiz; hover hint, hint switch, and micro-country badges for Monaco and Vatican City checked on desktop; Monaco badge checked on phone. **v3.1:** header layout and status line (desktop 1280×800, phone 390×780), wheel behaviour on Explore and Quiz at 800 px and 520 px window heights, simplified detail card, single hints control |
+| Unit tests | `npm test`: view maths, answer matching, pools, distractors, results helpers, sound definitions (note frequencies, muted behaviour) |
+| Data validation | `npm run validate`: flags, French names, continents, capitals, centroids, locale keys |
+| **Not verified** | Real-device touch behaviour and frame rate (A9), Lighthouse scores (A10), screen-reader testing (A7), Safari and Firefox |
+| Open | Real-speaker listening check on phones (volume balance), sound on the results screen, optional time limit that would use the Countdown sound, dark theme, ESLint and Prettier, Playwright tests in the repo, Equal Earth projection, security headers and CSP, hover-equivalent hint on touch devices |
