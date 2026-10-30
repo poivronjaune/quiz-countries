@@ -3,7 +3,7 @@
   "version": "3.3.0",
   "private": true,
   "type": "module",
-  "description": "ATLAS v2 - learn country names, locations, flags and capitals (static, no build step for the app itself).",
+  "description": "ATLAS v3.3 - learn country names, locations, flags and capitals (static, no build step for the app itself).",
   "scripts": {
     "build:data": "node tools/build-data.mjs",
     "validate": "node tools/validate-data.mjs",
